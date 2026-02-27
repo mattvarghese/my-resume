@@ -1,10 +1,10 @@
 import type { Connections } from '../model/types';
-import { 
-  FaEnvelope, 
-  FaPhoneAlt, 
-  FaMapMarkerAlt, 
-  FaLinkedinIn, 
-  FaGithub 
+import {
+  FaEnvelope,
+  FaPhoneAlt,
+  FaMapMarkerAlt,
+  FaLinkedinIn,
+  FaGithub
 } from 'react-icons/fa';
 
 interface Props {
@@ -19,13 +19,13 @@ export const PersonContact = ({ connections }: Props) => {
     { icon: <FaEnvelope />, value: connections.email, href: `mailto:${connections.email}` },
     { icon: <FaPhoneAlt />, value: connections.phone, href: null },
     { icon: <FaMapMarkerAlt />, value: connections.location, href: null },
-    { 
-      icon: <FaLinkedinIn />, 
+    {
+      icon: <FaLinkedinIn />,
       value: formatDisplayUrl(connections.linkedIn), // Clean visual text
       href: connections.linkedIn                     // Full navigable link
     },
-    { 
-      icon: <FaGithub />, 
+    {
+      icon: <FaGithub />,
       value: formatDisplayUrl(connections.github),   // Clean visual text
       href: connections.github                       // Full navigable link
     },
@@ -38,24 +38,23 @@ export const PersonContact = ({ connections }: Props) => {
         {contactItems.map((item, index) => {
           const isLink = !!item.href;
           const ContentTag = isLink ? 'a' : 'span';
-          
+
           return (
             <div key={index} className="flex items-center gap-3 group">
               {/* Icon Container */}
               <div className="flex-shrink-0 w-7 h-7 border-[1.5px] border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-xs">
                 {item.icon}
               </div>
-              
+
               {/* Value Text or Link */}
-              <ContentTag 
-                {...(isLink ? { 
-                  href: item.href as string, 
-                  target: "_blank", 
-                  rel: "noopener noreferrer" 
+              <ContentTag
+                {...(isLink ? {
+                  href: item.href as string,
+                  target: "_blank",
+                  rel: "noopener noreferrer"
                 } : {})}
-                className={`text-white text-[11px] font-medium tracking-wide break-all opacity-90 ${
-                  isLink ? "hover:text-[#4da6a6] transition-colors cursor-pointer underline decoration-slate-600 underline-offset-4" : ""
-                }`}
+                className={`text-white text-[11px] font-medium tracking-wide break-all opacity-90 ${isLink ? "hover:text-[#4da6a6] transition-colors cursor-pointer underline decoration-slate-600 underline-offset-4" : ""
+                  }`}
               >
                 {item.value}
               </ContentTag>

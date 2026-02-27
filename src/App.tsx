@@ -17,26 +17,26 @@ const App = () => {
 
       {/* Single Continuous Paper Wrapper */}
       <div className="relative w-[8.5in] bg-white shadow-2xl print:shadow-none flex min-h-[11in]">
-        
+
         {/* Left Column */}
         <main className="w-[66%] flex flex-col p-1 gap-1 ">
-           <PersonSummary person={data.person} />
-           <WorkExperience jobs={data.person.jobs} />
+          <PersonSummary person={data.person} />
+          <WorkExperience jobs={data.person.jobs} />
         </main>
 
         {/* Right Column */}
         <div className="w-[34%] flex flex-col p-1">
-           <PersonContact connections={data.person.connections} />
-           <SideBar>
-             <SkillList skillSet={data.person.skillSet} />
-             <ProjectList projects={data.person.projects} />
-             <EpicCertifications certifications={data.person.epicCertifications} />
-             <MiscList misc={data.person.misc} />
-             {/* extra padding for sidebar if required */}
-             <div className="hidden print:block">
-              <div className="pt-2" /> 
-             </div>
-           </SideBar>
+          <PersonContact connections={data.person.connections} />
+          <SideBar>
+            <SkillList skillSet={data.person.skillSet} />
+            <ProjectList projects={data.person.projects} />
+            <EpicCertifications certifications={data.person.epicCertifications} />
+            <MiscList misc={data.person.misc} />
+            {/* extra padding for sidebar if required */}
+            <div className="hidden print:block">
+              <div className="pt-2" />
+            </div>
+          </SideBar>
         </div>
       </div>
     </div>

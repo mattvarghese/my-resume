@@ -26,14 +26,14 @@ export const PersonSummary = ({ person }: Props) => {
         <h1 className="text-3xl font-bold text-slate-950 tracking-tight leading-none font-sans">
           {person.name}
         </h1>
-        
+
         {/* Title: Shrunk from text-lg to text-base */}
         <h2 className="text-base font-semibold text-[#4da6a6] mt-2 mb-1 font-sans tracking-[0.15em]">
           {person.title}
         </h2>
 
         {/* Summary: text-sm remains the standard, but we'll use text-[13px] for extra precision */}
-        <p className="text-[12px] leading-snug text-slate-800 max-w-[98%] font-medium">
+        <p className="text-[12px] leading-tight text-slate-800 max-w-[98%] font-medium">
           {person.summary}
         </p>
       </div>

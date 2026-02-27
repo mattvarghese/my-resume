@@ -22,15 +22,15 @@ export const ProjectList = ({ projects }: Props) => {
         {projects.map((project, index) => (
           /* The project-item class handles the top-padding on new pages */
           <div key={index} className="flex flex-col">
-            
+
             {/* This is a hack to prevent splitting insdie a project when printing
               * First DIV fills up the gap onn previous page. 
               * Second DIV add padding in next page */
-            project.needPadding && 
-            <div className="hidden print:block">
-                <div className="p-6"/>
-                <div className="p-3"/>
-            </div>}
+              project.needPadding &&
+              <div className="hidden print:block">
+                <div className="p-6" />
+                <div className="p-3" />
+              </div>}
 
             {/* Project Title with Icon */}
             <div className="flex items-center gap-2 mb-1">
@@ -59,19 +59,19 @@ export const ProjectList = ({ projects }: Props) => {
                 ))}
               </ul>
             )}
-            
+
             {project.url && (
-                <a 
-                    href={project.url.startsWith('http') ? project.url : `https://${project.url}`} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="mt-1.5 pl-1.5 flex items-center gap-1.5 text-[10px] text-slate-500 hover:text-[#4da6a6] transition-colors truncate cursor-pointer group"
-                >
-                    <FaCode className="shrink-0 size-2 group-hover:text-[#4da6a6]" />
-                    <span className="underline decoration-slate-300 underline-offset-2 truncate group-hover:decoration-[#4da6a6]">
-                    {project.url.replace(/^https?:\/\//, '')}
-                    </span>
-                </a>
+              <a
+                href={project.url.startsWith('http') ? project.url : `https://${project.url}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1.5 pl-1.5 flex items-center gap-1.5 text-[10px] text-slate-500 hover:text-[#4da6a6] transition-colors truncate cursor-pointer group"
+              >
+                <FaCode className="shrink-0 size-2 group-hover:text-[#4da6a6]" />
+                <span className="underline decoration-slate-300 underline-offset-2 truncate group-hover:decoration-[#4da6a6]">
+                  {project.url.replace(/^https?:\/\//, '')}
+                </span>
+              </a>
             )}
           </div>
         ))}

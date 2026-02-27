@@ -2,7 +2,7 @@ import type { Resume } from './types';
 
 export const resumeData: Resume = {
   person: {
-    name: "Matt | Varghese Mathew", 
+    name: "Matt | Varghese Mathew",
     title: "Software Architect",
     summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and multi-party integrations. Demonstrated aptitude for delving deeply into new domains, crafting precise minimally invasive yet highly successful solutions to challenging problems. In search of new growth opportunities that leverage my massive trove of knowledge and skills to build fascinating and deeply impactful real-world solutions. ",
     connections: {
@@ -16,7 +16,7 @@ export const resumeData: Resume = {
       groups: [
         {
           group: "Healthcare and Health Insurance",
-          skills: ["Domain knowledge","HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278"]
+          skills: ["Domain knowledge", "HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278"]
         },
         {
           group: " Full stack development",
@@ -32,7 +32,7 @@ export const resumeData: Resume = {
         },
         {
           group: "Avid GNU/Linux User",
-          skills: ["Virtualization: KVM & VMware", "Docker","Hadoop", "Raspberry Pis", "SVN & Git"]
+          skills: ["Virtualization: KVM & VMware", "Docker", "Hadoop", "Raspberry Pis", "SVN & Git"]
         }
       ]
     },
@@ -45,10 +45,10 @@ export const resumeData: Resume = {
           {
             title: "CMS 2027 Interfaces",
             bulletPoints: [
-                "Technical lead for Epic's implementation of HL7 FHIR-based CMS 2027 regulatory requirements, spanning HL7 Da Vinci CRD, DTR, and PAS Specifications.",
-                "Also led development of end-to-end testing application towards test-driven development.",
-                "Mastery of CRD, DTR, PAS, FHIR, SMART on FHIR, OAuth2, and Web Technologies, as well as close coordination with HL7 Standards bodies and 3rd Party App developers."
-              ]
+              "Technical lead for Epic's implementation of HL7 FHIR-based CMS 2027 regulatory requirements, spanning HL7 Da Vinci CRD, DTR, and PAS Specifications.",
+              "Also led development of end-to-end testing application towards test-driven development.",
+              "Mastery of CRD, DTR, PAS, FHIR, SMART on FHIR, OAuth2, and Web Technologies, as well as close coordination with HL7 Standards bodies and 3rd Party App developers."
+            ]
           },
           {
             title: "Unified Authorization Requirements",
@@ -118,11 +118,11 @@ export const resumeData: Resume = {
               "Developed features to automatically transform regular batch jobs into virtualized jobs running inside VMware Virtual Machines on Condor High Throughput Computing pools.",
               "Involved strong understanding of Virtualization, VMware, File Systems, Python & C++."
             ]
-        }
-      ]
+          }
+        ]
       },
       {
-        company: "Cisco Systems India Pvt. Ltd. - Bangalore, India",
+        company: "Cisco Systems - Bangalore, India",
         title: "Software Engineer, Enterprise Routing",
         timeFrame: "June 2006 - July 2008",
         experiences: [
@@ -137,7 +137,7 @@ export const resumeData: Resume = {
       },
       {
         company: "DRDO - Bangalore, India",
-        title: "Intern, Center for Artificial Intelligence and Robotics",
+        title: "Software Engineer Intern, Center for Artificial Intelligence and Robotics",
         timeFrame: "June 2005",
         experiences: [
           {
@@ -219,11 +219,19 @@ export const resumeData: Resume = {
       "Tapestry Health Plan Suite"
     ],
     misc: [
-      "Novice (H2) rated Hang-glider pilot",
+      "Novice (H2) rated hang-glider pilot",
       "Solo endorsed VFR student pilot",
       "ASA 101,103/104,105 rated sailor",
       "Learned Elementary Russian as adult",
       "Avid reader, ice-skating, volleyball, XC-skiing, bicycling"
+    ],
+    degrees: [
+      {
+        degree: "",
+        school: "",
+        timeFrame: "",
+        bulletPoints: []
+      }
     ]
   }
 };

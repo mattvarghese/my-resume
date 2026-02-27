@@ -1,5 +1,5 @@
 
-export interface Resume { 
+export interface Resume {
   person: Person;
 }
 
@@ -13,9 +13,10 @@ export interface Person {
   jobs: Employment[];
   epicCertifications: string[];
   misc: string[];
+  degrees: Education[];
 }
 
-export interface Connections{
+export interface Connections {
   email: string;
   phone: string;
   location: string;
@@ -53,3 +54,9 @@ export interface Experience {
   bulletPoints: string[];
 }
 
+export interface Education {
+  degree: string;
+  school: string;
+  timeFrame: string;
+  bulletPoints: string[];
+}
