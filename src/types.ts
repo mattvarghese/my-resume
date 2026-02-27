@@ -1,32 +1,58 @@
-export interface Experience {
-  company: string;
-  role: string;
+
+export interface Resume { 
+  person: Person;
+}
+
+export interface Person {
+  name: string;
+  title: string;
+  summary: string;
+  connections: Connections;
+  skillSet: SkillSet;
+  projects: Project[];
+  jobs: Employment[];
+}
+
+export interface Connections{
+  email: string;
+  phone: string;
   location: string;
-  period: string;
-  description?: string;
-  achievements: string[];
+  linkedIn: string;
+  github: string;
+}
+
+export interface SkillSet {
+  groups: SkillGroup[];
 }
 
 export interface SkillGroup {
-  category: string;
-  items: string[];
+  group: string;
+  skills: string[];
 }
 
-export interface ResumeData {
-  personalInfo: {
-    name: string;
-    title: string;
-    email: string;
-    phone: string;
-    location: string;
-    linkedin: string;
-  };
-  summary: string;
-  experience: Experience[];
-  skills: SkillGroup[];
-  education: {
-    degree: string;
-    school: string;
-  }[];
-  philosophy?: string; // Matching your draft header [cite: 15]
+export interface Project {
+  title: string;
+  description: string;
+  timeFrame: string;
+  url: string;
 }
+
+export interface Employment {
+  title: string;
+  company: string;
+  timeFrame: string;
+
+}
+
+export interface Experience {
+  title: string;
+  bulletPoints: string[];
+}
+
+
+
+
+
+// Hobbies / Extra
+
+

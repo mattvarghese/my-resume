@@ -1,7 +1,39 @@
 @import "tailwindcss";
 
-/* Any custom print logic can go below this */
+@media screen {
+  /* Give the background some depth for the "Paginated" look */
+  .page-view {
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  }
+}
+
 @media print {
-  @page { margin: 0; }
-  body { -webkit-print-color-adjust: exact; }
+  @page { 
+    size: letter; 
+    margin: 0; 
+  }
+  
+  body {
+    counter-reset: page;
+    background: white;
+  }
+
+  /* Reset spacing for print */
+  .page-view {
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+    page-break-after: always;
+  }
+}
+
+/* Page Number Styling */
+.page-footer {
+  position: absolute;
+  bottom: 0.2in;
+  right: 0.5in;
+  font-size: 8pt;
+  font-style: italic;
+  color: #94a3b8;
+  font-family: ui-sans-serif, system-ui, sans-serif;
 }

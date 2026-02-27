@@ -1,86 +1,51 @@
-import type { ResumeData } from './types';
-import { mockData } from './mockData';
-import { FaEnvelope, FaLinkedin, FaMapMarkerAlt, FaPhone, FaCircle } from 'react-icons/fa';
+import type { Resume } from './types';
+import { resumeData } from './data';
+import { PersonSummary } from './components/PersonSummary';
+import { PersonContact } from './components/PersonContact';
+import { SideBar } from './components/SideBar';
+import { SkillList } from './components/SkillList';
+import { PageWrapper } from './components/PageWrapper';
 
-function App() {
-  const data: ResumeData = mockData;
+const App = () => {
+  const data: Resume = resumeData;
+  const TOTAL_PAGES = 2; // Update this as you add more content
 
   return (
-    <div className="bg-slate-100 min-h-screen py-10 print:p-0 print:bg-white">
-      <div className="mx-auto w-[210mm] min-h-[297mm] bg-white shadow-2xl print:shadow-none p-12">
-        
-        {/* 1. FULL WIDTH HEADER (Matches Marie's style) */}
-        <header className="border-b-2 border-slate-800 pb-6 mb-8">
-          <h1 className="text-4xl font-bold text-slate-900 tracking-tighter">{data.personalInfo.name}</h1>
-          <p className="text-xl text-slate-600 font-medium mt-1">{data.personalInfo.title}</p>
-          
-          <div className="flex flex-wrap gap-x-6 gap-y-2 mt-4 text-sm text-slate-600">
-            <div className="flex items-center gap-2"><FaEnvelope className="text-xs" /> {data.personalInfo.email}</div>
-            <div className="flex items-center gap-2"><FaPhone className="text-xs" /> {data.personalInfo.phone}</div>
-            <div className="flex items-center gap-2"><FaMapMarkerAlt className="text-xs" /> {data.personalInfo.location}</div>
-            <div className="flex items-center gap-2"><FaLinkedin className="text-xs" /> {data.personalInfo.linkedin}</div>
-          </div>
-        </header>
+    <div className="bg-slate-200 min-h-screen py-10 print:p-0 flex flex-col items-center">
+      
+      {/* PAGE 1 */}
+      <PageWrapper pageNumber={1} totalPages={TOTAL_PAGES}>
+        {/* Left Column */}
+        <main className="w-[67%] flex flex-col p-1 gap-1 ">
+           <PersonSummary person={data.person} />
+           {/* Content... */}
+        </main>
 
-        <div className="flex gap-12">
-          {/* 2. LEFT MAIN COLUMN (Experience) */}
-          <main className="w-2/3">
-            <section>
-              <h2 className="text-lg font-bold text-slate-900 uppercase tracking-widest border-b pb-1 mb-4">
-                Work Experience
-              </h2>
-              {data.experience.map((job, idx) => (
-                <div key={idx} className="mb-8">
-                  <div className="flex justify-between items-baseline font-bold text-slate-800">
-                    <h3 className="text-md">{job.role}</h3>
-                    <span className="text-xs font-normal italic">{job.period}</span>
-                  </div>
-                  <p className="text-sm text-blue-700 font-semibold mb-2">{job.company}</p>
-                  <ul className="space-y-2">
-                    {job.achievements.map((bullet, i) => (
-                      <li key={i} className="text-sm text-slate-600 flex gap-2">
-                        <span className="text-[8px] mt-1.5"><FaCircle /></span>
-                        {bullet}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </section>
-          </main>
-
-          {/* 3. RIGHT SIDEBAR (Skills & Education) */}
-          <aside className="w-1/3">
-            <section className="mb-8">
-              <h2 className="text-lg font-bold text-slate-900 uppercase tracking-widest border-b pb-1 mb-4">
-                Technical Skills
-              </h2>
-              <div className="flex flex-col gap-4">
-                {data.skills.map((group, idx) => (
-                  <div key={idx}>
-                    <h4 className="text-xs font-bold text-slate-500 uppercase mb-2">{group.category}</h4>
-                    <p className="text-sm text-slate-700 leading-relaxed">{group.items.join(', ')}</p>
-                  </div>
-                ))}
-              </div>
-            </section>
-
-            <section>
-              <h2 className="text-lg font-bold text-slate-900 uppercase tracking-widest border-b pb-1 mb-4">
-                Education
-              </h2>
-              {data.education.map((edu, idx) => (
-                <div key={idx} className="mb-4">
-                  <p className="text-sm font-bold text-slate-800">{edu.degree}</p>
-                  <p className="text-sm text-slate-600">{edu.school}</p>
-                </div>
-              ))}
-            </section>
-          </aside>
+        {/* Right Column */}
+        <div className="w-[33%] flex flex-col p-1">
+           <div className="p-2 bg-[#2c3e50] mb-2">
+             <PersonContact connections={data.person.connections} />
+           </div>
+           <SideBar>
+             <SkillList skillSet={data.person.skillSet} />
+           </SideBar>
+           {/* Content... */}
         </div>
-      </div>
+      </PageWrapper>
+
+      {/* PAGE 2 */}
+      <PageWrapper pageNumber={2} totalPages={TOTAL_PAGES}>
+        <main className="w-[67%] p-8 border-r border-slate-100">
+           {/* Content... */}
+        </main>
+        
+        <aside className="w-[33%] bg-slate-100 p-4">
+           {/* Content... */}
+        </aside>
+      </PageWrapper>
+
     </div>
   );
-}
+};
 
 export default App;
