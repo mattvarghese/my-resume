@@ -6,8 +6,8 @@ export const resumeData: Resume = {
     title: "Software Architect",
     summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and multi-party integrations. Demonstrated aptitude for delving deeply into new domains, crafting precise minimally invasive yet highly successful solutions to challenging problems. In search of new growth opportunities that leverage my massive trove of knowledge and skills to build fascinating and deeply impactful real-world solutions. ",
     connections: {
-      email: "xxxxxxxxxxxxxxxxx@gmail.com",
-      phone: "(555) 888 9696",
+      email: "Masked / Ask Me",
+      phone: "Masked / Ask Me",
       location: "Madison, WI",
       linkedIn: "https://www.linkedin.com/in/matt-varghese-b609979",
       github: "https://github.com/mattvarghese"
@@ -98,6 +98,19 @@ export const resumeData: Resume = {
               "Led the development of multiple flavors of decision support web services integrations within Epic.",
               "Involved HL7 CDA, HL7 FHIR, and CDS Hooks standards.",
               "Became the Web Services guru at Epic in the process."
+            ]
+          }
+        ]
+      },
+      {
+        company: "Epic - Verona, WI",
+        title: "Software Development Intern, Clinical Informatics",
+        timeFrame: "June 2009 - August 2009",
+        experiences: [
+          {
+            title: "Clinical Content Comparison Utility",
+            bulletPoints: [
+              "Developed a clinical content comparison utility to allow end users to quickly diff clinical content using DOM APIs and LCS diff algorithm."
             ]
           }
         ]
