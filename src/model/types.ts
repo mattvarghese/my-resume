@@ -48,6 +48,7 @@ export interface Employment {
 }
 
 export interface Experience {
+  needPadding?: boolean,
   title: string;
   bulletPoints: string[];
 }
