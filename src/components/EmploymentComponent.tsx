@@ -32,7 +32,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
               * Second DIV add padding in next page */
               exp.needPadding &&
               <div className="hidden print:block">
-                <div className="p-2" />
+                <div className="p-6" />
                 <div className="p-3" />
               </div>}
             <ExperienceComponent key={index} experience={exp} />

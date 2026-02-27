@@ -75,13 +75,20 @@ export const resumeData: Resume = {
           {
             title: "Epic Push Notification Broker Service",
             bulletPoints: [
-              "High Availability and Redundancy, security, observability",
+              "Led team of staff and interns developing the broker service for forwarding all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM.",
+              "Designed with high-availability and redundancy from get go, with a load-balanced primary instance on Azure, and a load-balanced on-prem backup instance.",
+              "Among the first high-stakes Epic production application deployed on Azure.",
+              "Responsible for oversight and production deployment for three years with traffic in hundreds of millions range and minimal downtime.",
             ]
           },
           {
+            needPadding: true,
             title: "3rd party Web Application integration framework",
             bulletPoints: [
-              "CORS, Security",
+              "Advocated for and centralized all third party web application hosting within Epic into a single framework for accountability, security, and maintainability.",
+              "Architectural advisor and code-reviewer to the team developing this framework, as an iframe hosted within the Epic web application, needing to address Content Security Policy, Cross Origin Resource Sharing, a Web Messaging API suite, etc.",
+              "Developed and deployed web applications to test all aspects of this framework.",
+              "Became a recognized leader in Web Applications and Security within Epic."
             ]
           },
           {
@@ -89,7 +96,7 @@ export const resumeData: Resume = {
             bulletPoints: [
               "Led the development of multiple flavors of decision support web services integrations within Epic.",
               "Involved HL7 CDA, HL7 FHIR, and CDS Hooks standards.",
-              "Became the Web Services guru at Epic in the process."
+              "Became a recognized leader in REST-ful Web Services within Epic."
             ]
           }
         ]
@@ -115,8 +122,7 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Developed features to automatically transform regular batch jobs into virtualized jobs running inside VMware Virtual Machines on Condor High Throughput Computing pools.",
-              "Involved strong understanding of Virtualization, VMware, File Systems, Python & C++."
+              "Developed features to automatically transform regular batch jobs into virtualized jobs running inside VMware Virtual Machines on Condor High Throughput Computing pools."
             ]
           }
         ]
@@ -129,21 +135,8 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Developed configuration interface for NetFlow and logging infrastructure for Traffic Accounting on Cisco GSR routers.",
-              "Platform OS support for Cisco 7500 series routers including Distributed Multi-Link Protocol."
-            ]
-          }
-        ]
-      },
-      {
-        company: "DRDO - Bangalore, India",
-        title: "Software Engineer Intern, Center for Artificial Intelligence and Robotics",
-        timeFrame: "June 2005",
-        experiences: [
-          {
-            title: "",
-            bulletPoints: [
-              "Developed software for objective psychological evaluations using Windows APIs, Visual C++.",
+              "Developed configuration interface for NetFlow and logging infrastructure for Traffic Accounting on Cisco GSR series routers.",
+              "Platform support for 7500 series routers including Distributed Multi-Link Protocol."
             ]
           }
         ]
@@ -185,7 +178,7 @@ export const resumeData: Resume = {
         description: [
           "RFC-compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
           "Nearly Half of all Epic's Database AI integrations leverage this library.",
-          "Example of long-term vision in creating generic reusable tooling."
+          "Example of long-term vision in creating powerful generic reusable tooling."
         ],
         timeFrame: "2020",
         url: ""
@@ -227,10 +220,22 @@ export const resumeData: Resume = {
     ],
     degrees: [
       {
-        degree: "",
-        school: "",
-        timeFrame: "",
-        bulletPoints: []
+        degree: "Master of Science, Computer Science",
+        school: "University of Wisconsin - Madison",
+        timeFrame: "2010",
+        bulletPoints: [
+          "GPA: 3.938 / 4 | Fully funded Research Assistantship with Condor",
+          "Focus: Systems, Networking, Distributed Computing"
+        ]
+      },
+      {
+        degree: "Bachelor of Technology, Computer Science and Engineering",
+        school: "National Institute of Technology - Calicut, India",
+        timeFrame: "2006",
+        bulletPoints: [
+          "CGPA: 9.60 / 10 | Branch Topper | Gold Medalist",
+          "Perfect 10.0 GPA in two semesters"
+        ]
       }
     ]
   }

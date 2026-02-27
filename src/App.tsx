@@ -8,6 +8,7 @@ import { WorkExperience } from './components/WorkExperience';
 import { ProjectList } from './components/ProjectList';
 import { EpicCertifications } from './components/EpicCertifications';
 import { MiscList } from './components/MiscList';
+import { DegreeList } from './components/DegreeList';
 
 const App = () => {
   const data: Resume = resumeData;
@@ -22,6 +23,7 @@ const App = () => {
         <main className="w-[66%] flex flex-col p-1 gap-1 ">
           <PersonSummary person={data.person} />
           <WorkExperience jobs={data.person.jobs} />
+          <DegreeList degrees={data.person.degrees} />
         </main>
 
         {/* Right Column */}
