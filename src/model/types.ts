@@ -32,8 +32,8 @@ export interface SkillGroup {
 
 export interface Project {
   title: string;
-  description: string;
   timeFrame: string;
+  description: string[];
   url: string;
 }
 
@@ -48,11 +48,4 @@ export interface Experience {
   title: string;
   bulletPoints: string[];
 }
-
-
-
-
-
-// Hobbies / Extra
-
 

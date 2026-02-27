@@ -116,6 +116,42 @@ export const resumeData: Resume = {
         ]
       }
     ],
-    projects: []
+    projects: [
+      {
+        title: "FHIR-based healthcare AI Assistant Chatbot",
+        description: [
+          "Provider or patient facing SMART on FHIR launch gives access to FHIR server.",
+          "LLM tool allows model to execute FHIR queries to access EHR data.",
+          "Chat based interface with sliding context-window for user-interaction.",
+          "Personal learning project within the Epic code-space."
+        ],
+        timeFrame: "2025 Q2",
+        url: ""
+      },
+      {
+        title: "Web Based SSH Client",
+        description: [
+          "Proof of concept allows Web Based SSH access to unix servers, cache etc.",
+          "Avoids Citrix licensing fees etc., saving money for organizations extending moderated text access to users."
+        ],
+        timeFrame: "2025 Q3",
+        url: "https://github.com/mattvarghese/WebSSHClient"
+      },
+      {
+        title: "HTTP Auto-responder",
+        description: [
+          "Web Service development tool allowing preconfigured responses and logging for common HTTP verbs.",
+          "Similar to Postman Mock Server, but keeps traffic within the enterprise or local network."
+        ],
+        timeFrame: "2024 Q4",
+        url: "https://github.com/mattvarghese/HttpResponder"
+      },
+      {
+        title: "*",
+        description: [],
+        timeFrame: "",
+        url: ""
+      }
+    ]
   }
 };

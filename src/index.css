@@ -5,4 +5,11 @@
     size: letter; 
     margin: 0; 
   }
+
+  .project-item {
+    break-inside: avoid;
+    /* This ensures that if the project starts on a new page, 
+       it has breathing room from the top edge */
+    padding-top: 0.1in; 
+  }
 }

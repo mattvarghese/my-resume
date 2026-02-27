@@ -12,15 +12,27 @@ interface Props {
 }
 
 export const PersonContact = ({ connections }: Props) => {
+  // Helper to strip protocol and www for visual display
+  const formatDisplayUrl = (url: string) => url.replace(/^(https?:\/\/)?(www\.)?/, '');
+
   const contactItems = [
     { icon: <FaEnvelope />, value: connections.email, href: `mailto:${connections.email}` },
     { icon: <FaPhoneAlt />, value: connections.phone, href: null },
     { icon: <FaMapMarkerAlt />, value: connections.location, href: null },
-    { icon: <FaLinkedinIn />, value: connections.linkedIn, href: connections.linkedIn },
-    { icon: <FaGithub />, value: connections.github, href: connections.github },
+    { 
+      icon: <FaLinkedinIn />, 
+      value: formatDisplayUrl(connections.linkedIn), // Clean visual text
+      href: connections.linkedIn                     // Full navigable link
+    },
+    { 
+      icon: <FaGithub />, 
+      value: formatDisplayUrl(connections.github),   // Clean visual text
+      href: connections.github                       // Full navigable link
+    },
   ];
 
   return (
+    /* rounded-r-sm applied to match the summary curvature on the right */
     <div className="p-2 bg-[#2c3e50] mb-2 rounded-r-sm">
       <div className="bg-[#2c3e50] p-2 pt-1 flex flex-col gap-1.5 h-44">
         {contactItems.map((item, index) => {
@@ -42,7 +54,7 @@ export const PersonContact = ({ connections }: Props) => {
                   rel: "noopener noreferrer" 
                 } : {})}
                 className={`text-white text-[11px] font-serif tracking-wide break-all opacity-90 ${
-                  isLink ? "hover:text-[#4da6a6] transition-colors cursor-pointer underline decoration-slate-500 underline-offset-2" : ""
+                  isLink ? "hover:text-[#4da6a6] transition-colors cursor-pointer underline decoration-slate-600 underline-offset-4" : ""
                 }`}
               >
                 {item.value}

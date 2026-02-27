@@ -5,6 +5,7 @@ import { PersonContact } from './components/PersonContact';
 import { SideBar } from './components/SideBar';
 import { SkillList } from './components/SkillList';
 import { WorkExperience } from './components/WorkExperience';
+import { ProjectList } from './components/ProjectList';
 
 const App = () => {
   const data: Resume = resumeData;
@@ -26,6 +27,7 @@ const App = () => {
            <PersonContact connections={data.person.connections} />
            <SideBar>
              <SkillList skillSet={data.person.skillSet} />
+             <ProjectList projects={data.person.projects} />
            </SideBar>
         </div>
       </div>
