@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Architect",
-    summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and multi-party integrations. Demonstrated aptitude for delving deeply into new domains, crafting precise minimally invasive yet highly successful solutions to challenging problems. In search of new growth opportunities that leverage my massive trove of knowledge and skills to build fascinating and deeply impactful real-world solutions. ",
+    summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and multi-party integrations. Demonstrated aptitude for delving deeply into new domains, crafting precise minimally invasive yet highly successful solutions to challenging problems. In search of new learning and growth opportunities that leverage my massive trove of knowledge and skills to build fascinating and deeply impactful real-world solutions. ",
     connections: {
       email: "Masked / Ask Me",
       phone: "Masked / Ask Me",
@@ -198,7 +198,7 @@ export const resumeData: Resume = {
       {
         title: "This Resume ;-)",
         description: [
-          "Formatting of this resume is a TypeScript React web app developed with AI-assistance!"
+          "This resume is formatted as a React web app developed with AI-assistance!"
         ],
         timeFrame: "2026 Q1",
         url: "https://github.com/mattvarghese/my-resume"
