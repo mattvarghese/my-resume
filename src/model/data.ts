@@ -190,7 +190,7 @@ export const resumeData: Resume = {
         description: [
           "5-stage pipeline simulation of a MIPS microprocessor. Includes cache simulation, assembler, and terminal.",
           "Multithreaded application developed with POSIX APIs, C++, Flex, and Bison in 2005.",
-          "In 2025, Vibe-coded a Small-C compiler above the assembler as well."
+          "In 2025, added a Small-C compiler above the assembler with AI-assistance."
         ],
         timeFrame: "2005, 2025",
         url: "https://github.com/mattvarghese/coconut"
@@ -198,7 +198,7 @@ export const resumeData: Resume = {
       {
         title: "This Resume ;-)",
         description: [
-          "Formatting of this resume was vibe-coded as a TypeScript React web app!"
+          "Formatting of this resume is a React app developed with AI-assistance!"
         ],
         timeFrame: "2026 Q1",
         url: "https://github.com/mattvarghese/my-resume"
