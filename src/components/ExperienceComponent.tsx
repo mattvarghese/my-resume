@@ -1,4 +1,3 @@
-import { FaCheck } from 'react-icons/fa'; // or FaCogs, FaCheckCircle
 import type { Experience } from '../model/types';
 
 interface Props {
@@ -11,10 +10,6 @@ export const ExperienceComponent = ({ experience }: Props) => {
       {/* Experience Header Container */}
       {experience.title &&
         <div className="flex items-center gap-2">
-          <div className="flex-shrink-0 w-5 h-5 border-[1px] border-slate-300 rounded-full flex items-center justify-center text-slate-900 text-[10px]">
-            <FaCheck />  {/* A Check mark is a subtle +ve connotation */}
-          </div>
-
           {/* Experience Title */}
           <h4 className="text-[15px] font-bold text-slate-900 tracking-wide">
             {experience.title}

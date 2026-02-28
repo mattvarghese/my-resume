@@ -1,4 +1,4 @@
-import { FaStamp, FaCircle } from 'react-icons/fa';
+import { FaStamp, FaEllipsisV } from 'react-icons/fa';
 
 interface Props {
     certifications: string[];
@@ -28,7 +28,7 @@ export const EpicCertifications = ({ certifications }: Props) => {
                         {/* React Icon Separator */}
                         {index < certifications.length - 1 && (
                             <span className="inline-flex items-center px-1">
-                                <FaCircle className="text-[#4da6a6] text-[4px]" />
+                                <FaEllipsisV className="text-[#4da6a6] text-[8px]" />
                             </span>
                         )}
                     </span>

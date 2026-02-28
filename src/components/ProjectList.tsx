@@ -1,4 +1,4 @@
-import { FaRocket, FaPlus, FaCode } from 'react-icons/fa';
+import { FaRocket, FaHeart, FaCode } from 'react-icons/fa';
 import type { Project } from '../model/types';
 
 interface Props {
@@ -35,7 +35,7 @@ export const ProjectList = ({ projects }: Props) => {
             {/* Project Title with Icon */}
             <div className="flex items-center gap-2 mb-1">
               <div className="flex-shrink-0 w-5 h-5 border-[1px] border-slate-300 rounded-full flex items-center justify-center text-slate-900 text-[10px]">
-                <FaPlus />
+                <FaHeart />
               </div>
               <h3 className="text-sm font-bold text-slate-800 leading-tight">
                 {project.title}

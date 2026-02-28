@@ -1,3 +1,4 @@
+import { FaShieldAlt } from 'react-icons/fa'; // Added building icon
 import type { Employment } from '../model/types';
 import { ExperienceComponent } from './ExperienceComponent';
 
@@ -13,10 +14,11 @@ export const EmploymentComponent = ({ employment }: Props) => {
         {employment.title}
       </h3>
 
-      {/* Company Name & Date Range - Now on the same line */}
-      <div className="flex justify-between items-baseline mt-0 mb-1">
-        <div className="text-lg font-semibold text-slate-900">
-          {employment.company}
+      {/* Company Name & Date Range - Now with Icon */}
+      <div className="flex justify-between items-baseline mt-1 mb-1">
+        <div className="flex items-center gap-2 text-lg font-semibold text-slate-900">
+          <FaShieldAlt className="text-[#4da6a6] text-sm shrink-0" /> {/* Professional Icon */}
+          <span>{employment.company}</span>
         </div>
         <span className="text-[11px] font-semibold text-[#4da6a6] italic uppercase tracking-wider">
           {employment.timeFrame}
@@ -26,17 +28,15 @@ export const EmploymentComponent = ({ employment }: Props) => {
       {/* Experience Sections */}
       <div className="flex flex-col gap-1.5">
         {employment.experiences.map((exp, index) => (
-          <>
-            {/* This is a hack to prevent splitting insdie a project when printing
-              * First DIV fills up the gap onn previous page. 
-              * Second DIV add padding in next page */
-              exp.needPadding &&
+          <div key={index}>
+            {/* Print-only spacer hack */}
+            {exp.needPadding &&
               <div className="hidden print:block">
                 <div className="p-6" />
                 <div className="p-3" />
               </div>}
-            <ExperienceComponent key={index} experience={exp} />
-          </>
+            <ExperienceComponent experience={exp} />
+          </div>
         ))}
       </div>
     </div>

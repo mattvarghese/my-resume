@@ -83,7 +83,7 @@ export const resumeData: Resume = {
           },
           {
             needPadding: true,
-            title: "3rd party Web Application integration framework",
+            title: "3ʳᵈ Party Web Application integration framework",
             bulletPoints: [
               "Advocated for and centralized all third party web application hosting within Epic into a single framework for accountability, security, and maintainability.",
               "Architectural advisor and code-reviewer to the team developing this framework, as an iframe hosted within the Epic web application, needing to address Content Security Policy, Cross Origin Resource Sharing, a Web Messaging API suite, etc.",
@@ -186,7 +186,7 @@ export const resumeData: Resume = {
       {
         title: "MIPS Pipeline Simulator",
         description: [
-          "5-stage pipeline simulaton of MIPS microprocesor. Includes cache simulation, assembler, and terminal.",
+          "5-stage pipeline simulation of a MIPS microprocessor. Includes cache simulation, assembler, and terminal.",
           "Multithreaded application developed with POSIX APIs, C++, Flex, and Bison in 2005.",
           "In 2025, Vibe-coded a Small-C compiler above the assembler as well."
         ],
@@ -194,9 +194,9 @@ export const resumeData: Resume = {
         url: "https://github.com/mattvarghese/coconut"
       },
       {
-        title: "This Resume!",
+        title: "This Resume ;-)",
         description: [
-          "Formatting of this resume was vibe-coded as a TypeScript React web app."
+          "Formatting of this resume was vibe-coded as a TypeScript React web app!"
         ],
         timeFrame: "2026 Q1",
         url: "https://github.com/mattvarghese/my-resume"
