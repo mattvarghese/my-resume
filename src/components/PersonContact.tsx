@@ -15,8 +15,16 @@ export const PersonContact = ({ connections }: Props) => {
   // Helper to strip protocol and www for visual display
   const formatDisplayUrl = (url: string) => url.replace(/^(https?:\/\/)?(www\.)?/, '');
 
+  // Regex to check if the string is actually an email address
+  const isActualEmail = (email: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
   const contactItems = [
-    { icon: <FaEnvelope />, value: connections.email, href: `mailto:${connections.email}` },
+    {
+      icon: <FaEnvelope />,
+      value: connections.email,
+      // Only create mailto link if it's a valid email format
+      href: isActualEmail(connections.email) ? `mailto:${connections.email}` : null
+    },
     { icon: <FaPhoneAlt />, value: connections.phone, href: null },
     { icon: <FaMapMarkerAlt />, value: connections.location, href: null },
     {

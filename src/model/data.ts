@@ -6,8 +6,8 @@ export const resumeData: Resume = {
     title: "Software Architect",
     summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and standards-based integrations. Demonstrated aptitude for delving deeply into new domains, and crafting precise, minimally invasive, yet highly successful solutions to challenging problems. In search of new learning and growth opportunities that leverage my massive trove of experience and expertise to build fascinating and deeply impactful real-world solutions.",
     connections: {
-      email: "Masked / Ask Me",
-      phone: "Masked / Ask Me",
+      email: "Ask Me || DM me on LinkedIn",
+      phone: "Ask Me || DM me on LinkedIn",
       location: "Madison, WI",
       linkedIn: "https://www.linkedin.com/in/matt-varghese",
       github: "https://github.com/mattvarghese"
@@ -20,11 +20,11 @@ export const resumeData: Resume = {
         },
         {
           group: " Full stack development",
-          skills: ["TypeScript", "React", "NPM and Node", ".NET/C#", "JSON / JWTs / JWKs", "IIS Hosting", "Nginx basics"]
+          skills: ["TypeScript", "React", "NPM and Node", ".NET/C#", "JSON / JWTs / JWKs", "IIS Hosting", "Nginx basics", "SQL basics"]
         },
         {
           group: "AI Tools & LLMs",
-          skills: ["Orchestrating large projects with AI", "Maintainable Architecture", "LLM APIs", "LLM Connectors", "llama / ollama", "Jupyter Lab"]
+          skills: ["Orchestrating large solutions with AI", "Maintainable Architecture", "LLM APIs", "LLM Connectors", "llama / ollama", "Jupyter Lab"]
         },
         {
           group: "Systems & Networking Strength",
