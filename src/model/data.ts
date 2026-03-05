@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Architect",
-    summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and standards-based integrations. Demonstrated aptitude for delving deeply into new domains, and crafting precise, minimally invasive, yet highly successful solutions to challenging problems. In search of new learning and growth opportunities that leverage my massive trove of experience and expertise to build fascinating and deeply impactful real-world solutions.",
+    summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and standards-based integrations. Demonstrated aptitude for delving deeply into new domains, and crafting precise, minimally invasive, yet highly successful solutions to challenging problems. In search of new learning and growth opportunities that leverage my extensive experience and expertise to build fascinating and deeply impactful real-world solutions.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -262,7 +262,7 @@ export const resumeData: Resume = {
     },
     {
       id: 'clinical-era',
-      title: 'Clinical Informatics & Interoperability',
+      title: 'Clinical Decision Support & Interoperability',
       subtitle: 'Epic Systems (Clinical Informatics)',
       timeFrame: '2010 — 2020',
       iconType: 'clinical',
