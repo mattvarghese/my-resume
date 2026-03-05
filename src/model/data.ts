@@ -258,7 +258,7 @@ export const resumeData: Resume = {
       subtitle: 'UW Madison & Condor High-Throughput Computing',
       timeFrame: '2008 — 2010',
       iconType: 'distributed',
-      knowledgePoints: ['Distributed Systems', 'Virtualization']
+      knowledgePoints: ['Distributed Systems', 'Virtualization Technologies']
     },
     {
       id: 'clinical-era',
@@ -279,11 +279,11 @@ export const resumeData: Resume = {
     {
       id: 'future-era',
       title: 'The Next Adventure !',
-      subtitle: 'Excitement / anticipation over what lies ahead?',
+      subtitle: 'Excitement & anticipation over what lies ahead :)',
       timeFrame: '2026 & Beyond',
       iconType: 'future',
       isFuture: true,
-      knowledgePoints: ['AI Orchestration?', 'Payer-Provider integrations?', 'Open Source Stewardship?', 'Something Altogether New?']
+      knowledgePoints: ['Payer-Provider Convergence?', 'Health Tech Startups?', 'AI Orchestration?', 'Linux & Open Source?', 'Something altogether new / unanticipated?']
     }
   ]
 };

@@ -4,7 +4,8 @@ import {
   FaUserMd,
   FaFileInvoiceDollar,
   FaQuestion,
-  FaChevronRight
+  FaCheck,
+  FaHeart,
 } from 'react-icons/fa';
 import { resumeData } from '../model/data';
 import type { TimelineEvent } from '../model/types';
@@ -101,7 +102,10 @@ const TimelineItem = ({ event, isLast }: { event: TimelineEvent, isLast: boolean
               key={i}
               className="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 text-slate-700 text-[14px] font-bold rounded-full border border-slate-200"
             >
-              <FaChevronRight className="text-[#4da6a6] text-[9px] font-sans" />
+              {event.isFuture ?
+                <FaHeart className="text-[#4da6a6] text-[9px] font-sans" /> :
+                <FaCheck className="text-[#4da6a6] text-[9px] font-sans" />
+              }
               {point}
             </span>
           ))}
