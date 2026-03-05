@@ -1,6 +1,7 @@
 
 export interface Resume {
   person: Person;
+  timeline: TimelineEvent[];
 }
 
 export interface Person {
@@ -59,4 +60,14 @@ export interface Education {
   school: string;
   timeFrame: string;
   bulletPoints: string[];
+}
+
+export interface TimelineEvent {
+  id: string;
+  title: string;
+  subtitle: string;
+  timeFrame: string;
+  iconType: 'systems' | 'distributed' | 'clinical' | 'insurance' | 'future';
+  knowledgePoints: string[];
+  isFuture?: boolean;
 }

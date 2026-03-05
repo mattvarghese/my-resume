@@ -242,5 +242,48 @@ export const resumeData: Resume = {
         ]
       }
     ]
-  }
+  },
+  timeline: [
+    {
+      id: 'systems-era',
+      title: 'Systems & Networking Foundations',
+      subtitle: 'NIT Calicut & Cisco',
+      timeFrame: '2002 — 2008',
+      iconType: 'systems',
+      knowledgePoints: ['Systems Programming', 'Networking Protocols', 'Performance']
+    },
+    {
+      id: 'distributed-era',
+      title: 'Distributed Computing & Virtualization',
+      subtitle: 'UW Madison & Condor High-Throughput Computing',
+      timeFrame: '2008 — 2010',
+      iconType: 'distributed',
+      knowledgePoints: ['Distributed Systems', 'Virtualization']
+    },
+    {
+      id: 'clinical-era',
+      title: 'Clinical Informatics & Interoperability',
+      subtitle: 'Epic Systems (Clinical Informatics)',
+      timeFrame: '2010 — 2020',
+      iconType: 'clinical',
+      knowledgePoints: ['Healthcare Domain', 'FHIR', 'CDS Hooks', 'RESTful Web APIs', 'Authentication', 'Security']
+    },
+    {
+      id: 'insurance-era',
+      title: 'Health Insurance & Full Stack Mastery',
+      subtitle: 'Epic Systems (Health Plans)',
+      timeFrame: '2020 — 2026',
+      iconType: 'insurance',
+      knowledgePoints: ['Health Insurance Domain', 'Prior Authorizations', 'Medical Necessity Reviews', 'SMART on FHIR', 'CRD', 'DTR', 'PAS', 'Full Stack Expertise']
+    },
+    {
+      id: 'future-era',
+      title: 'The Next Adventure !',
+      subtitle: 'Excitement / anticipation over what lies ahead?',
+      timeFrame: '2026 & Beyond',
+      iconType: 'future',
+      isFuture: true,
+      knowledgePoints: ['AI Orchestration?', 'Payer-Provider integrations?', 'Open Source Stewardship?', 'Something Altogether New?']
+    }
+  ]
 };
