@@ -283,7 +283,7 @@ export const resumeData: Resume = {
       timeFrame: '2026 & Beyond',
       iconType: 'future',
       isFuture: true,
-      knowledgePoints: ['Payer-Provider Convergence?', 'Health Tech Startups?', 'AI Orchestration?', 'Linux & Open Source?', 'Something altogether new / unanticipated?']
+      knowledgePoints: ['Payer-Provider Convergence?', 'Health Tech Startups?', 'HL7 FHIR?', 'SMART on FHIR?', 'CDS Hooks?', 'CRD/DTR/PAS?', 'AI Orchestration?', 'Linux & Open Source?', 'Something altogether new / unanticipated?']
     }
   ]
 };
