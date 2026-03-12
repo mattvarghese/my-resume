@@ -32,7 +32,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
             {/* Print-only spacer hack */}
             {exp.needPadding &&
               <div className="hidden print:block">
-                <div className="p-4" />
+                <div className="p-6" />
                 <div className="p-4" />
               </div>}
             <ExperienceComponent experience={exp} />

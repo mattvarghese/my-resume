@@ -45,26 +45,26 @@ export const resumeData: Resume = {
           {
             title: "CMS 2027 Interoperability (HL7 Da Vinci CRD/DTR/PAS)",
             bulletPoints: [
-              "Technical lead for Epic's implementation of HL7 Da Vinci specifications to automate prior authorization, reducing turnaround time for patients and providers.",
+              "Technical lead for Epic's implementation of HL7 Da Vinci specifications to automate prior authorization, reducing turnaround time from days to minutes.",
               "Architected payer-end integration of CRD, DTR, and PAS, enabling real-time requirement discovery and electronic submission to meet CMS 2027 mandates.",
-              "Collaborated with HL7 standards bodies and third-party vendors to refine specifications. Developed a separate comprehensive testing suite web application.",
+              "Collaborated with HL7 standards bodies and third-party vendors to refine specifications. Developed an independent comprehensive testing suite for same.",
               "Became a recognized expert on CRD, DTR, and PAS within Epic and in the industry."
             ]
           },
           {
             title: "Unified Authorization Requirements",
             bulletPoints: [
-              "Architected centralized 'Source of Truth' for authorization requirements, eliminating data silos between provider queries, authorization review, and claims processing.",
-              "Engineered unified data models and 'Gold-Carding' logic to improve consistency and reduce overhead - foundational layer for Epic's CMS 2027 interoperability suite.",
-              "Consolidated fragmented, 'one-off' configuration tools into a reusable editor framework, decreasing development lead time and long-term maintenance."
+              "Architected centralized 'Source of Truth' for authorization requirements, eliminating data silos across product lines for provider queries, authorization review, and claims.",
+              "Engineered unified data models and processing logic to improve consistency and reduce cognitive overhead, improving long-term maintainability for customers.",
+              "Consolidated fragmented configuration tools into a reusable framework, decreasing development lead time by 80% for 12+ modules."
             ]
           },
           {
             title: "Medical Necessity Guideline Review Integrations",
             bulletPoints: [
               "Payers use Medical Necessity Guideline integrations with MCG, InterQual etc. to review appropriateness of requested care for the patient's clinical scenario.",
-              "Supported and later led effort to modernize Epic's Medical Necessity Guideline Review integrations with 3rd parties using a SMART on FHIR based approach.",
-              "Engineered a full-stack emulator of vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards, drastically reducing integration defects.",
+              "Supported and later led modernization of Epic's Medical Necessity Guideline Review integrations with vendors using a SMART on FHIR based approach.",
+              "Engineered full-stack emulation of vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards, reducing integration defects by over 60%.",
               "Became a recognized expert on Medical Necessity Review integrations within Epic."
             ]
           }
@@ -76,11 +76,10 @@ export const resumeData: Resume = {
         timeFrame: "Aug. 2010 - March 2021",
         experiences: [
           {
-            title: "Epic Push Notification Broker Service for our Mobile Apps",
+            title: "Epic Push Notification Broker Service for Mobile Apps",
             bulletPoints: [
-              "Led team of staff and interns developing mission-critical broker service routing all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM - a foundational requirement for push notifications across Epic.",
-              "Designed with high-availability and redundancy from get go, with a load-balanced primary instance on Azure, and a load-balanced on-prem backup instance.",
-              "Among the first high-stakes Epic production applications deployed on Azure.",
+              "Led team of staff and interns developing a broker service routing all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM.",
+              "Designed with high-availability and redundancy. Among the first Epic production applications deployed on Azure reducing cost by over a factor of 10.",
               "Responsible for oversight and production deployment for three years with traffic in hundreds of millions range and minimal downtime.",
             ]
           },
@@ -98,9 +97,8 @@ export const resumeData: Resume = {
             title: "Clinical Decision Support (CDS) Web Service Interfaces",
             bulletPoints: [
               "Architect of all Epic Clinical Decision Support (CDS) Web Service integration capabilities. Includes HL7 FHIR CDS-Hooks and HL7 CDA-based integrations.",
-              "Worked closely with standards bodies co-authoring HL7 CDS Hooks specification.",
-              "Redesigned the decision support configuration to mirror analyst mental-model.",
-              "Developed feedback mechanism for providers to gauge efficacy of decision support.",
+              "Contributor to HL7 CDS Hooks and SMART Web Messaging specifications.",
+              "Redesigned the decision support configuration to mirror user mental-model. Developed feedback mechanism for providers to gauge efficacy of decision support.",
               "Became a recognized expert in CDS-Hooks and REST-ful Web Services within Epic."
             ]
           }
@@ -114,7 +112,7 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Developed a clinical content comparison utility to allow users to quickly diff clinical content using DOM APIs and LCS diff algorithm, improving content maintainability."
+              "Developed a clinical content comparison utility to quickly diff clinical content using DOM APIs and LCS diff algorithm, improving content maintainability."
             ]
           }
         ]
@@ -149,7 +147,7 @@ export const resumeData: Resume = {
     ],
     projects: [
       {
-        title: "FHIR-based AI Healthcare Assistant Chatbot",
+        title: "FHIR-based AI Assistant",
         description: [
           "LLM chat web app to answer provider and patient questions using real EHR data.",
           "Provider or patient facing SMART on FHIR launch gives access to FHIR server.",
@@ -161,6 +159,16 @@ export const resumeData: Resume = {
       },
       {
         needPadding: true,
+        title: "JSON Parser for M/Caché",
+        description: [
+          "RFC-compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
+          "Nearly Half of all Epic's Database AI integrations leverage this library.",
+          "Example of long-term vision in creating powerful generic reusable tooling."
+        ],
+        timeFrame: "2020",
+        url: ""
+      },
+      {
         title: "Web Based SSH Client",
         description: [
           "Proof of concept allows Web Based SSH access to unix servers, Caché etc.",
@@ -179,16 +187,6 @@ export const resumeData: Resume = {
         url: "https://github.com/mattvarghese/HttpResponder"
       },
       {
-        title: "JSON Library for M/Caché",
-        description: [
-          "RFC-compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
-          "Nearly Half of all Epic's Database AI integrations leverage this library.",
-          "Example of long-term vision in creating powerful generic reusable tooling."
-        ],
-        timeFrame: "2020",
-        url: ""
-      },
-      {
         title: "MIPS Pipeline Simulator",
         description: [
           "5-Stage pipeline simulation of a MIPS microprocessor hardware. Includes cache simulation, assembler, and terminal app.",
@@ -199,7 +197,7 @@ export const resumeData: Resume = {
         url: "https://github.com/mattvarghese/coconut"
       },
       {
-        title: "This Resume! :)",
+        title: "This Resume!",
         description: [
           "This resume is formatted using a print-media web app I developed with AI-assistance!"
         ],
