@@ -20,7 +20,7 @@ export const resumeData: Resume = {
         },
         {
           group: " Full stack development",
-          skills: ["TypeScript", "React", "NPM and Node", ".NET/C#", "JSON / JWTs / JWKs", "IIS Hosting", "Nginx basics", "SQL basics"]
+          skills: ["TypeScript", "React", "Web API", "NPM and Node", ".NET/C#", "SVN", "Git", "JSON / JWTs / JWKs", "Azure", "IIS Hosting", "Nginx basics", "SQL"]
         },
         {
           group: "AI Tools & LLMs",
@@ -28,11 +28,11 @@ export const resumeData: Resume = {
         },
         {
           group: "Systems & Networking Strength",
-          skills: ["ISO-OSI model", "OAuth2", "Familiarity with numerous RFCs", "Encryption standards", "Authentication standards", "Network Architecture & Routing"]
+          skills: ["ISO-OSI model", "OAuth2", "Worked with several RFCs", "Encryption standards", "Authentication standards", "Network Architecture & Routing"]
         },
         {
           group: "Avid GNU/Linux User",
-          skills: ["Virtualization: KVM & VMware", "Docker", "Hadoop", "Raspberry Pis", "SVN & Git"]
+          skills: ["Virtualization", "KVM / Qemu", "VMware", "Docker", "Hadoop", "Raspberry Pis"]
         }
       ]
     },
