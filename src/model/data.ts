@@ -145,19 +145,19 @@ export const resumeData: Resume = {
     involvement: [
       {
         ItemTitle: "HL7 FHIR Connectathons",
-        Description: "Represented Epic and collaborated in building prototypes with vendors to improve interoperability."
+        Description: "Collaborated representing Epic in building prototypes with participants from other vendors to improve interoperability standards."
       },
       {
         ItemTitle: "HL7 Da Vinci Burden Reduction",
-        Description: "Represented Epic on calls steering development of standards for reducing administrative burden in Prior Authorization."
+        Description: "Represented Epic on public calls steering development of standards to reduce administrative burden in Prior Authorization."
       },
       {
         ItemTitle: "HL7 CDS Hooks and SMART on FHIR",
-        Description: "Contributed HL7 CDS Hooks and HL7 SMART Web Messaging specifications to improve workflow integration and security."
+        Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
         ItemTitle: "Epic Recruitment",
-        Description: "Tabled Epic Booths at university career fairs, and conducted candidate interviews towards attracting top talent to Epic."
+        Description: "Represented Epic at university career fairs and conducted candidate interviews to attract top talent to Epic."
       }
     ],
     projects: [
