@@ -6,7 +6,8 @@ import type {
     Experience,
     Project,
     SkillSet,
-    Education
+    Education,
+    IndustryInvolvement
 } from '../model/types';
 import { resumeData } from '../model/data';
 
@@ -39,6 +40,7 @@ export const AtsFriendly = () => {
                 <div className="flex flex-col">
                     <AtsWorkExperience jobs={data.person.jobs} />
                     <AtsProjectList projects={data.person.projects} />
+                    <AtsIndustryOutreach involvement={data.person.involvement} />
                     <AtsDegreeList degrees={data.person.degrees} />
                     <AtsSkillList skillSet={data.person.skillSet} />
                     <AtsEpicCertifications certifications={data.person.epicCertifications} />
@@ -133,6 +135,20 @@ const AtsExperienceComponent = ({ experience }: { experience: Experience }) => (
             </div>
         </div>
     </div>
+);
+
+const AtsIndustryOutreach = ({ involvement }: { involvement: IndustryInvolvement[] }) => (
+    <section className="mb-1.5">
+        <AtsSectionHeader title="Industry & Outreach" />
+        <div className="flex flex-col gap-0.5">
+            {involvement.map((item, idx) => (
+                <div key={idx} className="text-[11.5px] leading-tight">
+                    <span className="font-bold">{item.ItemTitle}:</span>{' '}
+                    <span className="text-slate-800">{item.Description}</span>
+                </div>
+            ))}
+        </div>
+    </section>
 );
 
 const AtsProjectList = ({ projects }: { projects: Project[] }) => (

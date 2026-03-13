@@ -9,6 +9,7 @@ import { ProjectList } from './ProjectList';
 import { EpicCertifications } from './EpicCertifications';
 import { MiscList } from './MiscList';
 import { DegreeList } from './DegreeList';
+import { IndustryOutreach } from './IndustryOutreach';
 
 export const FormattedResume = () => {
     const data: Resume = resumeData;
@@ -23,6 +24,7 @@ export const FormattedResume = () => {
                 <main className="w-[66%] flex flex-col p-1 gap-1 ">
                     <PersonSummary person={data.person} />
                     <WorkExperience jobs={data.person.jobs} />
+                    <IndustryOutreach involvement={resumeData.person.involvement} />
                     <DegreeList degrees={data.person.degrees} />
                 </main>
 

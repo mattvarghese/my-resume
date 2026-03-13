@@ -15,6 +15,7 @@ export interface Person {
   epicCertifications: string[];
   misc: string[];
   degrees: Education[];
+  involvement: IndustryInvolvement[];
 }
 
 export interface Connections {
@@ -70,4 +71,9 @@ export interface TimelineEvent {
   iconType: 'systems' | 'distributed' | 'clinical' | 'insurance' | 'future';
   knowledgePoints: string[];
   isFuture?: boolean;
+}
+
+export interface IndustryInvolvement {
+  ItemTitle: string;
+  Description: string;
 }

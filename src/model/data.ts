@@ -52,7 +52,7 @@ export const resumeData: Resume = {
             ]
           },
           {
-            title: "Unified Authorization Requirements",
+            title: "Unified Prior Authorization Requirements",
             bulletPoints: [
               "Architected centralized 'Source of Truth' for authorization requirements, eliminating data silos across product lines for provider queries, authorization review, and claims.",
               "Engineered unified data models and processing logic to improve consistency and reduce cognitive overhead, improving long-term maintainability for customers.",
@@ -88,8 +88,7 @@ export const resumeData: Resume = {
             title: "3ʳᵈ Party Web Application integration framework",
             bulletPoints: [
               "Advocated for and centralized all third party web application integrations across Epic into a single framework for accountability, security, and maintainability.",
-              "Architectural advisor and code-reviewer to the team developing this framework, as an iframe hosted within the Epic web application, needing to address Content Security Policy, Cross Origin Resource Sharing, and a Web Messaging API suite.",
-              "Developed and deployed web applications to test all aspects of this framework.",
+              "Developed and deployed web applications to validate Content Security Policy, Cross Origin Resource Sharing, and a Web Messaging API suite.",
               "Became a recognized expert in Web App Integrations and Security within Epic."
             ]
           },
@@ -97,7 +96,6 @@ export const resumeData: Resume = {
             title: "Clinical Decision Support (CDS) Web Service Interfaces",
             bulletPoints: [
               "Architect of all Epic Clinical Decision Support (CDS) Web Service integration capabilities. Includes HL7 FHIR CDS-Hooks and HL7 CDA-based integrations.",
-              "Contributor to HL7 CDS Hooks and SMART Web Messaging specifications.",
               "Redesigned the decision support configuration to mirror user mental-model. Developed feedback mechanism for providers to gauge efficacy of decision support.",
               "Became a recognized expert in CDS-Hooks and REST-ful Web Services within Epic."
             ]
@@ -112,7 +110,7 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Developed a clinical content comparison utility to quickly diff clinical content using DOM APIs and LCS diff algorithm, improving content maintainability."
+              "Content comparison utility to diff clinical content, improving maintainability."
             ]
           }
         ]
@@ -125,7 +123,7 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Developed capability to run jobs inside VMware Virtual Machines on Condor High Throughput Computing pools, allowing deterministic runtime environments."
+              "Virtualized Condor jobs with VMware achieving deterministic runtime environments."
             ]
           }
         ]
@@ -138,11 +136,28 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Developed configuration interface for NetFlow and logging infrastructure for Traffic Accounting on Cisco GSR series routers.",
-              "Platform support for 7500 series routers including Distributed Multi-Link Protocol."
+              "Platform support and configuration tools for Cisco GSR, 7600, and 7500 routers."
             ]
           }
         ]
+      }
+    ],
+    involvement: [
+      {
+        ItemTitle: "HL7 FHIR Connectathons",
+        Description: "Represented Epic and collaborated in building prototypes with vendors to improve interoperability."
+      },
+      {
+        ItemTitle: "HL7 Da Vinci Burden Reduction",
+        Description: "Represented Epic on calls steering development of standards for reducing administrative burden in Prior Authorization."
+      },
+      {
+        ItemTitle: "HL7 CDS Hooks and SMART on FHIR",
+        Description: "Contributed HL7 CDS Hooks and HL7 SMART Web Messaging specifications to improve workflow integration and security."
+      },
+      {
+        ItemTitle: "Epic Recruitment",
+        Description: "Tabled Epic Booths at university career fairs, and conducted candidate interviews towards attracting top talent to Epic."
       }
     ],
     projects: [
