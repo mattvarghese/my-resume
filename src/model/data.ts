@@ -3,8 +3,8 @@ import type { Resume } from './types';
 export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
-    title: "Software Architect",
-    summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and standards-based integrations. Demonstrated aptitude for delving deeply into new domains, and crafting precise, minimally invasive, yet highly successful solutions to challenging problems. In search of new learning and growth opportunities that leverage my extensive experience and expertise to build fascinating and deeply impactful real-world solutions.",
+    title: "Software Systems Architect",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable healthcare platforms. Technical lead for Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior-authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, maintainable platforms, and for deep expertise in FHIR, SMART on FHIR, OAuth2, and modern web architectures.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -43,29 +43,26 @@ export const resumeData: Resume = {
         timeFrame: "March 2021 - Present",
         experiences: [
           {
-            title: "CMS 2027 Interoperability (HL7 Da Vinci CRD/DTR/PAS)",
+            title: "Delivered CMS 2027 interoperability (HL7 CRD/DTR/PAS)",
             bulletPoints: [
-              "Technical lead for Epic's implementation of HL7 Da Vinci specifications to automate prior authorization, reducing turnaround time from days to minutes.",
-              "Architected payer-end integration of CRD, DTR, and PAS, enabling real-time requirement discovery and electronic submission to meet CMS 2027 mandates.",
-              "Collaborated with HL7 standards bodies and third-party vendors to refine specifications. Developed an independent comprehensive testing suite for same.",
-              "Became a recognized expert on CRD, DTR, and PAS within Epic and in the industry."
+              "Architect for Epic's payer implementation of HL7 Da Vinci CRD/DTR/PAS to automate prior authorization, reducing turnaround time from days to minutes.",
+              "Refined specifications in collaboration with HL7 standards bodies and third-party vendors. Developed independent comprehensive testing suite for the same.",
+              "Recognized expert on CRD, DTR, and PAS at Epic and in the industry."
             ]
           },
           {
-            title: "Unified Prior Authorization Requirements",
+            title: "Unified fragmented Prior Authorization requirements",
             bulletPoints: [
-              "Architected centralized 'Source of Truth' for authorization requirements, eliminating data silos across product lines for provider queries, authorization review, and claims.",
-              "Engineered unified data models and processing logic to improve consistency and reduce cognitive overhead, improving long-term maintainability for customers.",
-              "Consolidated fragmented configuration tools into a reusable framework, decreasing development lead time by 80% for 12+ modules."
+              "Architected centralized 'Source of Truth' for authorization requirements, eliminating data silos across all of Epic's health plan product lines.",
+              "Engineered unified data models and processing logic to improve consistency and reduce overhead, decreasing development lead time by 80% for 12+ modules."
             ]
           },
           {
-            title: "Medical Necessity Guideline Review Integrations",
+            title: "Modernized Medical Necessity guideline review integrations",
             bulletPoints: [
               "Payers use Medical Necessity Guideline integrations with MCG, InterQual etc. to review appropriateness of requested care for the patient's clinical scenario.",
-              "Supported and later led modernization of Epic's Medical Necessity Guideline Review integrations with vendors using a SMART on FHIR based approach.",
-              "Engineered full-stack emulation of vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards, reducing integration defects by over 60%.",
-              "Became a recognized expert on Medical Necessity Review integrations within Epic."
+              "Led modernization of Epic's Medical Necessity Guideline Review integrations using SMART on FHIR. Engineered full-stack emulator, reducing defects by 60%.",
+              "Recognized expert on Medical Necessity Review workflow at Epic."
             ]
           }
         ]
@@ -76,41 +73,28 @@ export const resumeData: Resume = {
         timeFrame: "Aug. 2010 - March 2021",
         experiences: [
           {
-            title: "Epic Push Notification Broker Service for Mobile Apps",
+            title: "Enabled Push Notifications for Epic's Mobile Apps",
             bulletPoints: [
-              "Led team of staff and interns developing a broker service routing all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM.",
+              "Led team of staff and interns developing broker service routing all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM.",
               "Designed with high-availability and redundancy. Among the first Epic production applications deployed on Azure reducing cost by over a factor of 10.",
-              "Responsible for oversight and production deployment for three years with traffic in hundreds of millions range and minimal downtime.",
+              "Responsible for oversight and production deployment for three years with traffic in millions per week and minimal downtime.",
             ]
           },
           {
             needPadding: true,
-            title: "3ʳᵈ Party Web Application integration framework",
+            title: "Centralized 3ʳᵈ Party Web Application integration across Epic",
             bulletPoints: [
               "Advocated for and centralized all third party web application integrations across Epic into a single framework for accountability, security, and maintainability.",
               "Developed and deployed web applications to validate Content Security Policy, Cross Origin Resource Sharing, and a Web Messaging API suite.",
-              "Became a recognized expert in Web App Integrations and Security within Epic."
+              "Recognized expert in Web App Integrations and Security at Epic."
             ]
           },
           {
-            title: "Clinical Decision Support (CDS) Web Service Interfaces",
+            title: "Architected Epic's CDS Web Service integration framework",
             bulletPoints: [
               "Architect of all Epic Clinical Decision Support (CDS) Web Service integration capabilities. Includes HL7 FHIR CDS-Hooks and HL7 CDA-based integrations.",
               "Redesigned the decision support configuration to mirror user mental-model. Developed feedback mechanism for providers to gauge efficacy of decision support.",
-              "Became a recognized expert in CDS-Hooks and REST-ful Web Services within Epic."
-            ]
-          }
-        ]
-      },
-      {
-        company: "Epic - Verona, WI",
-        title: "Software Development Intern, Clinical Informatics",
-        timeFrame: "June 2009 - Aug. 2009",
-        experiences: [
-          {
-            title: "",
-            bulletPoints: [
-              "Content comparison utility to diff clinical content, improving maintainability."
+              "Recognized expert in CDS-Hooks and REST-ful Web Services at Epic."
             ]
           }
         ]
@@ -145,7 +129,7 @@ export const resumeData: Resume = {
     involvement: [
       {
         ItemTitle: "HL7 FHIR Connectathons",
-        Description: "Collaborated representing Epic in building prototypes with participants from other vendors to improve interoperability standards."
+        Description: "Developed prototypes of HL7 specifications in collaboration with participants from other vendors to improve interoperability."
       },
       {
         ItemTitle: "HL7 Da Vinci Burden Reduction",
@@ -164,10 +148,9 @@ export const resumeData: Resume = {
       {
         title: "FHIR-based AI Assistant",
         description: [
+          "Demonstrates seamless integration of LLM API with FHIR server for agentic use-cases.",
           "LLM chat web app to answer provider and patient questions using real EHR data.",
-          "Provider or patient facing SMART on FHIR launch gives access to FHIR server.",
-          "LLM tools allow GPT-model to execute FHIR queries to access real EHR data.",
-          "Personal learning project in Epic code-space."
+          "Provider or patient facing SMART on FHIR launch gives LLM access to FHIR server."
         ],
         timeFrame: "2025 Q2",
         url: ""
@@ -176,9 +159,9 @@ export const resumeData: Resume = {
         needPadding: true,
         title: "JSON Parser for M/Caché",
         description: [
+          "Spotlights long-term vision in creating powerful generic reusable tooling.",
           "RFC-compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
-          "Nearly Half of all Epic's Database AI integrations leverage this library.",
-          "Example of long-term vision in creating powerful generic reusable tooling."
+          "Nearly Half of all Epic's Database AI integrations leverage this library."
         ],
         timeFrame: "2020",
         url: ""
@@ -241,18 +224,13 @@ export const resumeData: Resume = {
         degree: "Master of Science, Computer Science",
         school: "University of Wisconsin - Madison",
         timeFrame: "2008-2010",
-        bulletPoints: [
-          "GPA: 3.94 / 4.0 | Fully funded Research Assistantship",
-          "Focus: Systems, Networking, Distributed Computing"
-        ]
+        bulletPoints: []
       },
       {
         degree: "Bachelor of Technology, Computer Science and Engineering",
         school: "National Institute of Technology - Calicut, India",
         timeFrame: "2002-2006",
-        bulletPoints: [
-          "CGPA: 9.60 / 10.0 | Branch Topper | Gold Medalist"
-        ]
+        bulletPoints: []
       }
     ]
   },

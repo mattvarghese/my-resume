@@ -8,7 +8,7 @@ interface Props {
 
 export const EmploymentComponent = ({ employment }: Props) => {
   return (
-    <div className="flex flex-col mb-4 last:mb-0 experience-item">
+    <div className="flex flex-col mb-4 last:mb-0 experience-item mt-6">
       {/* Main Job Title */}
       <h3 className="text-xl font-bold text-slate-950 leading-none">
         {employment.title}
