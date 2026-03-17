@@ -14,7 +14,7 @@ export const DegreeComponent = ({ education }: Props) => {
             </h3>
 
             {/* School Name & Date Range */}
-            <div className="flex justify-between items-baseline mt-2 mb-1">
+            <div className="flex justify-between items-baseline mt-1 mb-1">
                 <div className="flex items-center gap-2 text-md font-medium text-slate-900">
                     <FaUniversity className="text-[#4da6a6] text-sm" />
                     <span>{education.school}</span>

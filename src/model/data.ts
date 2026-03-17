@@ -73,7 +73,7 @@ export const resumeData: Resume = {
         timeFrame: "Aug. 2010 - March 2021",
         experiences: [
           {
-            title: "Enabled Push Notifications for Epic's Mobile Apps",
+            title: "Enabled Push Notifications for all Epic Mobile Apps",
             bulletPoints: [
               "Led team of staff and interns developing broker service routing all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM.",
               "Designed with high-availability and redundancy. Among the first Epic production applications deployed on Azure reducing cost by over a factor of 10.",
@@ -82,7 +82,7 @@ export const resumeData: Resume = {
           },
           {
             needPadding: true,
-            title: "Centralized 3ʳᵈ Party Web Application integration across Epic",
+            title: "Centralized 3ʳᵈ Party Web Application integrations across Epic",
             bulletPoints: [
               "Advocated for and centralized all third party web application integrations across Epic into a single framework for accountability, security, and maintainability.",
               "Developed and deployed web applications to validate Content Security Policy, Cross Origin Resource Sharing, and a Web Messaging API suite.",
