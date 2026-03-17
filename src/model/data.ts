@@ -62,7 +62,7 @@ export const resumeData: Resume = {
             bulletPoints: [
               "Payers use Medical Necessity Guideline integrations with MCG, InterQual etc. to review appropriateness of requested care for the patient's clinical scenario.",
               "Led modernization of Epic's Medical Necessity Guideline Review integrations using SMART on FHIR. Engineered full-stack emulator, reducing defects by 60%.",
-              "Recognized expert on Medical Necessity Review workflow at Epic."
+              "Recognized expert on Medical Necessity Review and SMART on FHIR at Epic."
             ]
           }
         ]
