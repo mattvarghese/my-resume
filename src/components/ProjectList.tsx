@@ -7,7 +7,7 @@ interface Props {
 
 export const ProjectList = ({ projects }: Props) => {
   return (
-    <section className="flex flex-col gap-2">
+    <section className="flex flex-col gap-2 mt-2">
       {/* Section Header */}
       <div className="flex items-center gap-3">
         <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
@@ -28,12 +28,12 @@ export const ProjectList = ({ projects }: Props) => {
               * Second DIV add padding in next page */
               project.needPadding &&
               <div className="hidden print:block">
-                <div className="hidden print:flex flex-col items-end p-10">
+                <div className="hidden print:flex flex-col items-end p-8">
                   <span className="text-[10px] font-sans font-bold uppercase tracking-widest text-slate-500">
                     Page 1 <span className="text-[#4da6a6] mx-1">|</span> 2
                   </span>
                 </div>
-                <div className="p-4" />
+                <div className="p-5" />
               </div>}
 
             {/* Project Title with Icon */}

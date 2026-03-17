@@ -32,13 +32,13 @@ export const FormattedResume = () => {
                 <div className="w-[34%] flex flex-col p-1 pb-0">
                     <PersonContact connections={data.person.connections} />
                     <SideBar>
-                        <SkillList skillSet={data.person.skillSet} />
                         <ProjectList projects={data.person.projects} />
+                        <SkillList skillSet={data.person.skillSet} />
                         <EpicCertifications certifications={data.person.epicCertifications} />
                         <MiscList misc={data.person.misc} />
                         {/* extra padding for sidebar if required */}
-                        <div className="hidden print:flex flex-col items-end pt-1 pb-6">
-                            <span className="text-[10px] font-serif font-bold uppercase tracking-widest text-slate-500">
+                        <div className="hidden print:flex flex-col items-end pt-6 pb-6">
+                            <span className="text-[10px] font-serif font-bold uppercase tracking-widest text-slate-500 px-9">
                                 Page 2 <span className="text-[#4da6a6] mx-1">|</span> 2
                             </span>
                         </div>

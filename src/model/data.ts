@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable healthcare platforms. Technical lead for Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior-authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, maintainable platforms, and for deep expertise in HL7 FHIR, SMART on FHIR, CDS Hooks, OAuth2, and modern web architectures.",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable health platforms. Technical leader for Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior-authorization workflows for hundreds of customers. Recognized interoperability expert transforming fragmented integrations into unified, maintainable platforms, with deep expertise in HL7 FHIR, SMART on FHIR, CDS Hooks, OAuth2, and modern web architectures.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -20,15 +20,15 @@ export const resumeData: Resume = {
         },
         {
           group: " Full stack development",
-          skills: ["TypeScript", "React", "Web API", "NPM and Node", ".NET/C#", "SVN", "Git", "JSON / JWTs / JWKs", "Azure", "IIS Hosting", "Nginx basics", "SQL"]
+          skills: ["TypeScript", "React", "Web API", "Node and NPM", ".NET/C#", "SVN", "Git", "JSON / JWTs / JWKs", "Azure", "Web Hosting", "SQL"]
         },
         {
           group: "AI Tools & LLMs",
-          skills: ["Orchestrating large solutions with AI", "Maintainable Architecture", "LLM APIs", "LLM Connectors", "llama / ollama", "Jupyter Lab"]
+          skills: ["Orchestrating large solutions with AI", "Maintainable Architecture", "LLM APIs", "LLM Connectors"]
         },
         {
           group: "Systems & Networking Strength",
-          skills: ["ISO-OSI model", "OAuth2", "Worked with several RFCs", "Encryption standards", "Authentication standards", "Network Architecture & Routing"]
+          skills: ["Network Architecture & Routing", "ISO-OSI model", "OAuth2", "Worked with several RFCs", "Encryption standards", "Authentication standards"]
         },
         {
           group: "Avid GNU/Linux User",
@@ -120,7 +120,7 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Platform support and configuration tools for Cisco GSR, 7600, and 7500 routers."
+              "Platform engineering and configuration tooling for Cisco's enterprise class routers."
             ]
           }
         ]
@@ -148,15 +148,14 @@ export const resumeData: Resume = {
       {
         title: "FHIR-based AI Assistant",
         description: [
-          "Demonstrates seamless integration of LLM API with FHIR server for agentic use-cases.",
+          "Demonstrates seamless integration of LLM APIs with HL7 FHIR for agentic use-cases.",
           "LLM chat web app to answer provider and patient questions using real EHR data.",
-          "Provider or patient facing SMART on FHIR launch gives LLM access to FHIR server."
+          "Can be leveraged for AI driven forms, clinical decision support, care delivery, etc."
         ],
         timeFrame: "2025 Q2",
         url: ""
       },
       {
-        needPadding: true,
         title: "JSON Parser for M/Caché",
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
@@ -169,8 +168,8 @@ export const resumeData: Resume = {
       {
         title: "Web Based SSH Client",
         description: [
-          "Proof of concept allows Web Based SSH access to unix servers, Caché etc.",
-          "Avoids Citrix licenses etc., saving money for organizations extending moderated text access to users."
+          "Out-of-the-box solutioning for real world cost reduction avoiding remote-app licenses for moderated shell / text access to servers.",
+          "Proof of concept fully browser-based SSH client for unix servers, Caché etc.",
         ],
         timeFrame: "2025 Q3",
         url: "https://github.com/mattvarghese/WebSSHClient"
@@ -178,8 +177,8 @@ export const resumeData: Resume = {
       {
         title: "HTTP Auto-responder",
         description: [
-          "Web Service 'development tool' allowing preconfigured responses and logging for common HTTP verbs.",
-          "Similar to Postman Mock Server, but keeps traffic within the enterprise or local network."
+          "Development tooling for Web APIs, keeping traffic within the enterprise or local network.",
+          "REST-ful endpoint allowing auto-responding and logging for common HTTP verbs.",
         ],
         timeFrame: "2024 Q4",
         url: "https://github.com/mattvarghese/HttpResponder"
@@ -187,17 +186,18 @@ export const resumeData: Resume = {
       {
         title: "MIPS Pipeline Simulator",
         description: [
-          "5-Stage pipeline simulation of a MIPS microprocessor hardware. Includes cache simulation, assembler, and terminal app.",
-          "Multithreaded application developed with POSIX APIs, C++, Flex, and Bison in 2005.",
-          "In 2025, developed a Small-C compiler above the assembler with AI-assistance."
+          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
+          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
+          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
         ],
         timeFrame: "2005, 2025",
         url: "https://github.com/mattvarghese/coconut"
       },
       {
+        needPadding: true,
         title: "This Resume!",
         description: [
-          "This resume is formatted using a print-media web app I developed with AI-assistance!"
+          "Think different! Resume developed as print-media web application with AI assistance."
         ],
         timeFrame: "2026 Q1",
         url: "https://github.com/mattvarghese/my-resume"
@@ -224,13 +224,17 @@ export const resumeData: Resume = {
         degree: "Master of Science, Computer Science",
         school: "University of Wisconsin - Madison",
         timeFrame: "2008-2010",
-        bulletPoints: []
+        bulletPoints: [
+          "GPA: 3.94 / 4.0 | Focus: Systems, Networking, Distributed Computing."
+        ]
       },
       {
         degree: "Bachelor of Technology, Computer Science and Engineering",
         school: "National Institute of Technology - Calicut, India",
         timeFrame: "2002-2006",
-        bulletPoints: []
+        bulletPoints: [
+          "CGPA: 9.60 / 10.0 | Department Topper and Gold Medalist."
+        ]
       }
     ]
   },
