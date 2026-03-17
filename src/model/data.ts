@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable health platforms. Technical leader for Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior-authorization workflows for hundreds of customers. Recognized interoperability expert transforming fragmented integrations into unified, maintainable platforms, with deep expertise in HL7 FHIR, SMART on FHIR, CDS Hooks, OAuth2, and modern web architectures.",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable health platforms. Technical leader for Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior authorization workflows for hundreds of customers. Recognized interoperability expert transforming fragmented integrations into unified, maintainable platforms, with deep expertise in HL7 FHIR, SMART on FHIR, CDS Hooks, OAuth2, and modern web architectures.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -160,7 +160,7 @@ export const resumeData: Resume = {
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
           "RFC-compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
-          "Nearly Half of all Epic's Database AI integrations leverage this library."
+          "Nearly half of all Epic's database AI integrations leverage this library."
         ],
         timeFrame: "2020",
         url: ""
