@@ -3,8 +3,8 @@ import type { Resume } from './types';
 export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
-    title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable health platforms. Technical leader for Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior authorization workflows for hundreds of customers. Recognized interoperability expert transforming fragmented integrations into unified, maintainable platforms, with deep expertise in HL7 FHIR, SMART on FHIR, CDS Hooks, OAuth2, and modern web architectures.",
+    title: "Software Systems Architect | Senior Engineer",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable health platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -15,24 +15,20 @@ export const resumeData: Resume = {
     skillSet: {
       groups: [
         {
-          group: "Healthcare and Health Insurance",
-          skills: ["Domain knowledge", "HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278"]
+          group: "Interoperability & Standards",
+          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
         },
         {
-          group: " Full stack development",
-          skills: ["TypeScript", "React", "Web API", "Node and NPM", ".NET/C#", "SVN", "Git", "JSON / JWTs / JWKs", "Azure", "Web Hosting", "SQL"]
+          group: "Architecture & Infrastructure",
+          skills: ["SDLC", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainable Architecture"]
         },
         {
-          group: "AI Tools & LLMs",
-          skills: ["Orchestrating large solutions with AI", "Maintainable Architecture", "LLM APIs", "LLM Connectors"]
+          group: "Engineering Stack",
+          skills: ["TypeScript", "React", "Web API", "Node", ".NET/C#", "Git & SVN", "SQL & NoSQL", "Linux & Windows"]
         },
         {
-          group: "Systems & Networking Strength",
-          skills: ["Network Architecture & Routing", "ISO-OSI model", "OAuth2", "Worked with several RFCs", "Encryption standards", "Authentication standards"]
-        },
-        {
-          group: "Avid GNU/Linux User",
-          skills: ["Virtualization", "KVM / Qemu", "VMware", "Docker", "Hadoop", "Raspberry Pis"]
+          group: "Specialized Expertise",
+          skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing", "Encryption & Auth standards"]
         }
       ]
     },
