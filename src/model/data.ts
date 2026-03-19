@@ -37,29 +37,27 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Software Systems Architect, Health Plans",
         timeFrame: "March 2021 - Present",
+        summary: "Architect for Epic's HL7 FHIR-based CMS 2027 regulatory platform, defining how health plans implement real-time prior authorization workflows across CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
         experiences: [
           {
-            title: "Delivered CMS 2027 interoperability (HL7 CRD/DTR/PAS)",
-            bulletPoints: [
-              "Architect for Epic's payer implementation of HL7 Da Vinci CRD/DTR/PAS to automate prior authorization, reducing turnaround time from days to minutes.",
-              "Refined specifications in collaboration with HL7 standards bodies and third-party vendors. Developed independent comprehensive testing suite for the same.",
-              "Recognized expert on CRD, DTR, and PAS at Epic and in the industry."
-            ]
+            title: "Led architecture and delivery",
+            detail: "of Epic's payer interoperability platform for CMS 2027, collaborating with HL7 Da Vinci workgroups and external vendors to refine and operationalize evolving standards."
           },
           {
-            title: "Unified fragmented Prior Authorization requirements",
-            bulletPoints: [
-              "Architected centralized 'Source of Truth' for authorization requirements, eliminating data silos across all of Epic's health plan product lines.",
-              "Engineered unified data models and processing logic to improve consistency and reduce overhead, decreasing development lead time by 80% for 12+ modules."
-            ]
+            title: "Established a unified \"source of truth\" for prior authorization requirements,",
+            detail: "eliminating fragmentation across 12+ product modules and reducing new development lead time by ~80%."
           },
           {
-            title: "Modernized Medical Necessity guideline review integrations",
-            bulletPoints: [
-              "Payers use Medical Necessity Guideline integrations with MCG, InterQual etc. to review appropriateness of requested care for the patient's clinical scenario.",
-              "Led modernization of Epic's Medical Necessity Guideline Review integrations using SMART on FHIR. Engineered full-stack emulator, reducing defects by 60%.",
-              "Recognized expert on Medical Necessity Review and SMART on FHIR at Epic."
-            ]
+            title: "Architected standardized data models and execution frameworks",
+            detail: "to replace inconsistent one-off implementations, significantly improving maintainability and cross-team scalability."
+          },
+          {
+            title: "Modernized Medical Necessity guideline integrations (MCG, InterQual)",
+            detail: "using SMART on FHIR, enabling real-time clinical decision workflows and reducing integration defects by ~60%."
+          },
+          {
+            title: "Built internal simulation and testing frameworks",
+            detail: "to emulate third-party systems, enabling end-to-end validation of FHIR workflows, proactively eliminating defects, and accelerating partner onboarding."
           }
         ]
       },
@@ -67,31 +65,24 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "Aug. 2010 - March 2021",
+        summary: "Lead developer and architect for mission-critical clinical decision support integrations and mobile infrastructure. Directed adoption of modern FHIR-based clinical decision support standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
-            title: "Enabled Push Notifications for all Epic Mobile Apps",
-            bulletPoints: [
-              "Led team of staff and interns developing broker service routing all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM.",
-              "Designed with high-availability and redundancy. Among the first Epic production applications deployed on Azure reducing cost by over a factor of 10.",
-              "Responsible for oversight and production deployment for three years with traffic in millions per week and minimal downtime.",
-            ]
+            title: "Led architecture for Epic's mobile push notification broker service",
+            detail: "routing millions of weekly notifications via APNS and GCM. Designed for high availability as one of Epic's first Azure-native production services, reducing operational costs by over 90%."
           },
           {
             needPadding: true,
-            title: "Centralized 3ʳᵈ Party Web Application integrations across Epic",
-            bulletPoints: [
-              "Advocated for and centralized all third party web application integrations across Epic into a single framework for accountability, security, and maintainability.",
-              "Developed and deployed web applications to validate Content Security Policy, Cross Origin Resource Sharing, and a Web Messaging API suite.",
-              "Recognized expert in Web App Integrations and Security at Epic."
-            ]
+            title: "Centralized 3rd-party web application integration frameworks",
+            detail: "across the enterprise to improve security and maintainability. Developed a suite of validation tools for Content Security Policy (CSP), CORS, and Web Messaging APIs."
           },
           {
-            title: "Architected Epic's CDS Web Service integration framework",
-            bulletPoints: [
-              "Architect of all Epic Clinical Decision Support (CDS) Web Service integration capabilities. Includes HL7 FHIR CDS-Hooks and HL7 CDA-based integrations.",
-              "Redesigned the decision support configuration to mirror user mental-model. Developed feedback mechanism for providers to gauge efficacy of decision support.",
-              "Recognized expert in CDS-Hooks and REST-ful Web Services at Epic."
-            ]
+            title: "Architected Epic's clinical decision support (CDS) web services",
+            detail: "leveraging HL7 FHIR, CDS Hooks, and CDA standards. Redesigned configuration models to align with clinical mental models and implemented efficacy feedback loops for providers."
+          },
+          {
+            title: "Recognized as a Subject Matter Expert",
+            detail: "in Web App Security and RESTful integration at Epic, providing technical oversight for cross-application security standards and third-party vendor onboarding."
           }
         ]
       },
@@ -99,27 +90,15 @@ export const resumeData: Resume = {
         company: "University of Wisconsin - Madison, WI",
         title: "Research Assistant, Condor Distributed Computing",
         timeFrame: "Sept. 2008 - May 2010",
-        experiences: [
-          {
-            title: "",
-            bulletPoints: [
-              "Virtualized Condor jobs with VMware achieving deterministic runtime environments."
-            ]
-          }
-        ]
+        summary: "Virtualized Condor jobs with VMware achieving deterministic runtime environments.",
+        experiences: []
       },
       {
         company: "Cisco Systems - Bangalore, India",
         title: "Software Engineer, Enterprise Routing",
         timeFrame: "June 2006 - July 2008",
-        experiences: [
-          {
-            title: "",
-            bulletPoints: [
-              "Platform engineering and configuration tooling for Cisco's enterprise class routers."
-            ]
-          }
-        ]
+        summary: "Platform engineering and configuration tooling for Cisco's enterprise class routers.",
+        experiences: []
       }
     ],
     involvement: [
@@ -134,6 +113,10 @@ export const resumeData: Resume = {
       {
         ItemTitle: "HL7 CDS Hooks and SMART on FHIR",
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
+      },
+      {
+        ItemTitle: "Epic App Orchard Conferences",
+        Description: "Presented on CDS Hooks and CDS web service integration capabilities to educate and onboard third-party vendors."
       },
       {
         ItemTitle: "Epic Recruitment",

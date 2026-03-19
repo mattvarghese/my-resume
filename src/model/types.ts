@@ -47,13 +47,14 @@ export interface Employment {
   title: string;
   company: string;
   timeFrame: string;
+  summary: string;
   experiences: Experience[];
 }
 
 export interface Experience {
   needPadding?: boolean,
   title: string;
-  bulletPoints: string[];
+  detail: string;
 }
 
 export interface Education {

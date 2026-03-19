@@ -1,5 +1,5 @@
 import type { Education } from '../model/types';
-import { FaUniversity, FaCircle } from 'react-icons/fa';
+import { FaUniversity } from 'react-icons/fa';
 
 interface Props {
     education: Education;
@@ -29,9 +29,6 @@ export const DegreeComponent = ({ education }: Props) => {
                 <ul className="flex flex-col gap-1.5 px-1">
                     {education.bulletPoints.map((point, index) => (
                         <li key={index} className="flex items-start gap-2.5">
-                            <span className="mt-1 flex-shrink-0 text-[#4da6a6]">
-                                <FaCircle className="text-[6px]" />
-                            </span>
                             <span className="text-[12px] leading-tight text-slate-700 font-medium">
                                 {point}
                             </span>

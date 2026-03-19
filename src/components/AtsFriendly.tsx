@@ -98,7 +98,7 @@ const AtsWorkExperience = ({ jobs }: { jobs: Employment[] }) => (
 );
 
 const AtsEmploymentComponent = ({ employment }: { employment: Employment }) => (
-    <div className="flex flex-col mb-1 break-inside-avoid">
+    <div className="flex flex-col mb-2 break-inside-avoid">
         <div className="flex justify-between items-baseline">
             <h3 className="text-[14px] font-bold">{employment.company}</h3>
             <span className="text-[11px] font-semibold italic">{employment.timeFrame}</span>
@@ -106,6 +106,14 @@ const AtsEmploymentComponent = ({ employment }: { employment: Employment }) => (
         <div className="text-[12px] font-bold text-slate-700 uppercase leading-none">
             {employment.title}
         </div>
+
+        {/* NEW: Employment Summary for ATS */}
+        {employment.summary && (
+            <p className="text-[11.5px] leading-tight text-slate-800 italic mt-1 mb-1">
+                {employment.summary}
+            </p>
+        )}
+
         <div className="flex flex-col gap-0.5 mt-0.5">
             {employment.experiences.map((exp, idx) => (
                 <AtsExperienceComponent key={idx} experience={exp} />
@@ -116,22 +124,19 @@ const AtsEmploymentComponent = ({ employment }: { employment: Employment }) => (
 
 const AtsExperienceComponent = ({ experience }: { experience: Experience }) => (
     <div className="flex flex-col text-[12px] leading-snug">
-        <div className="flex flex-wrap items-baseline gap-x-2">
-            {experience.title && (
-                <span className="font-bold underline shrink-0">
-                    {experience.title}:
-                </span>
-            )}
+        <div className="flex items-baseline gap-x-1">
+            {/* The Bullet Symbol for ATS readability */}
+            <span className="text-slate-400 font-bold mr-1">•</span>
+
             <div className="text-slate-800">
-                {/* Joins bullets with a middle dot on a single line */}
-                {experience.bulletPoints.map((point, idx) => (
-                    <span key={idx}>
-                        {point}
-                        {idx < experience.bulletPoints.length - 1 && (
-                            <span className="mx-1.5 font-bold text-slate-400"> • </span>
-                        )}
+                {experience.title && (
+                    <span className="font-bold">
+                        {experience.title}:
                     </span>
-                ))}
+                )}
+                <span className="ml-1">
+                    {experience.detail}
+                </span>
             </div>
         </div>
     </div>

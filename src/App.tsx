@@ -4,6 +4,8 @@ import { FormattedResume } from './components/FormattedResume';
 import { AtsFriendly } from './components/AtsFriendly';
 import { TimelineView } from './components/TimelineView';
 
+// React icons reference: https://react-icons.github.io/react-icons/icons/fa/
+
 const App = () => {
   return (
     <BrowserRouter>
