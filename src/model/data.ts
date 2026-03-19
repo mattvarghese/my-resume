@@ -3,7 +3,7 @@ import type { Resume } from './types';
 export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
-    title: "Software Systems Architect | Senior Engineer",
+    title: "Software Systems Architect",
     summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable health platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
@@ -15,16 +15,16 @@ export const resumeData: Resume = {
     skillSet: {
       groups: [
         {
-          group: "Interoperability & Standards",
-          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
-        },
-        {
           group: "Architecture & Infrastructure",
           skills: ["SDLC", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainable Architecture"]
         },
         {
           group: "Engineering Stack",
           skills: ["TypeScript", "React", "Web API", "Node", ".NET/C#", "Git & SVN", "SQL & NoSQL", "Linux & Windows"]
+        },
+        {
+          group: "Interoperability & Standards",
+          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
         },
         {
           group: "Specialized Expertise",
