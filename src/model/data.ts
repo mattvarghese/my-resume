@@ -28,7 +28,7 @@ export const resumeData: Resume = {
         },
         {
           group: "Specialized Expertise",
-          skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing", "Encryption & Auth standards"]
+          skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing"]
         }
       ]
     },
@@ -64,7 +64,7 @@ export const resumeData: Resume = {
       {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
-        timeFrame: "Aug. 2010 - March 2021",
+        timeFrame: "August 2010 - March 2021",
         summary: "Architect for mission-critical clinical decision support integrations and mobile infrastructure. Directed adoption of modern FHIR-based clinical decision support standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
@@ -89,7 +89,7 @@ export const resumeData: Resume = {
       {
         company: "University of Wisconsin - Madison, WI",
         title: "Research Assistant, Condor Distributed Computing",
-        timeFrame: "Sept. 2008 - May 2010",
+        timeFrame: "Sept 2008 - May 2010",
         summary: "Virtualized Condor jobs with VMware achieving deterministic runtime environments.",
         experiences: []
       },
