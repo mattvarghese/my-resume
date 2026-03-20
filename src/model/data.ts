@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable health platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing health plan prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -37,11 +37,11 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Software Systems Architect, Health Plans",
         timeFrame: "March 2021 - Present",
-        summary: "Architect for Epic's HL7 FHIR-based CMS 2027 regulatory platform, defining how health plans implement real-time prior authorization workflows across CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
+        summary: "Architect for Epic's HL7 FHIR-based CMS 2027 regulatory platform, defining how health plans implement real-time prior authorization workflows using HL7 CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
         experiences: [
           {
             title: "Led architecture and delivery",
-            detail: "of Epic's payer interoperability platform for CMS 2027, collaborating with HL7 Da Vinci workgroups and external vendors to refine and operationalize evolving standards."
+            detail: "of Epic's payer interoperability platform for CMS 2027, collaborating with internal teams, HL7 Da Vinci workgroups, and external vendors to refine and operationalize evolving standards."
           },
           {
             title: "Established a unified \"source of truth\" for prior authorization requirements,",
@@ -53,11 +53,11 @@ export const resumeData: Resume = {
           },
           {
             title: "Modernized Medical Necessity guideline integrations (MCG, InterQual)",
-            detail: "using SMART on FHIR, enabling real-time clinical decision workflows and reducing integration defects by ~60%."
+            detail: "using SMART on FHIR single sign-on, enabling real-time clinical decision workflows and reducing integration defects by ~60%."
           },
           {
             title: "Built internal simulation and testing frameworks",
-            detail: "to emulate third-party systems, enabling end-to-end validation of FHIR workflows, proactively eliminating defects, and accelerating partner onboarding."
+            detail: "to emulate third-party systems, enabling end-to-end workflow validation, proactively eliminating defects, and accelerating partner onboarding."
           }
         ]
       },
@@ -65,11 +65,11 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "Aug. 2010 - March 2021",
-        summary: "Lead developer and architect for mission-critical clinical decision support integrations and mobile infrastructure. Directed adoption of modern FHIR-based clinical decision support standards and pioneered Epic's first high-availability cloud service on Azure.",
+        summary: "Architect for mission-critical clinical decision support integrations and mobile infrastructure. Directed adoption of modern FHIR-based clinical decision support standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
-            title: "Led architecture for Epic's mobile push notification broker service",
-            detail: "routing millions of weekly notifications via APNS and GCM. Designed for high availability as one of Epic's first Azure-native production services, reducing operational costs by over 90%."
+            title: "Architect of Epic's high-availability mobile push notifications platform,",
+            detail: "routing millions of weekly notifications via APNS and GCM. Oversaw deployment as one of Epic's first Azure-native production services, reducing operational costs by over 90%."
           },
           {
             needPadding: true,
@@ -82,7 +82,7 @@ export const resumeData: Resume = {
           },
           {
             title: "Recognized as a Subject Matter Expert",
-            detail: "in Web App Security and RESTful integration at Epic, providing technical oversight for cross-application security standards and third-party vendor onboarding."
+            detail: "in Web App Security and RESTful integrations at Epic, providing technical oversight for cross-application security standards and third-party vendor onboarding."
           }
         ]
       },
@@ -127,8 +127,8 @@ export const resumeData: Resume = {
       {
         title: "FHIR-based AI Assistant",
         description: [
-          "Demonstrates seamless integration of LLM APIs with HL7 FHIR for agentic use-cases.",
-          "LLM chat web app to answer provider and patient questions using real EHR data.",
+          "Integrate LLM APIs with electronic patient health record for agentic use-cases.",
+          "LLM chat web app answers provider and patient questions using real FHIR data.",
           "Can be leveraged for AI driven forms, clinical decision support, care delivery, etc."
         ],
         timeFrame: "2025 Q2",
@@ -138,8 +138,8 @@ export const resumeData: Resume = {
         title: "JSON Parser for M/Caché",
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
-          "RFC-compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
-          "Nearly half of all Epic's database AI integrations leverage this library."
+          "RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
+          "Over 30 of Epic's database AI integrations leverage this serializer and deserializer."
         ],
         timeFrame: "2020",
         url: ""
@@ -147,8 +147,8 @@ export const resumeData: Resume = {
       {
         title: "Web Based SSH Client",
         description: [
-          "Out-of-the-box solutioning for real world cost reduction avoiding remote-app licenses for moderated shell / text access to servers.",
-          "Proof of concept fully browser-based SSH client for unix servers, Caché etc.",
+          "Non-traditional solution for real world cost reduction avoiding remote-app licenses for moderated shell / text access to servers.",
+          "Proof of concept fully browser-based SSH client for unix servers and Caché databases.",
         ],
         timeFrame: "2025 Q3",
         url: "https://github.com/mattvarghese/WebSSHClient"
@@ -157,7 +157,7 @@ export const resumeData: Resume = {
         title: "HTTP Auto-responder",
         description: [
           "Development tooling for Web APIs, keeping traffic within the enterprise or local network.",
-          "REST-ful endpoint allowing auto-responding and logging for common HTTP verbs.",
+          "Configurable endpoint allows simultaneous multi-user testing of REST APIs.",
         ],
         timeFrame: "2024 Q4",
         url: "https://github.com/mattvarghese/HttpResponder"
@@ -195,7 +195,7 @@ export const resumeData: Resume = {
       "Novice (H2) rated hang-glider pilot",
       "Solo endorsed VFR student pilot",
       "ASA 101,103/104,105 rated sailor",
-      "Learned Elementary Russian as adult",
+      "Learned Elementary Russian as an adult",
       "Avid reader, ice-skating, volleyball, XC-skiing, bicycling"
     ],
     degrees: [
