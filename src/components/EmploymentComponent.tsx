@@ -8,7 +8,7 @@ interface Props {
 
 export const EmploymentComponent = ({ employment }: Props) => {
   return (
-    <div className="flex flex-col mb-4 last:mb-0 experience-item mt-3">
+    <div className="flex flex-col mb-4 last:mb-0 experience-item mt-2">
       {/* Main Job Title */}
       <h3 className="text-xl font-bold text-slate-950 leading-none tracking-tight">
         {employment.title}
@@ -38,7 +38,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
           <div key={index}>
             {exp.needPadding && (
               <div className="hidden print:block">
-                <div className="p-4" />
+                <div className="p-5" />
                 <div className="p-5" />
               </div>
             )}

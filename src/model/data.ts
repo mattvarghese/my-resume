@@ -65,24 +65,28 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "August 2010 - March 2021",
-        summary: "Architect for mission-critical clinical decision support integrations and mobile infrastructure. Directed adoption of modern FHIR-based clinical decision support standards and pioneered Epic's first high-availability cloud service on Azure.",
+        summary: "Architect for clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern FHIR-based interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
             title: "Architect of Epic's high-availability mobile push notifications platform,",
-            detail: "routing millions of weekly notifications via APNS and GCM. Oversaw deployment as one of Epic's first Azure-native production services, reducing operational costs by over 90%."
+            detail: "routing millions of weekly notifications via APNS and GCM. Pioneered deployment as one of Epic's first Azure-native production services, reducing operational costs by over 90%."
           },
           {
             needPadding: true,
-            title: "Centralized 3rd-party web application integration frameworks",
-            detail: "across the enterprise to improve security and maintainability. Developed a suite of validation tools for Content Security Policy (CSP), CORS, and Web Messaging APIs."
+            title: "Led enterprise-wide centralization of 3rd-party web application integrations",
+            detail: "to establish standards for security and maintainability. Developed a suite of validation tools for Content Security Policy (CSP), CORS, and Web Messaging APIs."
           },
           {
-            title: "Architected Epic's clinical decision support (CDS) web services",
-            detail: "leveraging HL7 FHIR, CDS Hooks, and CDA standards. Redesigned configuration models to align with clinical mental models and implemented efficacy feedback loops for providers."
+            title: "Architected Epic's CDS web services framework,",
+            detail: "enabling standards-based clinical decision support across multiple clinical applications using HL7 FHIR and CDS Hooks."
           },
           {
-            title: "Recognized as a Subject Matter Expert",
-            detail: "in Web App Security and RESTful integrations at Epic, providing technical oversight for cross-application security standards and third-party vendor onboarding."
+            title: "Redesigned decision support configuration",
+            detail: "to align with clinical mental models, improving usability and enabling efficacy feedback loops for providers."
+          },
+          {
+            title: "Recognized subject matter expert in Web App Security and RESTful integrations,",
+            detail: "providing architectural guidance to multiple teams and onboarding external vendors."
           }
         ]
       },
@@ -117,6 +121,10 @@ export const resumeData: Resume = {
       {
         ItemTitle: "Epic App Orchard Conferences",
         Description: "Presented on CDS Hooks and CDS web service integration capabilities to educate and onboard third-party vendors."
+      },
+      {
+        ItemTitle: "Epic Mentoring",
+        Description: "Mentored engineers and interns across multiple teams, driving adoption of architectural best practices and development of high-performing teams."
       },
       {
         ItemTitle: "Epic Recruitment",
