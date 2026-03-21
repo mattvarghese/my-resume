@@ -15,7 +15,7 @@ export const IndustryOutreach: React.FC<IndustryOutreachProps> = ({ involvement 
                     <FaDna />
                 </div>
                 <h2 className="text-xl font-bold text-slate-800 uppercase tracking-widest leading-none">
-                    Industry & Outreach
+                    Collaboration & Outreach
                 </h2>
             </div>
 
@@ -29,7 +29,7 @@ export const IndustryOutreach: React.FC<IndustryOutreachProps> = ({ involvement 
                         </div>
 
                         {/* Combined Paragraph Text */}
-                        <p className="text-[12px] leading-snug text-slate-700 font-medium">
+                        <p className="text-[12px] leading-relaxed text-slate-700 font-medium">
                             <span className="text-[13.5px] font-bold text-slate-950 mr-1">
                                 {item.ItemTitle}:
                             </span>

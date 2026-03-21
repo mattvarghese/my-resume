@@ -7,7 +7,7 @@ interface Props {
 
 export const SkillList = ({ skillSet }: Props) => {
   return (
-    <section className="flex flex-col gap-2">
+    <section className="flex flex-col gap-1 mt-2">
       {/* Icon and Title */}
       <div className="flex items-center gap-3 mb-1">
         <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
@@ -18,9 +18,9 @@ export const SkillList = ({ skillSet }: Props) => {
         </h2>
       </div>
 
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-2">
         {skillSet.groups.map((group, index) => (
-          <div key={index} className="flex flex-col gap-1.5">
+          <div key={index} className="flex flex-col gap-1">
             <div>
               {/* Pillbox with Icon Inside */}
               <span className="inline-flex items-center gap-1 bg-slate-400 text-white text-[10px] font-bold pl-1.5 pr-3 py-1 pb-0.5 rounded-sm tracking-tight">

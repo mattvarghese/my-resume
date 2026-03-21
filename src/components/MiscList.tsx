@@ -18,7 +18,7 @@ export const MiscList = ({ misc }: Props) => {
             </div>
 
             {/* Vertical Bullet List */}
-            <ul className="flex flex-col gap-0.5 pl-1">
+            <ul className="flex flex-col gap-1 pl-1">
                 {misc.map((item, index) => (
                     <li key={index} className="flex items-start gap-1">
                         {/* Custom Bullet Icon */}

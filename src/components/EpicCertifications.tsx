@@ -18,7 +18,7 @@ export const EpicCertifications = ({ certifications }: Props) => {
             </div>
 
             {/* The Paragraph Block */}
-            <p className="px-0.5 text-[11px] text-slate-700 font-medium leading-snug">
+            <p className="px-0.5 text-[11px] text-slate-700 font-medium leading-relaxed">
                 {certifications.map((cert, index) => (
                     <span key={index}>
                         {/* Standard span allows natural wrapping between words if a certification is very long, 

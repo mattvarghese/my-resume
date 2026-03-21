@@ -20,15 +20,15 @@ export const resumeData: Resume = {
         },
         {
           group: "Engineering Stack",
-          skills: ["TypeScript", "React", "Web API", "Node", ".NET/C#", "Git & SVN", "SQL & NoSQL", "Linux & Windows"]
-        },
-        {
-          group: "Interoperability & Standards",
-          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
+          skills: ["TypeScript", "React", "Web API", "Node", ".NET/C#", "C/C++", "Python", "Git & SVN", "ANSI-M", "SQL & NoSQL", "Linux & Windows"]
         },
         {
           group: "Specialized Expertise",
           skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing"]
+        },
+        {
+          group: "Interoperability & Standards",
+          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
         }
       ]
     },
@@ -153,6 +153,7 @@ export const resumeData: Resume = {
         url: ""
       },
       {
+        needPadding: true,
         title: "Web Based SSH Client",
         description: [
           "Non-traditional solution for real world cost reduction avoiding remote-app licenses for moderated shell / text access to servers.",
@@ -181,7 +182,6 @@ export const resumeData: Resume = {
         url: "https://github.com/mattvarghese/coconut"
       },
       {
-        needPadding: true,
         title: "This Resume!",
         description: [
           "Think different! Resume developed as print-media web application with AI assistance."
