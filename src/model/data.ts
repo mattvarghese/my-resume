@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing health plan prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's industry standards based regulatory implementation, streamlining health plan prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain research and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -37,11 +37,11 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Software Systems Architect, Health Plans",
         timeFrame: "March 2021 - Present",
-        summary: "Architect for Epic's HL7 FHIR-based CMS 2027 regulatory platform, defining how health plans implement real-time prior authorization workflows using HL7 CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
+        summary: "Architect for Epic's industry standards based regulatory platform, defining how health plans implement real-time prior authorization workflows using HL7 CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
         experiences: [
           {
             title: "Led architecture and delivery",
-            detail: "of Epic's payer interoperability platform for CMS 2027, collaborating with internal teams, HL7 Da Vinci workgroups, and external vendors to refine and operationalize evolving standards."
+            detail: "of Epic's payer interoperability platform for CMS 2027, collaborating with internal teams, industry standards workgroups, and external vendors to refine and operationalize evolving standards."
           },
           {
             title: "Established a unified \"source of truth\" for prior authorization requirements,",
@@ -52,8 +52,8 @@ export const resumeData: Resume = {
             detail: "to replace inconsistent one-off implementations, significantly improving maintainability and cross-team scalability."
           },
           {
-            title: "Modernized Medical Necessity guideline integrations (MCG, InterQual)",
-            detail: "using SMART on FHIR single sign-on, enabling real-time clinical decision workflows and reducing integration defects by ~60%."
+            title: "Modernized Medical Necessity guideline review integrations",
+            detail: "using OAuth2 based single sign-on standards, enabling real-time clinical decision workflows and reducing integration defects by ~60%."
           },
           {
             title: "Built internal simulation and testing frameworks",
@@ -65,7 +65,7 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "August 2010 - March 2021",
-        summary: "Architect for clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern FHIR-based interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
+        summary: "Architect for clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern healthcare interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
             title: "Architect of Epic's high-availability mobile push notifications platform,",
@@ -77,12 +77,12 @@ export const resumeData: Resume = {
             detail: "to establish standards for security and maintainability. Developed a suite of validation tools for Content Security Policy (CSP), CORS, and Web Messaging APIs."
           },
           {
-            title: "Architected Epic's CDS web services framework,",
-            detail: "enabling standards-based clinical decision support across multiple clinical applications using HL7 FHIR and CDS Hooks."
+            title: "Architected Epic's decision support web services framework,",
+            detail: "enabling standards-based clinical decision support across multiple clinical applications."
           },
           {
             title: "Redesigned decision support configuration",
-            detail: "to align with clinical mental models, improving usability and enabling efficacy feedback loops for providers."
+            detail: "to align with user mental models, improving usability and enabling efficacy feedback loops for doctors."
           },
           {
             title: "Recognized subject matter expert in Web App Security and RESTful integrations,",
@@ -107,20 +107,20 @@ export const resumeData: Resume = {
     ],
     involvement: [
       {
-        ItemTitle: "HL7 FHIR Connectathons",
-        Description: "Developed prototypes of HL7 specifications in collaboration with participants from other vendors to improve interoperability."
+        ItemTitle: "Health Industry Hackathons",
+        Description: "Developed prototypes of industry specifications in collaboration with participants from other vendors to improve interoperability."
       },
       {
-        ItemTitle: "HL7 Da Vinci Burden Reduction",
-        Description: "Represented Epic on public calls steering development of standards to reduce administrative burden in Prior Authorization."
+        ItemTitle: "Prior Authorization Burden Reduction",
+        Description: "Represented Epic on public calls steering development of standards to reduce admin burden in Prior Authorization."
       },
       {
-        ItemTitle: "HL7 CDS Hooks and SMART on FHIR",
+        ItemTitle: "Authoring Industry Standards",
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
-        ItemTitle: "Epic App Orchard Conferences",
-        Description: "Presented on CDS Hooks and CDS web service integration capabilities to educate and onboard third-party vendors."
+        ItemTitle: "Epic Vendor Conferences",
+        Description: "Presented several-years on Epic's web service integration capabilities to educate and onboard third-party vendors."
       },
       {
         ItemTitle: "Epic Mentoring",
@@ -128,25 +128,25 @@ export const resumeData: Resume = {
       },
       {
         ItemTitle: "Epic Recruitment",
-        Description: "Represented Epic at university career fairs and conducted candidate interviews to attract top talent to Epic."
+        Description: "Attracted top talent to Epic by representing Epic at university career fairs and conducting candidate interviews."
       }
     ],
     projects: [
       {
-        title: "FHIR-based AI Assistant",
+        title: "Healthcare AI Assistant",
         description: [
           "Integrate LLM APIs with electronic patient health record for agentic use-cases.",
-          "LLM chat web app answers provider and patient questions using real FHIR data.",
-          "Can be leveraged for AI driven forms, clinical decision support, care delivery, etc."
+          "LLM chat web app answers doctor and patient questions using real health data.",
+          "Can be leveraged for AI driven forms, AI decision support, AI care delivery, etc."
         ],
         timeFrame: "2025 Q2",
         url: ""
       },
       {
-        title: "JSON Parser for M/Caché",
+        title: "JSON Parser for ANSI-M",
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
-          "RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
+          "Created RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M.",
           "Over 30 of Epic's database AI integrations leverage this serializer and deserializer."
         ],
         timeFrame: "2020",
@@ -156,8 +156,8 @@ export const resumeData: Resume = {
         needPadding: true,
         title: "Web Based SSH Client",
         description: [
-          "Non-traditional solution for real world cost reduction avoiding remote-app licenses for moderated shell / text access to servers.",
-          "Proof of concept fully browser-based SSH client for unix servers and Caché databases.",
+          "Non-traditional solution for real world cost reduction avoiding remote-app licenses for moderated shell access to servers.",
+          "Demonstrated proof of concept fully browser-based SSH client for unix servers.",
         ],
         timeFrame: "2025 Q3",
         url: "https://github.com/mattvarghese/WebSSHClient"
@@ -166,7 +166,7 @@ export const resumeData: Resume = {
         title: "HTTP Auto-responder",
         description: [
           "Development tooling for Web APIs, keeping traffic within the enterprise or local network.",
-          "Configurable endpoint allows simultaneous multi-user testing of REST APIs.",
+          "Configurable endpoint allows simultaneous multi-user testing of RESTful APIs.",
         ],
         timeFrame: "2024 Q4",
         url: "https://github.com/mattvarghese/HttpResponder"
