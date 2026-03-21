@@ -200,7 +200,7 @@ export const resumeData: Resume = {
       "Tapestry Health Plan Suite"
     ],
     misc: [
-      "Novice (H2) rated hang-glider pilot",
+      "USHPA Novice (H2) rated hang-glider pilot",
       "Solo endorsed VFR student pilot",
       "ASA 101,103/104,105 rated sailor",
       "Learned Elementary Russian as an adult",
