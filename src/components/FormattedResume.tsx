@@ -9,7 +9,8 @@ import { ProjectList } from './ProjectList';
 import { EpicCertifications } from './EpicCertifications';
 import { MiscList } from './MiscList';
 import { DegreeList } from './DegreeList';
-import { IndustryOutreach } from './IndustryOutreach';
+import { KeyProjects } from './KeyProjects';
+import { Collaboration } from './Collaboration';
 
 export const FormattedResume = () => {
     const data: Resume = resumeData;
@@ -23,8 +24,10 @@ export const FormattedResume = () => {
                 {/* Left Column */}
                 <main className="w-[66%] flex flex-col p-1 gap-1 ">
                     <PersonSummary person={data.person} />
-                    <WorkExperience jobs={data.person.jobs} />
-                    <IndustryOutreach involvement={resumeData.person.involvement} />
+                    <WorkExperience jobs={data.person.jobs} title="Work Experience" />
+                    <KeyProjects projects={data.person.keyProjects} />
+                    {/* <IndustryOutreach involvement={resumeData.person.involvement} /> */}
+                    <WorkExperience jobs={data.person.priorJobs} title="Prior Experience" tight />
                     <DegreeList degrees={data.person.degrees} />
                 </main>
 
@@ -33,11 +36,12 @@ export const FormattedResume = () => {
                     <PersonContact connections={data.person.connections} />
                     <SideBar>
                         <SkillList skillSet={data.person.skillSet} />
+                        <Collaboration involvement={resumeData.person.involvement} />
                         <ProjectList projects={data.person.projects} />
                         <EpicCertifications certifications={data.person.epicCertifications} />
                         <MiscList misc={data.person.misc} />
                         {/* extra padding for sidebar if required */}
-                        <div className="hidden print:flex flex-col items-end pb-6 pt-26">
+                        <div className="hidden print:flex flex-col items-end pb-5 pt-5">
                             <span className="text-[10px] font-serif font-bold uppercase tracking-widest text-slate-500 px-9">
                                 Page 2 <span className="text-[#4da6a6] mx-1">|</span> 2
                             </span>

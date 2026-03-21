@@ -13,7 +13,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
   return (
     <div className={`
       flex flex-col last:mb-0 experience-item 
-      ${isDeemphasized ? 'mt-1 mb-1' : 'mt-2 mb-4'} 
+      ${isDeemphasized ? 'ml-1 mt-1 mb-1' : 'mt-2 mb-4'} 
     `}>
       {/* Main Job Title: text-xl for standard, text-md for de-emphasized */}
       <h3 className={`font-bold text-slate-950 leading-none tracking-tight ${isDeemphasized ? 'text-md' : 'text-xl'

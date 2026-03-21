@@ -89,7 +89,9 @@ export const resumeData: Resume = {
             detail: "providing architectural guidance to multiple teams and onboarding external vendors."
           }
         ]
-      },
+      }
+    ],
+    priorJobs: [
       {
         company: "University of Wisconsin - Madison, WI",
         title: "Research Assistant, Condor Distributed Computing",
@@ -112,15 +114,16 @@ export const resumeData: Resume = {
       },
       {
         ItemTitle: "HL7 Da Vinci Burden Reduction",
-        Description: "Represented Epic on public calls steering development of standards to reduce administrative burden in Prior Authorization."
+        Description: "Represented Epic on public calls steering development of standards to reduce admin burden in Prior Authorization."
       },
       {
-        ItemTitle: "HL7 CDS Hooks and SMART on FHIR",
+        ItemTitle: "HL7 CDS Hooks, SMART on FHIR",
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
+        needPadding: true,
         ItemTitle: "Epic App Orchard Conferences",
-        Description: "Presented on CDS Hooks and CDS web service integration capabilities to educate and onboard third-party vendors."
+        Description: "Presented thrice on CDS Hooks and CDS web service integration capabilities to educate and onboard third-party vendors."
       },
       {
         ItemTitle: "Epic Mentoring",
@@ -128,16 +131,16 @@ export const resumeData: Resume = {
       },
       {
         ItemTitle: "Epic Recruitment",
-        Description: "Represented Epic at university career fairs and conducted candidate interviews to attract top talent to Epic."
+        Description: "Attracted top talent to Epic by representing Epic at university career fairs and conducting candidate interviews."
       }
     ],
-    projects: [
+    keyProjects: [
       {
         title: "FHIR-based AI Assistant",
         description: [
           "Integrate LLM APIs with electronic patient health record for agentic use-cases.",
           "LLM chat web app answers provider and patient questions using real FHIR data.",
-          "Can be leveraged for AI driven forms, clinical decision support, care delivery, etc."
+          "Can be leveraged for AI driven forms, AI decision support, AI care delivery, etc."
         ],
         timeFrame: "2025 Q2",
         url: ""
@@ -146,12 +149,24 @@ export const resumeData: Resume = {
         title: "JSON Parser for M/Caché",
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
-          "RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
+          "Created RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
           "Over 30 of Epic's database AI integrations leverage this serializer and deserializer."
         ],
         timeFrame: "2020",
         url: ""
       },
+      {
+        title: "MIPS Pipeline Simulator",
+        description: [
+          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
+          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
+          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
+        ],
+        timeFrame: "2005, 2025",
+        url: "https://github.com/mattvarghese/coconut"
+      }
+    ],
+    projects: [
       {
         needPadding: true,
         title: "Web Based SSH Client",
@@ -166,20 +181,10 @@ export const resumeData: Resume = {
         title: "HTTP Auto-responder",
         description: [
           "Development tooling for Web APIs, keeping traffic within the enterprise or local network.",
-          "Configurable endpoint allows simultaneous multi-user testing of REST APIs.",
+          "Configurable endpoint allows simultaneous multi-user testing of RESTful APIs.",
         ],
         timeFrame: "2024 Q4",
         url: "https://github.com/mattvarghese/HttpResponder"
-      },
-      {
-        title: "MIPS Pipeline Simulator",
-        description: [
-          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
-          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
-          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
-        ],
-        timeFrame: "2005, 2025",
-        url: "https://github.com/mattvarghese/coconut"
       },
       {
         title: "This Resume!",

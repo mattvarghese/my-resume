@@ -6,7 +6,7 @@ interface Props {
 
 export const MiscList = ({ misc }: Props) => {
     return (
-        <section className="flex flex-col gap-2 mt-2">
+        <section className="flex flex-col gap-1 mt-0">
             {/* Section Header */}
             <div className="flex items-center gap-3">
                 <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
@@ -18,7 +18,7 @@ export const MiscList = ({ misc }: Props) => {
             </div>
 
             {/* Vertical Bullet List */}
-            <ul className="flex flex-col gap-1 pl-1">
+            <ul className="flex flex-col gap-0.5 pl-1">
                 {misc.map((item, index) => (
                     <li key={index} className="flex items-start gap-1">
                         {/* Custom Bullet Icon */}

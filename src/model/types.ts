@@ -11,7 +11,9 @@ export interface Person {
   connections: Connections;
   skillSet: SkillSet;
   projects: Project[];
+  keyProjects: Project[];
   jobs: Employment[];
+  priorJobs: Employment[];
   epicCertifications: string[];
   misc: string[];
   degrees: Education[];
@@ -75,6 +77,7 @@ export interface TimelineEvent {
 }
 
 export interface IndustryInvolvement {
+  needPadding?: boolean,
   ItemTitle: string;
   Description: string;
 }

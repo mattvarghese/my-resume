@@ -7,7 +7,7 @@ interface Props {
 
 export const DegreeComponent = ({ education }: Props) => {
     return (
-        <div className="flex flex-col mb-4 mt-2">
+        <div className="flex flex-col mb-4 mt-1">
             {/* Degree Title */}
             <h3 className="text-md font-bold text-slate-950 leading-none">
                 {education.degree}
