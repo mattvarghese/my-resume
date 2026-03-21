@@ -15,7 +15,7 @@ export const IndustryOutreach: React.FC<IndustryOutreachProps> = ({ involvement 
                     <FaDna />
                 </div>
                 <h2 className="text-xl font-bold text-slate-800 uppercase tracking-widest leading-none">
-                    Collaboration & Outreach
+                    Collaboration
                 </h2>
             </div>
 
