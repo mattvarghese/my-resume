@@ -23,19 +23,6 @@ export const ProjectList = ({ projects }: Props) => {
           /* The project-item class handles the top-padding on new pages */
           <div key={index} className="flex flex-col">
 
-            {/* This is a hack to prevent splitting insdie a project when printing
-              * First DIV fills up the gap onn previous page. 
-              * Second DIV add padding in next page */
-              project.needPadding &&
-              <div className="hidden print:block">
-                <div className="hidden print:flex flex-col items-end pb-5 pt-3">
-                  <span className="text-[10px] font-sans font-bold uppercase tracking-widest text-slate-500 px-9">
-                    Page 1 <span className="text-[#4da6a6] mx-1">|</span> 2
-                  </span>
-                </div>
-                <div className="p-5" />
-              </div>}
-
             {/* Project Title with Icon */}
             <div className="flex items-center gap-2 mb-1">
               <div className="flex-shrink-0 w-5 h-5 border-[1px] border-slate-200 rounded-full flex items-center justify-center text-slate-400 text-[10px]">

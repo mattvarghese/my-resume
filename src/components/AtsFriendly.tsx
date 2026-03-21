@@ -38,8 +38,8 @@ export const AtsFriendly = () => {
                 <AtsPersonContact connections={data.person.connections} />
 
                 <div className="flex flex-col">
-                    <AtsWorkExperience jobs={data.person.jobs} />
-                    <AtsProjectList projects={data.person.projects} />
+                    <AtsWorkExperience jobs={[...data.person.jobs, ...data.person.priorJobs]} />
+                    <AtsProjectList projects={[...data.person.keyProjects, ...data.person.projects]} />
                     <AtsIndustryOutreach involvement={data.person.involvement} />
                     <AtsDegreeList degrees={data.person.degrees} />
                     <AtsSkillList skillSet={data.person.skillSet} />

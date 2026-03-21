@@ -89,7 +89,9 @@ export const resumeData: Resume = {
             detail: "providing architectural guidance to multiple teams and onboarding external vendors."
           }
         ]
-      },
+      }
+    ],
+    priorJobs: [
       {
         company: "University of Wisconsin - Madison, WI",
         title: "Research Assistant, Condor Distributed Computing",
@@ -111,7 +113,7 @@ export const resumeData: Resume = {
         Description: "Developed prototypes of industry specifications in collaboration with participants from other vendors to improve interoperability."
       },
       {
-        ItemTitle: "Prior Authorization Burden Reduction",
+        ItemTitle: "Prior Auth Burden Reduction",
         Description: "Represented Epic on public calls steering development of standards to reduce admin burden in Prior Authorization."
       },
       {
@@ -119,8 +121,9 @@ export const resumeData: Resume = {
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
+        needPadding: true,
         ItemTitle: "Epic Vendor Conferences",
-        Description: "Presented several-years on Epic's web service integration capabilities to educate and onboard third-party vendors."
+        Description: "Presented for several years on Epic's web service integration capabilities to educate and onboard third-party vendors."
       },
       {
         ItemTitle: "Epic Mentoring",
@@ -131,7 +134,7 @@ export const resumeData: Resume = {
         Description: "Attracted top talent to Epic by representing Epic at university career fairs and conducting candidate interviews."
       }
     ],
-    projects: [
+    keyProjects: [
       {
         title: "Healthcare AI Assistant",
         description: [
@@ -153,6 +156,18 @@ export const resumeData: Resume = {
         url: ""
       },
       {
+        title: "MIPS Pipeline Simulator",
+        description: [
+          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
+          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
+          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
+        ],
+        timeFrame: "2005, 2025",
+        url: "https://github.com/mattvarghese/coconut"
+      }
+    ],
+    projects: [
+      {
         needPadding: true,
         title: "Web Based SSH Client",
         description: [
@@ -170,16 +185,6 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2024 Q4",
         url: "https://github.com/mattvarghese/HttpResponder"
-      },
-      {
-        title: "MIPS Pipeline Simulator",
-        description: [
-          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
-          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
-          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
-        ],
-        timeFrame: "2005, 2025",
-        url: "https://github.com/mattvarghese/coconut"
       },
       {
         title: "This Resume!",
