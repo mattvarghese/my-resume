@@ -7,14 +7,14 @@ interface Props {
 
 export const DegreeComponent = ({ education }: Props) => {
     return (
-        <div className="flex flex-col mb-4 mt-1">
+        <div className="flex flex-col mb-4 mt-2">
             {/* Degree Title */}
             <h3 className="text-md font-bold text-slate-950 leading-none">
                 {education.degree}
             </h3>
 
             {/* School Name & Date Range */}
-            <div className="flex justify-between items-baseline mt-1 mb-1">
+            <div className="flex justify-between items-baseline mt-2 mb-1">
                 <div className="flex items-center gap-2 text-md font-medium text-slate-900">
                     <FaUniversity className="text-[#4da6a6] text-sm" />
                     <span>{education.school}</span>

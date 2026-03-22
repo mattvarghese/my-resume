@@ -25,10 +25,6 @@ export const resumeData: Resume = {
         {
           group: "Specialized Expertise",
           skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing"]
-        },
-        {
-          group: "Interoperability & Standards",
-          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
         }
       ]
     },
@@ -121,11 +117,11 @@ export const resumeData: Resume = {
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
-        needPadding: true,
         ItemTitle: "Epic Vendor Conferences",
         Description: "Presented for several years on Epic's web service integration capabilities to educate and onboard third-party vendors."
       },
       {
+        needPadding: true,
         ItemTitle: "Epic Mentoring",
         Description: "Mentored engineers and interns across multiple teams, driving adoption of architectural best practices and development of high-performing teams."
       },
@@ -154,21 +150,10 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2020",
         url: ""
-      },
-      {
-        title: "MIPS Pipeline Simulator",
-        description: [
-          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
-          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
-          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
-        ],
-        timeFrame: "2005, 2025",
-        url: "https://github.com/mattvarghese/coconut"
       }
     ],
     projects: [
       {
-        needPadding: true,
         title: "Web Based SSH Client",
         description: [
           "Non-traditional solution for real world cost reduction avoiding remote-app licenses for moderated shell access to servers.",
@@ -187,12 +172,14 @@ export const resumeData: Resume = {
         url: "https://github.com/mattvarghese/HttpResponder"
       },
       {
-        title: "This Resume 😁",
+        title: "MIPS Pipeline Simulator",
         description: [
-          "Think different! Resume developed as print-media web application with AI assistance."
+          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
+          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
+          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
         ],
-        timeFrame: "2026 Q1",
-        url: "https://github.com/mattvarghese/my-resume"
+        timeFrame: "2005, 2025",
+        url: "https://github.com/mattvarghese/coconut"
       }
     ],
     epicCertifications: [

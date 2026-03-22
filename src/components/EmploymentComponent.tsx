@@ -13,7 +13,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
   return (
     <div className={`
       flex flex-col last:mb-0 experience-item 
-      ${isDeemphasized ? 'ml-1 mt-1 mb-1' : 'mt-2 mb-4'} 
+      ${isDeemphasized ? 'ml-1 mt-2 mb-2' : 'mt-2 mb-4'} 
     `}>
       {/* Main Job Title: text-xl for standard, text-md for de-emphasized */}
       <h3 className={`font-bold text-slate-950 leading-none tracking-tight ${isDeemphasized ? 'text-md' : 'text-xl'
@@ -22,7 +22,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
       </h3>
 
       {/* Company Name & Date Range */}
-      <div className="flex justify-between items-baseline mt-1">
+      <div className="flex justify-between items-baseline mt-2">
         <div className={`flex items-center gap-2 text-slate-900 ${isDeemphasized ? 'text-md font-medium' : 'text-lg font-semibold mb-1'
           }`}>
           <FaShieldAlt className="text-[#4da6a6] text-sm shrink-0" />
@@ -35,7 +35,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
 
       {/* Summary: Scaled down slightly if de-emphasized */}
       {employment.summary && (
-        <p className={`leading-relaxed text-slate-600 font-medium mb-2 ml-1 ${isDeemphasized ? 'text-[11px]' : 'text-[12px]'
+        <p className={`leading-relaxed text-slate-600 font-medium mb-2 ml-1 ${isDeemphasized ? 'text-[12px]' : 'text-[12px]'
           }`}>
           {employment.summary}
         </p>
