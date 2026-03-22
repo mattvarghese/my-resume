@@ -48,7 +48,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
             <div key={index}>
               {exp.needPadding && (
                 <div className="hidden print:block">
-                  <div className="p-5" />
+                  <div className="p-10" />
                   <div className="p-5" />
                 </div>
               )}

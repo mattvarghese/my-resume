@@ -33,7 +33,7 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Software Systems Architect, Health Plans",
         timeFrame: "March 2021 - Present",
-        summary: "Architect for Epic's industry standards based regulatory platform, defining how health plans implement real-time prior authorization workflows using HL7 CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
+        summary: "Architect for large-scale systems enabling expedited decision workflows across hundreds of customers, reducing turnaround from days to near real-time.",
         experiences: [
           {
             title: "Led architecture and delivery",
@@ -117,11 +117,11 @@ export const resumeData: Resume = {
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
+        needPadding: true,
         ItemTitle: "Epic Vendor Conferences",
         Description: "Presented for several years on Epic's web service integration capabilities to educate and onboard third-party vendors."
       },
       {
-        needPadding: true,
         ItemTitle: "Epic Mentoring",
         Description: "Mentored engineers and interns across multiple teams, driving adoption of architectural best practices and development of high-performing teams."
       },
@@ -134,7 +134,7 @@ export const resumeData: Resume = {
       {
         title: "Healthcare AI Assistant",
         description: [
-          "Integrate LLM APIs with electronic patient health record for agentic use-cases.",
+          "Integrates LLM APIs with electronic patient health record for agentic use-cases.",
           "LLM chat web app answers doctor and patient questions using real health data.",
           "Can be leveraged for AI driven forms, AI decision support, AI care delivery, etc."
         ],

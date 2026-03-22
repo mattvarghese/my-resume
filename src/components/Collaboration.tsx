@@ -8,7 +8,7 @@ interface CollaborationProps {
 
 export const Collaboration: React.FC<CollaborationProps> = ({ involvement }) => {
     return (
-        <section className="flex flex-col gap-1 mt-2">
+        <section className="flex flex-col gap-4 mt-2">
             {/* Section Header - Matches ProjectList/WorkExperience */}
             <div className="flex items-center gap-2">
                 <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
@@ -28,7 +28,7 @@ export const Collaboration: React.FC<CollaborationProps> = ({ involvement }) => 
                                   * Second DIV add padding in next page */
                             item.needPadding &&
                             <div className="hidden print:block">
-                                <div className="hidden print:flex flex-col items-end pb-5 pt-2">
+                                <div className="hidden print:flex flex-col items-end pb-5 pt-20">
                                     <span className="text-[10px] font-sans font-bold uppercase tracking-widest text-slate-500 px-9">
                                         Page 1 <span className="text-[#4da6a6] mx-1">|</span> 2
                                     </span>
