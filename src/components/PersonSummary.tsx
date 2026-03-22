@@ -33,7 +33,7 @@ export const PersonSummary = ({ person }: Props) => {
         </h2>
 
         {/* Summary: text-sm remains the standard, but we'll use text-[13px] for extra precision */}
-        <p className="text-[12px] leading-snug text-slate-800 max-w-[98%] font-medium">
+        <p className="text-[12px] leading-snug text-slate-800 max-w-[100%] font-medium">
           {person.summary}
         </p>
       </div>
