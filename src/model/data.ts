@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory implementation, standardizing health plan prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory systems which standardized health plan prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -65,10 +65,10 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "August 2010 - March 2021",
-        summary: "Architect for clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern FHIR-based interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
+        summary: "Developed clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern FHIR-based interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
-            title: "Architect of Epic's high-availability mobile push notifications platform,",
+            title: "Created Epic's high-availability mobile push notifications platform,",
             detail: "routing millions of weekly notifications via APNS and GCM. Pioneered deployment as one of Epic's first Azure-native production services, reducing operational costs by over 90%."
           },
           {
@@ -77,8 +77,8 @@ export const resumeData: Resume = {
             detail: "to establish standards for security and maintainability. Developed a suite of validation tools for Content Security Policy (CSP), CORS, and Web Messaging APIs."
           },
           {
-            title: "Architected Epic's CDS web services framework,",
-            detail: "enabling standards-based clinical decision support across multiple clinical applications using HL7 FHIR and CDS Hooks."
+            title: "Designed & Developed Epic's CDS web services framework,",
+            detail: "enabling standards-based decision support across multiple clinical apps with HL7 FHIR and CDS Hooks."
           },
           {
             title: "Redesigned decision support configuration",
@@ -140,7 +140,7 @@ export const resumeData: Resume = {
         description: [
           "Integrates LLM APIs with electronic patient health record for agentic use-cases.",
           "LLM chat web app answers provider and patient questions using real FHIR data.",
-          "Can be leveraged for AI driven forms, AI decision support, AI care delivery, etc."
+          "Enables AI driven forms, AI decision support, AI care delivery, etc."
         ],
         timeFrame: "2025 Q2",
         url: ""
@@ -150,7 +150,7 @@ export const resumeData: Resume = {
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
           "Created RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
-          "Over 30 of Epic's database AI integrations leverage this serializer and deserializer."
+          "Serves as a foundation for 30+ database AI integrations across Epic."
         ],
         timeFrame: "2020",
         url: ""
@@ -158,8 +158,8 @@ export const resumeData: Resume = {
       {
         title: "MIPS Pipeline Simulator",
         description: [
-          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
-          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
+          "Demonstrates deep expertise in low-level systems, architecture, parallelism, and performance.",
+          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal, developed with POSIX, C++, Flex, and Bison in 2005.",
           "In 2025, developed a Small-C compiler above the assembler with AI assistance."
         ],
         timeFrame: "2005, 2025",

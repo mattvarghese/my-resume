@@ -28,12 +28,18 @@ export const Collaboration: React.FC<CollaborationProps> = ({ involvement }) => 
                                   * Second DIV add padding in next page */
                             item.needPadding &&
                             <div className="hidden print:block">
+                                {/* 1. Page marker to push content off the bottom of Page 1 */}
                                 <div className="hidden print:flex flex-col items-end pb-5 pt-13">
                                     <span className="text-[10px] font-sans font-bold uppercase tracking-widest text-slate-500 px-9">
                                         Page 1 <span className="text-[#4da6a6] mx-1">|</span> 2
                                     </span>
                                 </div>
-                                <div className="p-5" />
+                                {/* 2. "Continued" label at the top of Page 2 (Right Justified) */}
+                                <div className="flex pt-5 pb-1 pr-1">
+                                    <span className="text-[10px] font-bold tracking-widest text-slate-400 italic">
+                                        COLLABORATION continued...
+                                    </span>
+                                </div>
                             </div>}
 
                         {/* Title Line: 
