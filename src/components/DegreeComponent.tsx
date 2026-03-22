@@ -7,7 +7,7 @@ interface Props {
 
 export const DegreeComponent = ({ education }: Props) => {
     return (
-        <div className="flex flex-col mb-4 mt-1">
+        <div className="flex flex-col mb-2 mt-1">
             {/* Degree Title */}
             <h3 className="text-md font-bold text-slate-950 leading-none">
                 {education.degree}
@@ -26,7 +26,7 @@ export const DegreeComponent = ({ education }: Props) => {
 
             {/* Bullet Points */}
             {education.bulletPoints.length > 0 && (
-                <ul className="flex flex-col gap-1.5 px-1">
+                <ul className="flex flex-col gap-1 px-1">
                     {education.bulletPoints.map((point, index) => (
                         <li key={index} className="flex items-start gap-2.5">
                             <span className="text-[12px] leading-tight text-slate-700 font-medium">

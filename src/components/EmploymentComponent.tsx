@@ -1,6 +1,7 @@
 import { FaShieldAlt } from 'react-icons/fa'; // Added building icon
 import type { Employment } from '../model/types';
 import { ExperienceComponent } from './ExperienceComponent';
+import { GitHubPointer } from './GitHubPointer';
 
 interface Props {
   employment: Employment;
@@ -13,7 +14,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
   return (
     <div className={`
       flex flex-col last:mb-0 experience-item 
-      ${isDeemphasized ? 'ml-1 mt-1 mb-1' : 'mt-2 mb-4'} 
+      ${isDeemphasized ? 'ml-1 mt-0 mb-0' : 'mt-2 mb-4'} 
     `}>
       {/* Main Job Title: text-xl for standard, text-md for de-emphasized */}
       <h3 className={`font-bold text-slate-950 leading-none tracking-tight ${isDeemphasized ? 'text-md' : 'text-xl'
@@ -35,7 +36,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
 
       {/* Summary: Scaled down slightly if de-emphasized */}
       {employment.summary && (
-        <p className={`leading-relaxed text-slate-600 font-medium mb-2 ml-1 ${isDeemphasized ? 'text-[11px]' : 'text-[12px]'
+        <p className={`leading-relaxed text-slate-600 font-medium mb-2 ml-1 ${isDeemphasized ? 'text-[12px]' : 'text-[12px]'
           }`}>
           {employment.summary}
         </p>
@@ -48,11 +49,11 @@ export const EmploymentComponent = ({ employment }: Props) => {
             <div key={index}>
               {exp.needPadding && (
                 <div className="hidden print:block">
-                  {/* 1. Spacer to push content off the bottom of Page 1 */}
-                  <div className="p-5" />
+                  {/* 1. Spacer and Footer to push content off the bottom of Page 1 */}
+                  <GitHubPointer topPadding={9} leftPadding={0} />
 
                   {/* 2. "Continued" label at the top of Page 2 */}
-                  <div className="pt-4 pb-1 pl-5">
+                  <div className="pt-4 pb-1 pl-0">
                     <span className="text-[10px] font-bold tracking-widest text-slate-400 italic">
                       WORK EXPERIENCE continued...
                     </span>

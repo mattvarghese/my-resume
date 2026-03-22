@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory systems which standardized health plan workflows for prior authorization across hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
+    summary: "Software Systems Architect with 20 years of experience delivering large-scale interoperability platforms. Combines deep architectural leadership with hands-on development across APIs, cloud services, and standards implementations, translating HL7 FHIR specifications into production systems used across hundreds of health plan deployments.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
