@@ -1,6 +1,7 @@
 import { FaShieldAlt } from 'react-icons/fa'; // Added building icon
 import type { Employment } from '../model/types';
 import { ExperienceComponent } from './ExperienceComponent';
+import { GitHubPointer } from './GitHubPointer';
 
 interface Props {
   employment: Employment;
@@ -49,9 +50,9 @@ export const EmploymentComponent = ({ employment }: Props) => {
               {exp.needPadding && (
                 <div className="hidden print:block">
                   {/* 1. Spacer to push content off the bottom of Page 1 */}
-                  <div className="p-10" />
+                  <GitHubPointer topPadding={16} leftPadding={0} />
                   {/* 2. "Continued" label at the top of Page 2 */}
-                  <div className="pt-4 pb-1 pl-5">
+                  <div className="pt-4 pb-1 pl-0">
                     <span className="text-[10px] font-bold tracking-widest text-slate-400 italic">
                       WORK EXPERIENCE continued...
                     </span>
