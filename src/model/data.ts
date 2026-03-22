@@ -61,10 +61,10 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "August 2010 - March 2021",
-        summary: "Architect for clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern healthcare interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
+        summary: "Developed clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern healthcare interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
-            title: "Architect of Epic's high-availability mobile push notifications platform,",
+            title: "Created Epic's high-availability mobile push notifications platform,",
             detail: "routing millions of weekly notifications via APNS and GCM. Pioneered deployment as one of Epic's first Azure-native production services, reducing operational costs by over 90%."
           },
           {
@@ -73,7 +73,7 @@ export const resumeData: Resume = {
             detail: "of 3rd-party web application integrations to establish standards for security and maintainability."
           },
           {
-            title: "Architected Epic's decision support web services framework,",
+            title: "Designed & Developed Epic's decision support web services framework,",
             detail: "enabling standards-based clinical decision support across multiple clinical applications."
           },
           {
@@ -136,7 +136,7 @@ export const resumeData: Resume = {
         description: [
           "Integrates LLM APIs with electronic patient health record for agentic use-cases.",
           "LLM chat web app answers doctor and patient questions using real health data.",
-          "Can be leveraged for AI driven forms, AI decision support, AI care delivery, etc."
+          "Enables AI driven forms, AI decision support, AI care delivery, etc."
         ],
         timeFrame: "2025 Q2",
         url: ""
@@ -146,7 +146,7 @@ export const resumeData: Resume = {
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
           "Created RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M.",
-          "Over 30 of Epic's database AI integrations leverage this serializer and deserializer."
+          "Serves as a foundation for 30+ database AI integrations across Epic."
         ],
         timeFrame: "2020",
         url: ""
@@ -174,7 +174,7 @@ export const resumeData: Resume = {
       {
         title: "MIPS Pipeline Simulator",
         description: [
-          "Highlights expertise in low-level systems, architecture, parallelism, and performance.",
+          "Demonstrates deep expertise in low-level systems, architecture, parallelism, and performance.",
           "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
           "In 2025, developed a Small-C compiler above the assembler with AI assistance."
         ],

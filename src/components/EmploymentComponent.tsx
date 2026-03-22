@@ -48,8 +48,14 @@ export const EmploymentComponent = ({ employment }: Props) => {
             <div key={index}>
               {exp.needPadding && (
                 <div className="hidden print:block">
+                  {/* 1. Spacer to push content off the bottom of Page 1 */}
                   <div className="p-10" />
-                  <div className="p-5" />
+                  {/* 2. "Continued" label at the top of Page 2 */}
+                  <div className="pt-4 pb-1 pl-5">
+                    <span className="text-[10px] font-bold tracking-widest text-slate-400 italic">
+                      WORK EXPERIENCE continued...
+                    </span>
+                  </div>
                 </div>
               )}
               <ExperienceComponent experience={exp} />
