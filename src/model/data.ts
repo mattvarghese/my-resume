@@ -117,11 +117,11 @@ export const resumeData: Resume = {
         Description: "Represented Epic on public calls steering development of standards to reduce admin burden in Prior Authorization."
       },
       {
+        needPadding: true,
         ItemTitle: "HL7 CDS Hooks, SMART on FHIR",
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
-        needPadding: true,
         ItemTitle: "Epic App Orchard Conferences",
         Description: "Presented thrice on CDS Hooks and CDS web service integration capabilities to educate and onboard third-party vendors."
       },
@@ -138,7 +138,7 @@ export const resumeData: Resume = {
       {
         title: "FHIR-based AI Assistant",
         description: [
-          "Integrate LLM APIs with electronic patient health record for agentic use-cases.",
+          "Integrates LLM APIs with electronic patient health record for agentic use-cases.",
           "LLM chat web app answers provider and patient questions using real FHIR data.",
           "Can be leveraged for AI driven forms, AI decision support, AI care delivery, etc."
         ],
@@ -185,14 +185,6 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2024 Q4",
         url: "https://github.com/mattvarghese/HttpResponder"
-      },
-      {
-        title: "This Resume!",
-        description: [
-          "Think different! Resume developed as print-media web application with AI assistance."
-        ],
-        timeFrame: "2026 Q1",
-        url: "https://github.com/mattvarghese/my-resume"
       }
     ],
     epicCertifications: [
