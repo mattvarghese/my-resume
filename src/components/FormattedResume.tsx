@@ -11,6 +11,7 @@ import { MiscList } from './MiscList';
 import { DegreeList } from './DegreeList';
 import { KeyProjects } from './KeyProjects';
 import { Collaboration } from './Collaboration';
+import { EducationList } from './EducationList';
 
 export const FormattedResume = () => {
     const data: Resume = resumeData;
@@ -28,7 +29,7 @@ export const FormattedResume = () => {
                     <KeyProjects projects={data.person.keyProjects} />
                     {/* <IndustryOutreach involvement={resumeData.person.involvement} /> */}
                     <WorkExperience jobs={data.person.priorJobs} title="Prior Experience" tight />
-                    <DegreeList degrees={data.person.degrees} />
+                    {/* <DegreeList degrees={data.person.degrees} /> */}
                 </main>
 
                 {/* Right Column */}
@@ -37,11 +38,12 @@ export const FormattedResume = () => {
                     <SideBar>
                         <SkillList skillSet={data.person.skillSet} />
                         <Collaboration involvement={resumeData.person.involvement} />
-                        <ProjectList projects={data.person.projects} />
+                        {/* <ProjectList projects={data.person.projects} />
                         <EpicCertifications certifications={data.person.epicCertifications} />
-                        <MiscList misc={data.person.misc} />
+                        <MiscList misc={data.person.misc} /> */}
+                        <EducationList degrees={data.person.degrees} />
                         {/* extra padding for sidebar if required */}
-                        <div className="hidden print:flex flex-col items-end pb-5 pt-5">
+                        <div className="hidden print:flex flex-col items-end pb-5 pt-40">
                             <span className="text-[10px] font-serif font-bold uppercase tracking-widest text-slate-500 px-9">
                                 Page 2 <span className="text-[#4da6a6] mx-1">|</span> 2
                             </span>

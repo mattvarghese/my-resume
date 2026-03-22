@@ -8,7 +8,7 @@ interface CollaborationProps {
 
 export const Collaboration: React.FC<CollaborationProps> = ({ involvement }) => {
     return (
-        <section className="flex flex-col gap-1">
+        <section className="flex flex-col gap-4 mt-6">
             {/* Section Header - Matches ProjectList/WorkExperience */}
             <div className="flex items-center gap-2">
                 <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
@@ -19,7 +19,7 @@ export const Collaboration: React.FC<CollaborationProps> = ({ involvement }) => 
                 </h2>
             </div>
 
-            <div className="flex flex-col gap-1 pl-0.5">
+            <div className="flex flex-col gap-4 pl-0.5">
                 {involvement.map((item, index) => (
                     <div key={index} className="relative flex flex-col">
 
@@ -28,7 +28,7 @@ export const Collaboration: React.FC<CollaborationProps> = ({ involvement }) => 
                                   * Second DIV add padding in next page */
                             item.needPadding &&
                             <div className="hidden print:block">
-                                <div className="hidden print:flex flex-col items-end pb-5 pt-8">
+                                <div className="hidden print:flex flex-col items-end pb-5 pt-14">
                                     <span className="text-[10px] font-sans font-bold uppercase tracking-widest text-slate-500 px-9">
                                         Page 1 <span className="text-[#4da6a6] mx-1">|</span> 2
                                     </span>
@@ -55,7 +55,7 @@ export const Collaboration: React.FC<CollaborationProps> = ({ involvement }) => 
                           This allows the text to wrap all the way to the left, 
                           sitting directly under the flame icon.
                         */}
-                        <p className="text-[12px] leading-snug text-slate-700 font-medium">
+                        <p className="text-[12px] leading-relaxed text-slate-700 font-medium">
                             {item.Description}
                         </p>
                     </div>

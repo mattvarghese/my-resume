@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's industry standards based regulatory implementation, streamlining health plan prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain research and rigorous system design.",
+    summary: "Software Systems Architect specializing in large-scale distributed platforms, API ecosystems, and cross-system integrations. Proven track record of driving high-impact solutions across complex environments involving multiple teams, vendors, and evolving standards.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -25,10 +25,6 @@ export const resumeData: Resume = {
         {
           group: "Specialized Expertise",
           skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing"]
-        },
-        {
-          group: "Interoperability & Standards",
-          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
         }
       ]
     },
@@ -117,11 +113,11 @@ export const resumeData: Resume = {
         Description: "Represented Epic on public calls steering development of standards to reduce admin burden in Prior Authorization."
       },
       {
+        needPadding: true,
         ItemTitle: "Authoring Industry Standards",
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
-        needPadding: true,
         ItemTitle: "Epic Vendor Conferences",
         Description: "Presented for several years on Epic's web service integration capabilities to educate and onboard third-party vendors."
       },
@@ -214,7 +210,7 @@ export const resumeData: Resume = {
     degrees: [
       {
         degree: "Master of Science, Computer Science",
-        school: "University of Wisconsin - Madison",
+        school: "University of Wisconsin - Madison, WI",
         timeFrame: "2008-2010",
         bulletPoints: [
           "GPA: 3.94 / 4.0 | Focus: Systems, Networking, Distributed Computing."
@@ -222,7 +218,7 @@ export const resumeData: Resume = {
       },
       {
         degree: "Bachelor of Technology, Computer Science and Engineering",
-        school: "National Institute of Technology - Calicut, India",
+        school: "NIT Calicut, India",
         timeFrame: "2002-2006",
         bulletPoints: [
           "CGPA: 9.60 / 10.0 | Department Topper and Gold Medalist."

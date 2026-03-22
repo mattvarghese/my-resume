@@ -7,7 +7,7 @@ interface Props {
 
 export const SkillList = ({ skillSet }: Props) => {
   return (
-    <section className="flex flex-col gap-0 mt-2">
+    <section className="flex flex-col gap-4 mt-2">
       {/* Icon and Title */}
       <div className="flex items-center gap-3 mb-1">
         <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
@@ -18,7 +18,7 @@ export const SkillList = ({ skillSet }: Props) => {
         </h2>
       </div>
 
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-4">
         {skillSet.groups.map((group, index) => (
           <div key={index} className="flex flex-col gap-1">
             <div>
@@ -29,7 +29,7 @@ export const SkillList = ({ skillSet }: Props) => {
               </span>
             </div>
 
-            <ul className="flex flex-wrap gap-x-3 gap-y-0.5 px-2 list-none">
+            <ul className="flex flex-wrap gap-x-3 gap-y-2 px-2 list-none">
               {group.skills.map((skill, sIndex) => (
                 <li key={sIndex} className="flex items-center gap-1.5 text-slate-700 text-xs font-medium whitespace-nowrap">
                   <span className="w-1 h-1 rounded-full bg-[#4da6a6] shrink-0" />
