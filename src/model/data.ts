@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's industry standards based regulatory implementation, streamlining health plan prior authorization workflows for hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain research and rigorous system design.",
+    summary: "Software Systems Architect specializing in large-scale distributed platforms, API ecosystems, and cross-system integrations. Proven track record of driving high-impact solutions across complex environments involving multiple teams, vendors, and evolving standards.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -44,19 +44,19 @@ export const resumeData: Resume = {
             detail: "of Epic's payer interoperability platform for CMS 2027, collaborating with internal teams, industry standards workgroups, and external vendors to refine and operationalize evolving standards."
           },
           {
-            title: "Established a unified \"source of truth\" for prior authorization requirements,",
-            detail: "eliminating fragmentation across 12+ product modules and reducing new development lead time by ~80%."
+            title: "Identified gap and established a unified \"source of truth\"",
+            detail: "for prior authorization requirements, eliminating fragmentation across 12+ product modules and reducing new development lead time by ~80%."
           },
           {
-            title: "Architected standardized data models and execution frameworks",
-            detail: "to replace inconsistent one-off implementations, significantly improving maintainability and cross-team scalability."
+            title: "Recognized need and architected standardized",
+            detail: "data models and execution frameworks to replace inconsistent one-off implementations, significantly improving maintainability and cross-team scalability."
           },
           {
             title: "Modernized Medical Necessity guideline review integrations",
             detail: "using OAuth2 based single sign-on standards, enabling real-time clinical decision workflows and reducing integration defects by ~60%."
           },
           {
-            title: "Built internal simulation and testing frameworks",
+            title: "Mitigated tooling deficiencies by building simulation and testing frameworks",
             detail: "to emulate third-party systems, enabling end-to-end workflow validation, proactively eliminating defects, and accelerating partner onboarding."
           }
         ]
@@ -73,16 +73,16 @@ export const resumeData: Resume = {
           },
           {
             needPadding: true,
-            title: "Led enterprise-wide centralization of 3rd-party web application integrations",
-            detail: "to establish standards for security and maintainability. Developed a suite of validation tools for Content Security Policy (CSP), CORS, and Web Messaging APIs."
+            title: "Identified fragmentation and led enterprise-wide centralization",
+            detail: "of 3rd-party web application integrations to establish standards for security and maintainability."
           },
           {
             title: "Architected Epic's decision support web services framework,",
             detail: "enabling standards-based clinical decision support across multiple clinical applications."
           },
           {
-            title: "Redesigned decision support configuration",
-            detail: "to align with user mental models, improving usability and enabling efficacy feedback loops for doctors."
+            title: "Identified usability gaps and redesigned",
+            detail: "decision support configuration to align with mental models, improving usability and enabling efficacy feedback loops for doctors."
           },
           {
             title: "Recognized subject matter expert in Web App Security and RESTful integrations,",
@@ -187,7 +187,7 @@ export const resumeData: Resume = {
         url: "https://github.com/mattvarghese/HttpResponder"
       },
       {
-        title: "This Resume!",
+        title: "This Resume 😁",
         description: [
           "Think different! Resume developed as print-media web application with AI assistance."
         ],

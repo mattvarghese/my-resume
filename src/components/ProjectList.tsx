@@ -14,7 +14,7 @@ export const ProjectList = ({ projects }: Props) => {
           <FaRocket />
         </div>
         <h2 className="text-xl font-bold text-slate-800 uppercase tracking-widest leading-none">
-          Projects
+          Exploratory
         </h2>
       </div>
 
