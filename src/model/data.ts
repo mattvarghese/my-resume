@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale distributed platforms and cross-platform data infrastructure. Expert at translating evolving requirements into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep domain research and rigorous system design.",
+    summary: "Software Systems Architect with 20 years of hands-on experience designing large-scale distributed platforms and cross-platform data infrastructure. Expert at translating evolving requirements into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep domain research and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -61,7 +61,7 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "August 2010 - March 2021",
-        summary: "Senior developer responsible for distributed decision-support infrastructure, external web application integrations, and mobile push notifications services - supporting large-scale enterprise applications. Directed adoption of modern interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
+        summary: "Senior developer responsible for distributed decision-support infrastructure, external web application integrations, and mobile push notifications services supporting large-scale enterprise applications. Directed adoption of modern interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
             title: "Created Epic's high-availability mobile push notifications platform,",
@@ -74,7 +74,7 @@ export const resumeData: Resume = {
           },
           {
             title: "Designed & Developed Epic's decision support web services framework,",
-            detail: "enabling reusable standards-based workflow integrations across multiple enterprise applications using REST APIs and event-driven execution patterns."
+            detail: "enabling reusable standards-based workflow integrations across multiple enterprise applications using RESTful APIs and event-driven execution patterns."
           },
           {
             title: "Identified usability gaps and redesigned",
@@ -109,13 +109,13 @@ export const resumeData: Resume = {
         Description: "Developed prototypes of industry specifications in collaboration with participants from other vendors to improve interoperability."
       },
       {
-        ItemTitle: "Prior Auth Burden Reduction",
-        Description: "Represented Epic on public calls steering development of standards to reduce admin burden in Prior Authorization."
+        ItemTitle: "Authoring Industry Standards",
+        Description: "Contributed to two emerging industry specifications for interoperability towards improving workflow integration & security."
       },
       {
         needPadding: true,
-        ItemTitle: "Authoring Industry Standards",
-        Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
+        ItemTitle: "Steering Industry Standards",
+        Description: "Represented Epic on public calls steering development of three standards to reduce administrative overhead for high-latency B2B transaction approvals."
       },
       {
         ItemTitle: "Epic Vendor Conferences",
@@ -136,9 +136,9 @@ export const resumeData: Resume = {
         description: [
           "Designed and implemented a single-sign-on AI assistant web application.",
           "App interfaces LLM APIs with structured enterprise data sources to support real-time chat-based interaction for in-workflow assistance.",
-          "Demonstrates applied architecture for AI-based workflow orchestration over live API-backed data models."
+          "Demonstrates applied architecture for AI-based workflow orchestration over live API-backed data sources."
         ],
-        timeFrame: "2025 Q2",
+        timeFrame: "2025",
         url: ""
       },
       {
@@ -169,7 +169,7 @@ export const resumeData: Resume = {
           "Non-traditional solution for real world cost reduction avoiding remote-app licenses for moderated shell access to servers.",
           "Demonstrated proof of concept fully browser-based SSH client for unix servers.",
         ],
-        timeFrame: "2025 Q3",
+        timeFrame: "2025",
         url: "https://github.com/mattvarghese/WebSSHClient"
       },
       {
@@ -178,7 +178,7 @@ export const resumeData: Resume = {
           "Development tooling for Web APIs, keeping traffic within the enterprise or local network.",
           "Configurable endpoint allows simultaneous multi-user testing of RESTful APIs.",
         ],
-        timeFrame: "2024 Q4",
+        timeFrame: "2024",
         url: "https://github.com/mattvarghese/HttpResponder"
       }
     ],
