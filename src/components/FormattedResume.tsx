@@ -10,7 +10,7 @@ import { MiscList } from './MiscList';
 import { DegreeList } from './DegreeList';
 import { KeyProjects } from './KeyProjects';
 import { Collaboration } from './Collaboration';
-import { GitHubPointer } from './GitHubPointer';
+//import { GitHubPointer } from './GitHubPointer';
 
 export const FormattedResume = () => {
     const data: Resume = resumeData;
@@ -29,7 +29,7 @@ export const FormattedResume = () => {
                     {/* <IndustryOutreach involvement={resumeData.person.involvement} /> */}
                     <WorkExperience jobs={data.person.priorJobs} title="Prior Experience" tight />
                     <DegreeList degrees={data.person.degrees} />
-                    <GitHubPointer topPadding={8} leftPadding={6} />
+                    {/* <GitHubPointer topPadding={8} leftPadding={6} /> */}
                 </main>
 
                 {/* Right Column */}

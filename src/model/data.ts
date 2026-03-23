@@ -36,20 +36,20 @@ export const resumeData: Resume = {
         summary: "Architect for large-scale systems enabling expedited decision workflows across hundreds of customers, reducing turnaround from days to near real-time.",
         experiences: [
           {
-            title: "Led architecture and delivery",
-            detail: "of Epic's payer interoperability platform for CMS 2027, collaborating with internal teams, industry standards workgroups, and external vendors to refine and operationalize evolving standards."
+            title: "Led architecture and delivery of an enterprise interoperability platform",
+            detail: "supporting real-time multi-system workflows, collaborating with internal product teams, external partners, and standards bodies to operationalize evolving integration specifications."
           },
           {
             title: "Identified gap and established a unified \"source of truth\"",
-            detail: "for prior authorization requirements, eliminating fragmentation across 12+ product modules and reducing new development lead time by ~80%."
+            detail: "replacing fragmented logic across 12+ product modules, reducing new feature development lead time by ~80% and improving long-term maintainability."
           },
           {
             title: "Recognized need and architected standardized",
             detail: "data models and execution frameworks to replace inconsistent one-off implementations, significantly improving maintainability and cross-team scalability."
           },
           {
-            title: "Modernized Medical Necessity guideline review integrations",
-            detail: "using OAuth2 based single sign-on standards, enabling real-time clinical decision workflows and reducing integration defects by ~60%."
+            title: "Modernized third-party decision-engine integrations",
+            detail: "using OAuth2 SSO patterns, enabling real-time workflow execution and reducing integration defects by ~60%."
           },
           {
             title: "Mitigated tooling deficiencies by building simulation and testing frameworks",
