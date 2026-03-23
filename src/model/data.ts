@@ -61,7 +61,7 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "August 2010 - March 2021",
-        summary: "Developed clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern healthcare interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
+        summary: "Senior developer responsible for distributed decision-support infrastructure, external web application integrations, and mobile push notifications services - supporting large-scale enterprise applications. Directed adoption of modern interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
             title: "Created Epic's high-availability mobile push notifications platform,",
@@ -70,15 +70,15 @@ export const resumeData: Resume = {
           {
             needPadding: true,
             title: "Identified fragmentation and led enterprise-wide centralization",
-            detail: "of 3rd-party web application integrations to establish standards for security and maintainability."
+            detail: "of 3rd-party web application integrations to establish standards for security and maintainability. Developed a suite of validation apps for CSP, CORS, and Web Messaging APIs."
           },
           {
             title: "Designed & Developed Epic's decision support web services framework,",
-            detail: "enabling standards-based clinical decision support across multiple clinical applications."
+            detail: "enabling reusable standards-based workflow integrations across multiple enterprise applications using REST APIs and event-driven execution patterns."
           },
           {
             title: "Identified usability gaps and redesigned",
-            detail: "decision support configuration to align with mental models, improving usability and enabling efficacy feedback loops for doctors."
+            detail: "decision support configuration to align with mental models, improving usability and enabling efficacy feedback loops for users."
           },
           {
             title: "Recognized subject matter expert in Web App Security and RESTful integrations,",
@@ -132,7 +132,7 @@ export const resumeData: Resume = {
     ],
     keyProjects: [
       {
-        title: "AI Assistant for patients and doctors",
+        title: "LLM-Integrated Workflow Assistant",
         description: [
           "Integrates LLM APIs with electronic patient health record for agentic use-cases.",
           "LLM chat web app answers doctor and patient questions using real health data.",
@@ -142,7 +142,7 @@ export const resumeData: Resume = {
         url: ""
       },
       {
-        title: "JSON Serializer & Deserializer for ANSI-M",
+        title: "RFC-compliant JSON Serializer & Deserializer for ANSI-M",
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
           "Created RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M.",
@@ -152,7 +152,7 @@ export const resumeData: Resume = {
         url: ""
       },
       {
-        title: "MIPS Pipeline Simulator",
+        title: "MIPS Microprocessor Pipeline Simulator",
         description: [
           "Demonstrates deep expertise in low-level systems, architecture, parallelism, and performance.",
           "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
