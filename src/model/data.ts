@@ -105,7 +105,7 @@ export const resumeData: Resume = {
     ],
     involvement: [
       {
-        ItemTitle: "Health Industry Hackathons",
+        ItemTitle: "Standards-body Hackathons",
         Description: "Developed prototypes of industry specifications in collaboration with participants from other vendors to improve interoperability."
       },
       {
@@ -132,7 +132,7 @@ export const resumeData: Resume = {
     ],
     keyProjects: [
       {
-        title: "Healthcare AI Assistant",
+        title: "AI Assistant for patients and doctors",
         description: [
           "Integrates LLM APIs with electronic patient health record for agentic use-cases.",
           "LLM chat web app answers doctor and patient questions using real health data.",
@@ -142,7 +142,7 @@ export const resumeData: Resume = {
         url: ""
       },
       {
-        title: "JSON Parser for ANSI-M",
+        title: "JSON Serializer & Deserializer for ANSI-M",
         description: [
           "Spotlights long-term vision in creating powerful generic reusable tooling.",
           "Created RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M.",
