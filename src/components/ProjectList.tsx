@@ -59,7 +59,7 @@ export const ProjectList = ({ projects }: Props) => {
                 className="mt-1.5 pl-1.5 flex items-center gap-1.5 text-[10px] text-slate-500 hover:text-[#4da6a6] transition-colors truncate cursor-pointer group"
               >
                 <FaCode className="shrink-0 size-2 group-hover:text-[#4da6a6]" />
-                <span className="underline decoration-slate-300 underline-offset-2 truncate group-hover:decoration-[#4da6a6]">
+                <span className="decoration-slate-300 truncate group-hover:decoration-[#4da6a6]">
                   {project.url.replace(/^https?:\/\//, '')}
                 </span>
               </a>

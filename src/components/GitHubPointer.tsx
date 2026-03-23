@@ -19,13 +19,13 @@ export const GitHubPointer: React.FC<GitHubPointerProps> = ({
                 paddingLeft: `${leftPadding * 0.25}rem`
             }}
         >
-            <p className="text-[9px] text-slate-400 font-medium tracking-tight">
-                Resume developed as a TypeScript React Web Application at{' '}
+            <p className="text-[9px] text-slate-400 font-medium tracking-tight italic">
+                Résumé generated as print-media TypeScript+React Web Application at{' '}
                 <a
                     href="https://github.com/mattvarghese/my-resume/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#4da6a6] underline decoration-slate-200 underline-offset-2 hover:decoration-[#4da6a6]"
+                    className="text-[#4da6a6] decoration-slate-200 hover:decoration-[#4da6a6]"
                 >
                     https://github.com/mattvarghese/my-resume/
                 </a>

@@ -47,7 +47,7 @@ export const KeyProjects: React.FC<KeyProjectsProps> = ({ projects }) => {
                                     className="flex items-center gap-1.5 text-[11px] text-slate-500 hover:text-[#4da6a6] transition-colors mb-0.5"
                                 >
                                     <FaCode className="size-2" />
-                                    <span className="underline decoration-slate-300 underline-offset-2">
+                                    <span className="decoration-slate-300">
                                         {project.url.replace(/^https?:\/\//, '')}
                                     </span>
                                 </a>
