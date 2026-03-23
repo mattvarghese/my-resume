@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale distributed platforms and cross-platform data infrastructure. Expert at translating evolving standards into production systems adopted across hundreds of enterprise environments. Known for unifying complex multi-system integrations into scalable architectures spanning APIs, cloud services, and AI-enabled workflows.",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale distributed platforms and cross-platform data infrastructure. Expert at translating evolving requirements into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep domain research and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -134,9 +134,9 @@ export const resumeData: Resume = {
       {
         title: "LLM-Integrated Workflow Assistant",
         description: [
-          "Integrates LLM APIs with electronic patient health record for agentic use-cases.",
-          "LLM chat web app answers doctor and patient questions using real health data.",
-          "Enables AI driven forms, AI decision support, AI care delivery, etc."
+          "Designed and implemented a single-sign-on AI assistant web application.",
+          "App interfaces LLM APIs with structured enterprise data sources to support real-time chat-based interaction for in-workflow assistance.",
+          "Demonstrates applied architecture for AI-based workflow orchestration over live API-backed data models."
         ],
         timeFrame: "2025 Q2",
         url: ""
@@ -144,9 +144,9 @@ export const resumeData: Resume = {
       {
         title: "RFC-compliant JSON Serializer & Deserializer for ANSI-M",
         description: [
-          "Spotlights long-term vision in creating powerful generic reusable tooling.",
-          "Created RFC 8259 compliant JSON Serializer and Deserializer for ANSI-M.",
-          "Serves as a foundation for 30+ database AI integrations across Epic."
+          "Created RFC 8259 compliant generic JSON Serializer and Deserializer for the ANSI-M language.",
+          "Library enables 30+ database AI integrations and analytics across Epic.",
+          "Initiative spotlights long-term vision in creating powerful generic reusable tooling."
         ],
         timeFrame: "2020",
         url: ""
@@ -154,7 +154,7 @@ export const resumeData: Resume = {
       {
         title: "MIPS Microprocessor Pipeline Simulator",
         description: [
-          "Demonstrates deep expertise in low-level systems, architecture, parallelism, and performance.",
+          "Demonstrates expertise in computer architecture, parallelism, and performance.",
           "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
           "In 2025, developed a Small-C compiler above the assembler with AI assistance."
         ],

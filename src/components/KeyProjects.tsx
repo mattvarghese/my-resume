@@ -44,7 +44,7 @@ export const KeyProjects: React.FC<KeyProjectsProps> = ({ projects }) => {
                                     href={project.url.startsWith('http') ? project.url : `https://${project.url}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="flex items-center gap-1.5 text-[11px] text-slate-500 hover:text-[#4da6a6] transition-colors mb-0.5"
+                                    className="flex items-center gap-1.5 text-[11px] text-slate-500 hover:text-[#4da6a6] transition-colors mb-0"
                                 >
                                     <FaCode className="size-2" />
                                     <span className="decoration-slate-300">
@@ -55,7 +55,7 @@ export const KeyProjects: React.FC<KeyProjectsProps> = ({ projects }) => {
 
                             {/* Description - Joined into a single paragraph flow to save vertical space */}
                             {project.description.length > 0 && (
-                                <p className="text-[12px] leading-snug text-slate-700 font-medium mt-0.5">
+                                <p className="text-[12px] leading-snug text-slate-700 font-medium mt-0">
                                     {project.description.join(' ')}
                                 </p>
                             )}
