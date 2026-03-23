@@ -7,14 +7,14 @@ interface Props {
 
 export const ProjectList = ({ projects }: Props) => {
   return (
-    <section className="flex flex-col gap-2">
+    <section className="flex flex-col gap-2 mt-1">
       {/* Section Header */}
       <div className="flex items-center gap-3">
         <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
           <FaRocket />
         </div>
         <h2 className="text-xl font-bold text-slate-800 uppercase tracking-widest leading-none">
-          GitHub
+          Exploratory
         </h2>
       </div>
 
@@ -44,7 +44,7 @@ export const ProjectList = ({ projects }: Props) => {
             {project.description.length > 0 && (
               <ul className="flex flex-col gap-1 px-1">
                 {project.description.map((point, pIndex) => (
-                  <li key={pIndex} className="text-[11px] leading-tight text-slate-700 font-medium">
+                  <li key={pIndex} className="text-[11px] leading-relaxed text-slate-700 font-medium">
                     {point}
                   </li>
                 ))}

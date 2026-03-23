@@ -7,14 +7,14 @@ interface Props {
 
 export const DegreeComponent = ({ education }: Props) => {
     return (
-        <div className="flex flex-col mb-4 mt-2">
+        <div className="flex flex-col mb-2 mt-1">
             {/* Degree Title */}
             <h3 className="text-md font-bold text-slate-950 leading-none">
                 {education.degree}
             </h3>
 
             {/* School Name & Date Range */}
-            <div className="flex justify-between items-baseline mt-2 mb-1">
+            <div className="flex justify-between items-baseline mt-1 mb-1">
                 <div className="flex items-center gap-2 text-md font-medium text-slate-900">
                     <FaUniversity className="text-[#4da6a6] text-sm" />
                     <span>{education.school}</span>
@@ -26,7 +26,7 @@ export const DegreeComponent = ({ education }: Props) => {
 
             {/* Bullet Points */}
             {education.bulletPoints.length > 0 && (
-                <ul className="flex flex-col gap-1.5 px-1">
+                <ul className="flex flex-col gap-1 px-1">
                     {education.bulletPoints.map((point, index) => (
                         <li key={index} className="flex items-start gap-2.5">
                             <span className="text-[12px] leading-tight text-slate-700 font-medium">

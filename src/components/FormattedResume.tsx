@@ -42,7 +42,7 @@ export const FormattedResume = () => {
                         {/*<EpicCertifications certifications={data.person.epicCertifications} /> */}
                         <MiscList misc={data.person.misc} />
                         {/* extra padding for sidebar if required */}
-                        <div className="hidden print:flex flex-col items-end pb-3 pt-10">
+                        <div className="hidden print:flex flex-col items-end pb-3 pt-1">
                             <span className="text-[10px] font-serif font-bold uppercase tracking-widest text-slate-500 px-9">
                                 Page 2 <span className="text-[#4da6a6] mx-1">|</span> 2
                             </span>

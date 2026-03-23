@@ -14,7 +14,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
   return (
     <div className={`
       flex flex-col last:mb-0 experience-item 
-      ${isDeemphasized ? 'ml-1 mt-2 mb-2' : 'mt-2 mb-4'} 
+      ${isDeemphasized ? 'ml-1 mt-0 mb-0' : 'mt-2 mb-4'} 
     `}>
       {/* Main Job Title: text-xl for standard, text-md for de-emphasized */}
       <h3 className={`font-bold text-slate-950 leading-none tracking-tight ${isDeemphasized ? 'text-md' : 'text-xl'
@@ -23,7 +23,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
       </h3>
 
       {/* Company Name & Date Range */}
-      <div className="flex justify-between items-baseline mt-2">
+      <div className="flex justify-between items-baseline mt-1">
         <div className={`flex items-center gap-2 text-slate-900 ${isDeemphasized ? 'text-md font-medium' : 'text-lg font-semibold mb-1'
           }`}>
           <FaShieldAlt className="text-[#4da6a6] text-sm shrink-0" />
@@ -49,9 +49,10 @@ export const EmploymentComponent = ({ employment }: Props) => {
             <div key={index}>
               {exp.needPadding && (
                 <div className="hidden print:block">
-                  {/* 1. Spacer to push content off the bottom of Page 1 */}
-                  {/*<GitHubPointer topPadding={16} leftPadding={0} /> */}
-                  <div className="p-12" />
+                  {/* 1. Spacer and Footer to push content off the bottom of Page 1 */}
+                  {/* <GitHubPointer topPadding={9} leftPadding={0} /> */}
+                  <div className="p-10" />
+
                   {/* 2. "Continued" label at the top of Page 2 */}
                   <div className="pt-4 pb-1 pl-0">
                     <span className="text-[10px] font-bold tracking-widest text-slate-400 italic">

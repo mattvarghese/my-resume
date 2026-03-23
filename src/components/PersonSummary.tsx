@@ -21,19 +21,19 @@ export const PersonSummary = ({ person }: Props) => {
       {/* Dark Accent Bar - width reduced slightly to match the sleeker look */}
       <div className="w-1.5 bg-[#2c3e50] shrink-0" />
 
-      <div className="p-5 py-4">
+      <div className="p-5 py-5">
         {/* Name: Shrunk from text-4xl to 3xl */}
         <h1 className="text-3xl font-bold text-slate-950 tracking-tight leading-none font-sans">
           {person.name}
         </h1>
 
         {/* Title: Shrunk from text-lg to text-base */}
-        <h2 className="text-base font-semibold text-[#4da6a6] mt-4 mb-2 font-sans tracking-[0.15em]">
+        <h2 className="text-base font-semibold text-[#4da6a6] mt-3 mb-2 font-sans tracking-[0.15em]">
           {person.title}
         </h2>
 
         {/* Summary: text-sm remains the standard, but we'll use text-[13px] for extra precision */}
-        <p className="text-[12px] leading-relaxed text-slate-800 max-w-[94%] font-medium">
+        <p className="text-[12px] leading-snug text-slate-800 max-w-[94%] font-medium">
           {person.summary}
         </p>
       </div>

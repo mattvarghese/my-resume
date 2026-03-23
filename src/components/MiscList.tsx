@@ -6,7 +6,7 @@ interface Props {
 
 export const MiscList = ({ misc }: Props) => {
     return (
-        <section className="flex flex-col gap-1 mt-0">
+        <section className="flex flex-col gap-1 mt-1">
             {/* Section Header */}
             <div className="flex items-center gap-3">
                 <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
@@ -25,7 +25,7 @@ export const MiscList = ({ misc }: Props) => {
                         <span className="mt-1 flex-shrink-0 text-[#4da6a6] text-[8px]">
                             <FaBolt />
                         </span>
-                        <span className="text-[11px] text-slate-700 font-medium leading-tight">
+                        <span className="text-[11px] text-slate-700 font-medium leading-relaxed">
                             {item}
                         </span>
                     </li>

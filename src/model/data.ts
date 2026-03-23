@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect specializing in large-scale distributed platforms, API ecosystems, and cross-system integrations. Proven track record of driving high-impact solutions across complex environments involving multiple teams, vendors, and evolving standards.",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale distributed platforms and cross-platform data infrastructure. Expert at translating evolving standards into production systems adopted across hundreds of enterprise environments. Known for unifying complex multi-system integrations into scalable architectures spanning APIs, cloud services, and AI-enabled workflows.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -33,19 +33,19 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Software Systems Architect, Health Plans",
         timeFrame: "March 2021 - Present",
-        summary: "Architect for large-scale systems enabling expedited decision workflows across hundreds of customers, reducing turnaround from days to near real-time.",
+        summary: "Architect for a large-scale, standards-based integration platform, defining automated real-time decision workflows for enterprise-scale organizations. Engineered systems adopted by hundreds of major enterprise clients, reducing high-latency business process turnarounds from several days to near real-time.",
         experiences: [
           {
             title: "Led architecture and delivery of an enterprise interoperability platform",
-            detail: "supporting real-time multi-system workflows, collaborating with internal product teams, external partners, and standards bodies to operationalize evolving integration specifications."
+            detail: "for real-time data exchange, collaborating with standards bodies and external vendors to transform emerging specifications into scalable, production-ready infrastructure."
           },
           {
-            title: "Identified gap and established a unified \"source of truth\"",
-            detail: "replacing fragmented logic across 12+ product modules, reducing new feature development lead time by ~80% and improving long-term maintainability."
+            title: "Identified gaps and established a unified \"source of truth\"",
+            detail: "replacing fragmented logic across 12+ product modules, reducing lead time for new feature development by ~80%, and improving long-term maintainability."
           },
           {
-            title: "Recognized need and architected standardized",
-            detail: "data models and execution frameworks to replace inconsistent one-off implementations, significantly improving maintainability and cross-team scalability."
+            title: "Recognized the need and architected standardized",
+            detail: "data models and execution frameworks replacing inconsistent one-off implementations, significantly improving maintainability and cross-team scalability."
           },
           {
             title: "Modernized third-party decision-engine integrations",
@@ -113,11 +113,11 @@ export const resumeData: Resume = {
         Description: "Represented Epic on public calls steering development of standards to reduce admin burden in Prior Authorization."
       },
       {
+        needPadding: true,
         ItemTitle: "Authoring Industry Standards",
         Description: "Contributed to HL7 CDS Hooks and HL7 SMART Web Messaging specifications to enhance workflow integration and security."
       },
       {
-        needPadding: true,
         ItemTitle: "Epic Vendor Conferences",
         Description: "Presented for several years on Epic's web service integration capabilities to educate and onboard third-party vendors."
       },
@@ -150,6 +150,16 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2020",
         url: ""
+      },
+      {
+        title: "MIPS Pipeline Simulator",
+        description: [
+          "Demonstrates deep expertise in low-level systems, architecture, parallelism, and performance.",
+          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
+          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
+        ],
+        timeFrame: "2005, 2025",
+        url: "https://github.com/mattvarghese/coconut"
       }
     ],
     projects: [
@@ -170,16 +180,6 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2024 Q4",
         url: "https://github.com/mattvarghese/HttpResponder"
-      },
-      {
-        title: "MIPS Pipeline Simulator",
-        description: [
-          "Demonstrates deep expertise in low-level systems, architecture, parallelism, and performance.",
-          "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
-          "In 2025, developed a Small-C compiler above the assembler with AI assistance."
-        ],
-        timeFrame: "2005, 2025",
-        url: "https://github.com/mattvarghese/coconut"
       }
     ],
     epicCertifications: [

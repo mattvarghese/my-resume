@@ -19,7 +19,7 @@ export const KeyProjects: React.FC<KeyProjectsProps> = ({ projects }) => {
                 </h2>
             </div>
 
-            <div className="flex flex-col gap-3 mt-2">
+            <div className="flex flex-col gap-1 mt-1">
                 {projects.map((project, index) => (
                     <div key={index} className="flex items-start ml-1 gap-2">
                         {/* Compact Icon matching IndustryOutreach style */}
@@ -55,7 +55,7 @@ export const KeyProjects: React.FC<KeyProjectsProps> = ({ projects }) => {
 
                             {/* Description - Joined into a single paragraph flow to save vertical space */}
                             {project.description.length > 0 && (
-                                <p className="text-[12px] leading-relaxed text-slate-700 font-medium mt-1">
+                                <p className="text-[12px] leading-snug text-slate-700 font-medium mt-0.5">
                                     {project.description.join(' ')}
                                 </p>
                             )}
