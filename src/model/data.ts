@@ -31,8 +31,8 @@ export const resumeData: Resume = {
     jobs: [
       {
         company: "Epic - Verona, WI",
-        title: "Software Systems Architect, Health Plans",
-        timeFrame: "March 2021 - Present",
+        title: "Software Systems Architect, Utilization Management",
+        timeFrame: "Mar 2021 - Present",
         summary: "Architect for a large-scale, standards-based integration platform, defining automated real-time decision workflows for enterprise-scale organizations. Engineered systems adopted by hundreds of major enterprise clients, reducing high-latency business process turnarounds from several days to near real-time.",
         experiences: [
           {
@@ -60,7 +60,7 @@ export const resumeData: Resume = {
       {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
-        timeFrame: "August 2010 - March 2021",
+        timeFrame: "Aug 2010 - Mar 2021",
         summary: "Senior developer responsible for distributed decision-support infrastructure, external web application integrations, and mobile push notifications services supporting large-scale enterprise applications. Directed adoption of modern interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
@@ -81,7 +81,7 @@ export const resumeData: Resume = {
             detail: "decision support configuration to align with mental models, improving usability and enabling efficacy feedback loops for users."
           },
           {
-            title: "Recognized subject matter expert in Web App Security and RESTful integrations,",
+            title: "Subject matter expert in Web App Security and RESTful integrations,",
             detail: "providing architectural guidance to multiple teams and onboarding external vendors."
           }
         ]
@@ -91,14 +91,14 @@ export const resumeData: Resume = {
       {
         company: "University of Wisconsin - Madison, WI",
         title: "Research Assistant, Condor Distributed Computing",
-        timeFrame: "Sept 2008 - May 2010",
+        timeFrame: "Sep 2008 - May 2010",
         summary: "Virtualized Condor jobs with VMware achieving deterministic runtime environments.",
         experiences: []
       },
       {
         company: "Cisco Systems - Bangalore, India",
         title: "Software Engineer, Enterprise Routing",
-        timeFrame: "June 2006 - July 2008",
+        timeFrame: "Jun 2006 - Jul 2008",
         summary: "Platform engineering and configuration tooling for Cisco's enterprise class routers.",
         experiences: []
       }
@@ -146,7 +146,7 @@ export const resumeData: Resume = {
         description: [
           "Created RFC 8259 compliant generic JSON Serializer and Deserializer for the ANSI-M language.",
           "Library enables 30+ database AI integrations and analytics across Epic.",
-          "Initiative spotlights long-term vision in creating powerful generic reusable tooling."
+          "Initiative spotlights architectural vision in creating powerful generic reusable tooling."
         ],
         timeFrame: "2020",
         url: ""
