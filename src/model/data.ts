@@ -3,8 +3,8 @@ import type { Resume } from './types';
 export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
-    title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of hands-on experience designing large-scale distributed platforms and cross-platform integration infrastructure. Translates evolving standards into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
+    title: "Senior Software Engineer",
+    summary: "Senior Software Engineer with 20 years of hands-on experience designing large-scale distributed platforms and cross-platform integration infrastructure. Translates evolving standards into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -31,7 +31,7 @@ export const resumeData: Resume = {
     jobs: [
       {
         company: "Epic - Verona, WI",
-        title: "Software Systems Architect, Utilization Management",
+        title: "Senior Software Engineer (L4), Utilization Management",
         timeFrame: "Mar 2021 - Present",
         summary: "Architect for a large-scale, standards-based integration platform, defining automated real-time decision workflows for enterprise-scale organizations. Engineered systems adopted by hundreds of major enterprise clients, reducing high-latency business process turnarounds from several days to near real-time.",
         experiences: [
@@ -59,7 +59,7 @@ export const resumeData: Resume = {
       },
       {
         company: "Epic - Verona, WI",
-        title: "Senior Software Systems Developer, Clinical Informatics",
+        title: "Software Engineer (L2, L3 2015), Clinical Informatics",
         timeFrame: "Aug 2010 - Mar 2021",
         summary: "Senior developer responsible for distributed decision-support infrastructure, external web application integrations, and mobile push notifications services supporting large-scale enterprise applications. Directed adoption of modern interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
