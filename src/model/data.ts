@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of hands-on experience designing large-scale distributed platforms and cross-platform integration infrastructure. Translates evolving standards into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
+    summary: "Software Systems Architect with 20 years of hands-on experience designing large-scale distributed platforms and cross-platform integration infrastructure. Meticulously translates evolving specifications into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -15,12 +15,12 @@ export const resumeData: Resume = {
     skillSet: {
       groups: [
         {
-          group: "Architecture & Infrastructure",
-          skills: ["SDLC", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainable Architecture"]
-        },
-        {
           group: "Engineering Stack",
           skills: ["TypeScript", "React", "Web API", "Node", ".NET/C#", "C/C++", "Python", "Git & SVN", "ANSI-M", "SQL & NoSQL", "Linux & Windows"]
+        },
+        {
+          group: "Architecture & Infrastructure",
+          skills: ["SDLC", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainability & Performance"]
         },
         {
           group: "Specialized Expertise",
