@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's HL7 FHIR-based CMS 2027 regulatory systems which standardized health plan workflows for prior authorization across hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
+    summary: "Software Systems Architect with 20 years of experience designing large-scale interoperable platforms. Delivered Epic's HL7 FHIR-based CMS-0057-F 2027 regulatory systems which standardized health plan workflows for prior authorization across hundreds of customers. Recognized for transforming fragmented integrations into unified, scalable platforms through deep domain expertise and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -15,20 +15,20 @@ export const resumeData: Resume = {
     skillSet: {
       groups: [
         {
-          group: "Architecture & Infrastructure",
-          skills: ["SDLC", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainable Architecture"]
+          group: "Interoperability & Standards",
+          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
         },
         {
           group: "Engineering Stack",
           skills: ["TypeScript", "React", "Web API", "Node", ".NET/C#", "C/C++", "Python", "Git & SVN", "ANSI-M", "SQL & NoSQL", "Linux & Windows"]
         },
         {
-          group: "Specialized Expertise",
-          skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing"]
+          group: "Architecture & Infrastructure",
+          skills: ["SDLC", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainable Architecture"]
         },
         {
-          group: "Interoperability & Standards",
-          skills: ["HL7 FHIR", "SMART on FHIR", "CDS Hooks", "CRD/DTR/PAS", "ANSI X12 278", "OAuth2", "JSON/JWT/JWK"]
+          group: "Specialized Expertise",
+          skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing"]
         }
       ]
     },
@@ -37,11 +37,11 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Software Systems Architect, Health Plans",
         timeFrame: "March 2021 - Present",
-        summary: "Architect for Epic's HL7 FHIR-based CMS 2027 regulatory platform, defining how health plans implement real-time prior authorization workflows using HL7 CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
+        summary: "Architect for Epic's HL7 FHIR-based CMS-0057-F 2027 regulatory platform, defining how health plans implement real-time prior authorization workflows using HL7 CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
         experiences: [
           {
             title: "Led architecture and delivery",
-            detail: "of Epic's payer interoperability platform for CMS 2027, collaborating with internal teams, HL7 Da Vinci workgroups, and external vendors to refine and operationalize evolving standards."
+            detail: "of Epic's payer interoperability platform for CMS-0057-F 2027, collaborating with internal teams, HL7 Da Vinci workgroups, and external vendors to refine and operationalize evolving standards."
           },
           {
             title: "Established a unified \"source of truth\" for prior authorization requirements,",
