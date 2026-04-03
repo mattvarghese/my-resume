@@ -36,7 +36,7 @@ export const resumeData: Resume = {
         summary: "Architect for a large-scale, standards-based, regulatory integration platform, defining automated real-time decision workflows for enterprise-scale organizations. Engineered systems adopted by hundreds of major enterprise clients, reducing high-latency business process turnarounds from several days to near real-time.",
         experiences: [
           {
-            title: "Led architecture and delivery of an regulatory interoperability platform",
+            title: "Led architecture and delivery of a regulatory interoperability platform",
             detail: "for real-time data exchange, collaborating with standards bodies and external vendors to transform emerging specifications into scalable, production-ready infrastructure."
           },
           {
