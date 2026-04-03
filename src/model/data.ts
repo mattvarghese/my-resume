@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 20 years of hands-on experience designing large-scale distributed platforms and cross-platform integration infrastructure. Meticulously translates evolving specifications into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
+    summary: "Software Systems Architect with 15+ years of hands-on experience designing large-scale distributed platforms and cross-platform regulatory infrastructure. Meticulously translates evolving specifications into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -24,7 +24,7 @@ export const resumeData: Resume = {
         },
         {
           group: "Specialized Expertise",
-          skills: ["LLM API Integration", "Agentic Workflows", "Network Architecture & Routing"]
+          skills: ["LLM API Integration", "Agentic Workflows", "Regulatory Infrastructure", "Network Architecture & Routing"]
         }
       ]
     },
@@ -33,10 +33,10 @@ export const resumeData: Resume = {
         company: "Epic - Verona, WI",
         title: "Software Systems Architect, Utilization Management",
         timeFrame: "Mar 2021 - Present",
-        summary: "Architect for a large-scale, standards-based integration platform, defining automated real-time decision workflows for enterprise-scale organizations. Engineered systems adopted by hundreds of major enterprise clients, reducing high-latency business process turnarounds from several days to near real-time.",
+        summary: "Architect for a large-scale, standards-based, regulatory integration platform, defining automated real-time decision workflows for enterprise-scale organizations. Engineered systems adopted by hundreds of major enterprise clients, reducing high-latency business process turnarounds from several days to near real-time.",
         experiences: [
           {
-            title: "Led architecture and delivery of an enterprise interoperability platform",
+            title: "Led architecture and delivery of an regulatory interoperability platform",
             detail: "for real-time data exchange, collaborating with standards bodies and external vendors to transform emerging specifications into scalable, production-ready infrastructure."
           },
           {
