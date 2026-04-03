@@ -29,7 +29,7 @@ export const Collaboration: React.FC<CollaborationProps> = ({ involvement }) => 
                             item.needPadding &&
                             <div className="hidden print:block">
                                 {/* 1. Page marker to push content off the bottom of Page 1 */}
-                                <div className="hidden print:flex flex-col items-end pb-5 pt-13">
+                                <div className="hidden print:flex flex-col items-end pb-5 pt-8">
                                     <span className="text-[10px] font-sans font-bold uppercase tracking-widest text-slate-500 px-9">
                                         Page 1 <span className="text-[#4da6a6] mx-1">|</span> 2
                                     </span>
