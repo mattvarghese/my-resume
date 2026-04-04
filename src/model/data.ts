@@ -28,6 +28,24 @@ export const resumeData: Resume = {
         }
       ]
     },
+    jobs: [
+      {
+        company: "University of Wisconsin - Madison, WI",
+        title: "Graduate Research Assistant, Condor HTC",
+        timeFrame: "Sep 2008 - May 2010",
+        summary: "Under the advisement of Prof. Miron Livny, engineered deterministic runtime environments by virtualizing Condor jobs within VMware, developing early (pre-docker) patterns for Infrastructure-as-a-Service (IaaS). Investigated two distinct virtual machine job-delivery patterns to achieve reliable execution across heterogeneous environments.",
+        experiences: [
+          {
+            title: "Self-Contained Execution:",
+            detail: "Packaged jobs directly within VMs to run upon startup."
+          },
+          {
+            title: "Autonomous Pool Integration:",
+            detail: "Dispatched VMs that dynamically joined the Condor pool at runtime to claim their own designated workloads."
+          }
+        ]
+      }
+    ],
     priorJobs: [
       {
         company: "Epic - Verona, WI",
@@ -87,23 +105,6 @@ export const resumeData: Resume = {
         timeFrame: "Jun 2006 - Jul 2008",
         summary: "Platform engineering and configuration tooling for Cisco's enterprise class routers.",
         experiences: []
-      }
-    ],
-    jobs: [
-      {
-        company: "University of Wisconsin - Madison, WI",
-        title: "Graduate Research Assistant, Condor HTC",
-        timeFrame: "Sep 2008 - May 2010",
-        summary: "Engineered deterministic runtime environments by virtualizing Condor jobs within VMware, developing early (pre-docker) patterns for Infrastructure-as-a-Service (IaaS). Developed and demonstrated two distinct virtual machine orchestrated job-delivery patterns to ensure reliable execution across heterogeneous environments.",
-        experiences: [
-          {
-            title: "Self-Contained Execution:",
-            detail: "Packaged jobs directly within VMs to run upon startup."
-          },
-          {
-            title: "Autonomous Pool Integration:",
-            detail: "Dispatched VMs that dynamically joined the Condor pool at runtime to claim their own designated workloads."
-          }]
       }
     ],
     involvement: [
