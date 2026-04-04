@@ -24,11 +24,11 @@ export const FormattedResume = () => {
                 {/* Left Column */}
                 <main className="w-[66%] flex flex-col p-1 gap-1 ">
                     <PersonSummary person={data.person} />
-                    <WorkExperience jobs={data.person.jobs} title="Work Experience" />
+                    <WorkExperience jobs={data.person.jobs} title="Condor Work Experience" tight />
                     <KeyProjects projects={data.person.keyProjects} />
                     {/* <IndustryOutreach involvement={resumeData.person.involvement} /> */}
-                    <WorkExperience jobs={data.person.priorJobs} title="Prior Experience" tight />
                     <DegreeList degrees={data.person.degrees} />
+                    <WorkExperience jobs={data.person.priorJobs} title="Work Experience" />
                     {/* <GitHubPointer topPadding={8} leftPadding={6} /> */}
                 </main>
 
@@ -42,7 +42,7 @@ export const FormattedResume = () => {
                         {/*<EpicCertifications certifications={data.person.epicCertifications} /> */}
                         <MiscList misc={data.person.misc} />
                         {/* extra padding for sidebar if required */}
-                        <div className="hidden print:flex flex-col items-end pb-3 pt-1">
+                        <div className="hidden print:flex flex-col items-end pb-3 pt-10">
                             <span className="text-[10px] font-serif font-bold uppercase tracking-widest text-slate-500 px-9">
                                 Page 2 <span className="text-[#4da6a6] mx-1">|</span> 2
                             </span>

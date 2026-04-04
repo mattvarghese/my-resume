@@ -9,12 +9,12 @@ interface Props {
 
 export const EmploymentComponent = ({ employment }: Props) => {
   // Check if we should de-emphasize this entry
-  const isDeemphasized = employment.experiences.length === 0;
+  const isDeemphasized = false;
 
   return (
     <div className={`
       flex flex-col last:mb-0 experience-item 
-      ${isDeemphasized ? 'ml-1 mt-0 mb-0' : 'mt-2 mb-4'} 
+      ${isDeemphasized ? 'ml-1 mt-0 mb-0' : 'mt-0 mb-4'} 
     `}>
       {/* Main Job Title: text-xl for standard, text-md for de-emphasized */}
       <h3 className={`font-bold text-slate-950 leading-none tracking-tight ${isDeemphasized ? 'text-md' : 'text-xl'
@@ -51,7 +51,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
                 <div className="hidden print:block">
                   {/* 1. Spacer and Footer to push content off the bottom of Page 1 */}
                   {/* <GitHubPointer topPadding={9} leftPadding={0} /> */}
-                  <div className="p-5" />
+                  <div className="p-2" />
 
                   {/* 2. "Continued" label at the top of Page 2 */}
                   <div className="pt-4 pb-1 pl-0">
