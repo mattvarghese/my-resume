@@ -29,7 +29,7 @@ export const SkillList = ({ skillSet }: Props) => {
               </span>
             </div>
 
-            <ul className="flex flex-wrap gap-x-3 gap-y-1 px-2 list-none">
+            <ul className="flex flex-wrap gap-x-2 gap-y-1 px-2 list-none">
               {group.skills.map((skill, sIndex) => (
                 <li key={sIndex} className="flex items-center gap-1.5 text-slate-700 text-xs font-medium whitespace-nowrap">
                   <span className="w-1 h-1 rounded-full bg-[#4da6a6] shrink-0" />

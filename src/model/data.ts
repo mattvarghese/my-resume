@@ -16,7 +16,7 @@ export const resumeData: Resume = {
       groups: [
         {
           group: "Engineering Stack",
-          skills: ["TypeScript", "React", "Web API", "Node", "Tailwind", ".NET/C#", "C++ & C", "Python", "Git & SVN", "SQL & NoSQL", "Linux & Windows"]
+          skills: ["TypeScript", "React", "Web API", "Node", "Tailwind", ".NET/C#", "MVC", "C++ & C", "Python", "Git & SVN", "SQL & NoSQL", "Linux & Windows"]
         },
         {
           group: "Architecture & Infrastructure",
