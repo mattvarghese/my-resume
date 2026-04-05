@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Senior Software Engineer",
-    summary: "Senior Software Engineer with 15+ years of hands-on experience designing large-scale distributed platforms and cross-platform regulatory infrastructure. Meticulously translates evolving specifications into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
+    summary: "Senior Software Engineer with 15+ years of hands-on experience designing large-scale distributed platforms and cross-platform enterprise infrastructure. Seamlessly translates evolving specifications into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -16,15 +16,15 @@ export const resumeData: Resume = {
       groups: [
         {
           group: "Engineering Stack",
-          skills: ["TypeScript", "React", "Web API", "Node", ".NET/C#", "C/C++", "Python", "Git & SVN", "ANSI-M", "SQL & NoSQL", "Linux & Windows"]
+          skills: ["TypeScript", "React", "Web API", "Node", "Tailwind", ".NET/C#", "C++ & C", "Python", "Git & SVN", "SQL & NoSQL", "Linux & Windows"]
         },
         {
           group: "Architecture & Infrastructure",
-          skills: ["SDLC", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainability & Performance"]
+          skills: ["SDLC", "OOP", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainability", "Performance", "Networks & Routing"]
         },
         {
           group: "Specialized Expertise",
-          skills: ["LLM API Integration", "Agentic Workflows", "Regulatory Infrastructure", "Network Architecture & Routing"]
+          skills: ["LLM API Integration", "AI Orchestrated Development", "Navigating ambiguity", "Simplifying complexity", "Curiosity driven domain research", "Regulatory Infrastructures"]
         }
       ]
     },
