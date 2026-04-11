@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 15+ years of hands-on experience designing large-scale distributed platforms and cross-platform enterprise infrastructure. Seamlessly translates evolving specifications into production systems adopted across hundreds of enterprise customers. Recognized for unifying complex multi-system integrations into scalable architectures through deep technical research and rigorous system design.",
+    summary: "Software artist and solutions designer driven by insatiable curiosity, systems-thinking, and extensive hands-on experience in crafting elegant, large-scale, high-performance production systems. Relentless problem solver focused on bridging the gap between ambitious product vision and rigorous, scalable architectural reality.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -16,11 +16,11 @@ export const resumeData: Resume = {
       groups: [
         {
           group: "Engineering Stack",
-          skills: ["TypeScript", "React", "Web API", "Node", "Tailwind", ".NET/C#", "MVC", "C++ & C", "Python", "Git & SVN", "SQL & NoSQL", "Linux & Windows"]
+          skills: [".NET/C#", "C++ & C", "TypeScript", "React", "Web API", "Node", "Tailwind", "MVC", "Python", "Git & SVN", "Azure", "Docker", "Hadoop", "SQL", "Linux & Windows"]
         },
         {
           group: "Architecture & Infrastructure",
-          skills: ["SDLC", "OOP", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainability", "Performance", "Networks & Routing"]
+          skills: ["SDLC", "OOP", "Distributed Systems", "TDD", "Microservices", "CI/CD", "Virtualization", "Maintainability", "Performance", "Networks & Routing"]
         },
         {
           group: "Specialized Expertise",
@@ -31,48 +31,48 @@ export const resumeData: Resume = {
     jobs: [
       {
         company: "Epic - Verona, WI",
-        title: "Software Systems Architect, Utilization Management",
+        title: "Software Systems Architect",
         timeFrame: "Mar 2021 - Present",
-        summary: "Architect for a large-scale, standards-based, regulatory integration platform, defining automated real-time decision workflows for enterprise-scale organizations. Engineered systems adopted by hundreds of major enterprise clients, reducing high-latency business process turnarounds from several days to near real-time.",
+        summary: "Architect for large-scale, standards-based, regulatory integration platforms, defining automated real-time decision workflows for enterprise-scale organizations. Engineered systems adopted by hundreds of major enterprise clients, reducing high-latency business process turnarounds from several days to near real-time.",
         experiences: [
           {
-            title: "Led architecture and delivery of a regulatory interoperability platform",
-            detail: "for real-time data exchange, collaborating with standards bodies and external vendors to transform emerging specifications into scalable, production-ready infrastructure."
+            title: "Led architecture and delivery of regulatory interoperability platforms",
+            detail: "for real-time data exchange. Collaborated with standards bodies and external vendors to transform emerging specifications into scalable, production-ready infrastructure."
           },
           {
             title: "Identified gaps and established a unified \"source of truth\"",
-            detail: "replacing fragmented logic across 12+ product modules, reducing lead time for new feature development by ~80%, and improving long-term maintainability."
+            detail: "replacing fragmented logic across 12+ product modules. Reduced lead time for new feature development by ~80%, and improved long-term maintainability."
           },
           {
             title: "Recognized the need and architected standardized",
-            detail: "data models and execution frameworks replacing inconsistent one-off implementations, significantly improving maintainability and cross-team scalability."
+            detail: "data models and execution frameworks replacing inconsistent one-off implementations. Significantly improved maintainability and cross-team scalability."
           },
           {
             title: "Modernized third-party decision-engine integrations",
-            detail: "using OAuth2 SSO patterns, enabling real-time workflow execution and reducing integration defects by ~60%."
+            detail: "using OAuth2 SSO patterns. Enabled real-time workflow execution and reduced integration defects by ~60%."
           },
           {
-            title: "Mitigated tooling deficiencies by building simulation and testing frameworks",
-            detail: "to emulate third-party systems, enabling end-to-end workflow validation, proactively eliminating defects, and accelerating partner onboarding."
+            title: "Mitigated tooling deficiencies by building testing harnesses",
+            detail: "to emulate third-party systems. Enabled end-to-end workflow validation, proactively defect elimination, and accelerated partner onboarding."
           }
         ]
       },
       {
         company: "Epic - Verona, WI",
-        title: "Senior Software Systems Developer, Clinical Informatics",
+        title: "Senior Software Systems Developer",
         timeFrame: "Aug 2010 - Mar 2021",
-        summary: "Senior developer responsible for distributed decision-support infrastructure, external web application integrations, and mobile push notifications services supporting large-scale enterprise applications. Directed adoption of modern interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
+        summary: "Senior engineer responsible for distributed decision-support infrastructure, external web application integrations, and mobile push notifications services supporting large-scale enterprise applications. Directed adoption of modern interoperability standards and demonstrated cost-effectiveness in using cloud hosting.",
         experiences: [
           {
             title: "Created Epic's high-availability mobile push notifications platform,",
             detail: "routing millions of weekly notifications via APNS and GCM. Pioneered deployment as one of Epic's first Azure-native production services, reducing operational costs by over 90%."
           },
           {
-            needPadding: true,
             title: "Identified fragmentation and led enterprise-wide centralization",
-            detail: "of 3rd-party web application integrations to establish standards for security and maintainability. Developed a suite of validation apps for CSP, CORS, and Web Messaging APIs."
+            detail: "of 3rd-party web application integrations to establish standards for security and maintainability."
           },
           {
+            needPadding: true,
             title: "Designed & Developed Epic's decision support web services framework,",
             detail: "enabling reusable standards-based workflow integrations across multiple enterprise applications using RESTful APIs and event-driven execution patterns."
           },
@@ -196,7 +196,7 @@ export const resumeData: Resume = {
       "Solo endorsed VFR student pilot",
       "ASA 101,103/104,105 rated sailor",
       "Learned Elementary Russian as an adult",
-      "Avid reader, ice-skating, volleyball, XC-skiing, bicycling"
+      "Reading, ice-skating, volleyball, XC-skiing, bicycling"
     ],
     degrees: [
       {
