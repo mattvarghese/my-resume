@@ -53,7 +53,7 @@ export const resumeData: Resume = {
           },
           {
             title: "Mitigated tooling deficiencies by building testing harnesses",
-            detail: "to emulate third-party systems. Enabled end-to-end workflow validation, proactively defect elimination, and accelerated partner onboarding."
+            detail: "to emulate third-party systems. Enabled end-to-end workflow validation, proactive defect elimination, and accelerated partner onboarding."
           }
         ]
       },
