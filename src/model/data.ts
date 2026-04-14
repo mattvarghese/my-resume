@@ -36,7 +36,7 @@ export const resumeData: Resume = {
       {
         company: "Epic - Verona, WI",
         title: "Software Systems Architect, Health Plans",
-        timeFrame: "March 2021 - Present",
+        timeFrame: "Mar 2021 - Present",
         summary: "Architect for Epic's HL7 FHIR-based CMS-0057-F 2027 regulatory platform, defining how health plans implement real-time prior authorization workflows using HL7 CRD, DTR, and PAS standards. Systems adopted by hundreds of Epic customers, transforming authorization turnaround from days to near real-time.",
         experiences: [
           {
@@ -64,7 +64,7 @@ export const resumeData: Resume = {
       {
         company: "Epic - Verona, WI",
         title: "Senior Software Systems Developer, Clinical Informatics",
-        timeFrame: "August 2010 - March 2021",
+        timeFrame: "Aug 2010 - Mar 2021",
         summary: "Developed clinical decision support (CDS) integrations, web app integrations, and mobile push notifications. Directed adoption of modern FHIR-based interoperability standards and pioneered Epic's first high-availability cloud service on Azure.",
         experiences: [
           {
@@ -95,14 +95,14 @@ export const resumeData: Resume = {
       {
         company: "University of Wisconsin - Madison, WI",
         title: "Research Assistant, Condor Distributed Computing",
-        timeFrame: "Sept 2008 - May 2010",
+        timeFrame: "Sep 2008 - May 2010",
         summary: "Virtualized Condor jobs with VMware achieving deterministic runtime environments.",
         experiences: []
       },
       {
         company: "Cisco Systems - Bangalore, India",
         title: "Software Engineer, Enterprise Routing",
-        timeFrame: "June 2006 - July 2008",
+        timeFrame: "Jun 2006 - Jul 2008",
         summary: "Platform engineering and configuration tooling for Cisco's enterprise class routers.",
         experiences: []
       }
@@ -142,7 +142,7 @@ export const resumeData: Resume = {
           "LLM chat web app answers provider and patient questions using real FHIR data.",
           "Enables AI driven forms, AI decision support, AI care delivery, etc."
         ],
-        timeFrame: "2025 Q2",
+        timeFrame: "2025",
         url: ""
       },
       {
@@ -174,7 +174,7 @@ export const resumeData: Resume = {
           "Non-traditional solution for real world cost reduction avoiding remote-app licenses for moderated shell / text access to servers.",
           "Proof of concept fully browser-based SSH client for unix servers and Caché databases.",
         ],
-        timeFrame: "2025 Q3",
+        timeFrame: "2025",
         url: "https://github.com/mattvarghese/WebSSHClient"
       },
       {
@@ -183,7 +183,7 @@ export const resumeData: Resume = {
           "Development tooling for Web APIs, keeping traffic within the enterprise or local network.",
           "Configurable endpoint allows simultaneous multi-user testing of RESTful APIs.",
         ],
-        timeFrame: "2024 Q4",
+        timeFrame: "2024",
         url: "https://github.com/mattvarghese/HttpResponder"
       }
     ],
@@ -201,7 +201,7 @@ export const resumeData: Resume = {
       "Solo endorsed VFR student pilot",
       "ASA 101,103/104,105 rated sailor",
       "Learned Elementary Russian as an adult",
-      "Avid reader, ice-skating, volleyball, XC-skiing, bicycling"
+      "Reading, ice-skating, volleyball, XC-skiing, bicycling"
     ],
     degrees: [
       {
