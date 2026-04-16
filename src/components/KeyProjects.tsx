@@ -55,7 +55,7 @@ export const KeyProjects: React.FC<KeyProjectsProps> = ({ projects }) => {
 
                             {/* Description - Joined into a single paragraph flow to save vertical space */}
                             {project.description.length > 0 && (
-                                <p className="text-[12px] leading-relaxed text-slate-700 font-medium mt-0">
+                                <p className="text-[12px] leading-snug text-slate-700 font-medium mt-0">
                                     {project.description.join(' ')}
                                 </p>
                             )}

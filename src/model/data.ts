@@ -16,11 +16,11 @@ export const resumeData: Resume = {
       groups: [
         {
           group: "Engineering Stack",
-          skills: [".NET/C#", "C++ & C", "TypeScript", "React", "Web API", "Node", "Tailwind", "MVC", "Python", "Git & SVN", "Azure", "Docker", "Hadoop", "SQL", "Linux & Windows"]
+          skills: ["C/C++", "Python", "Linux (primary OS)", "Web API", ".NET/C#", "TypeScript", "React", "Node", "Tailwind", "MVC", "Git & SVN", "Azure", "Docker", "Hadoop", "SQL", "Windows"]
         },
         {
           group: "Architecture & Infrastructure",
-          skills: ["SDLC", "OOP", "Distributed Systems", "TDD", "Microservices", "CI/CD", "Virtualization", "Maintainability", "Performance", "Networks & Routing"]
+          skills: ["SDLC", "OOP", "Distributed Systems", "Microservices", "TDD", "CI/CD", "Virtualization", "Maintainability", "Performance", "Networks & Routing"]
         },
         {
           group: "Specialized Expertise",
@@ -103,7 +103,7 @@ export const resumeData: Resume = {
         company: "Cisco Systems - Bangalore, India",
         title: "Software Engineer, Enterprise Routing",
         timeFrame: "Jun 2006 - Jul 2008",
-        summary: "Platform engineering and configuration tooling for Cisco's enterprise class routers.",
+        summary: "Platform engineering and configuration tooling for Cisco's enterprise class routers. Gained experience in network architecture, hardware programmed routing, high bandwidth interfaces, redundant high availability hardware etc.",
         experiences: []
       }
     ],
@@ -146,6 +146,15 @@ export const resumeData: Resume = {
         url: "https://github.com/mattvarghese/coconut"
       },
       {
+        title: "LLM integrated Workflow Assistant",
+        description: [
+          "OAuth2 Single-sign-on in-workflow AI assistant web application.",
+          "Interfaces LLM APIs with API-backed real-time enterprise data sources to support chat-based interactions with access to real enterprise data for in-workflow assistance."
+        ],
+        timeFrame: "2025",
+        url: ""
+      },
+      {
         title: "RFC-compliant JSON Serializer & Deserializer for ANSI-M",
         description: [
           "Created RFC 8259 compliant generic JSON Serializer and Deserializer for the ANSI-M language.",
@@ -153,18 +162,18 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2020",
         url: ""
-      },
-      {
-        title: "LLM-API Workflow Assistant",
-        description: [
-          "Single-sign-on AI assistant web application.",
-          "Interfaces LLM APIs with enterprise data sources to support real-time chat-based interaction for in-workflow assistance."
-        ],
-        timeFrame: "2025",
-        url: ""
       }
     ],
     projects: [
+      {
+        title: "Personal Hight-throughput computing Condor Cluster",
+        description: [
+          "Designed and implemented a 10-node Raspberry Pi 3B cluster running HTCondor.",
+          "Managed cluster to simulate high-throughput computing workloads in a hardware-constrained ARM environment."
+        ],
+        timeFrame: "2016",
+        url: ""
+      },
       {
         title: "Web Based SSH Client",
         description: [
@@ -182,15 +191,6 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2024",
         url: "https://github.com/mattvarghese/HttpResponder"
-      },
-      {
-        title: "Personal Hight-throughput computing Condor Cluster",
-        description: [
-          "Designed and implemented a 10-node Raspberry Pi 3B cluster running HTCondor.",
-          "Managed cluster to simulate high-throughput computing workloads in a hardware-constrained ARM environment."
-        ],
-        timeFrame: "2016",
-        url: ""
       }
     ],
     epicCertifications: [
