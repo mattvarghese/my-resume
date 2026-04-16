@@ -18,10 +18,10 @@ export const SkillList = ({ skillSet }: Props) => {
         </h2>
       </div>
 
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-1">
         {skillSet.groups.map((group, index) => (
-          <div key={index} className="flex flex-col gap-2">
-            <div className="mb-1">
+          <div key={index} className="flex flex-col gap-1">
+            <div className="mb-0">
               {/* Pillbox with Icon Inside */}
               <span className="inline-flex items-center gap-1 bg-slate-400 text-white text-[10px] font-bold pl-1.5 pr-3 pt-1 pb-0.5 rounded-sm tracking-tight">
                 <FaChevronRight className="text-white/80" />

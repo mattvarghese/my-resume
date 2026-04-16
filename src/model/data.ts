@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Systems Architect",
-    summary: "Software Systems Architect with 15+ years of hands-on experience engineering secure, multi-vendor distributed platforms and real-time API orchestration. Former UW-Madison Condor Research Assistant with a strong background in High Throughput Computing and deterministic runtime environments. Proven track record of translating complex requirement-specifications into production-ready systems for hundreds of enterprise clients. Strong interest in GNU/Linux, Open-Source, and contributing back to Condor!",
+    summary: "Software artist and solutions designer driven by insatiable curiosity, systems-thinking, and 20 years of extensive hands-on experience in crafting elegant, large-scale systems, specializing in high-throughput distributed computing, virtualization, and the optimization of production-ready infrastructure. Seeking an opportunity with NVIDIA to create next-generation simulation platforms and scalable distributed solutions.",
     connections: {
       email: "Ask Me || DM me on LinkedIn",
       phone: "Ask Me || DM me on LinkedIn",
@@ -15,16 +15,16 @@ export const resumeData: Resume = {
     skillSet: {
       groups: [
         {
-          group: "Architecture & Infrastructure",
-          skills: ["SDLC", "Distributed Systems", "Microservices", "Azure", "CI/CD", "Docker", "Virtualization", "Hadoop", "Maintainability", "Performance"]
+          group: "Engineering Stack",
+          skills: [".NET/C#", "C++ & C", "TypeScript", "React", "Web API", "Node", "Tailwind", "MVC", "Python", "Git & SVN", "Azure", "Docker", "Hadoop", "SQL", "Linux & Windows"]
         },
         {
-          group: "Engineering Stack",
-          skills: ["C/C++", "Python", "Git & SVN", "Web API", "TypeScript", "React", "Node", ".NET/C#", "ANSI-M", "SQL", "Linux", "Windows"]
+          group: "Architecture & Infrastructure",
+          skills: ["SDLC", "OOP", "Distributed Systems", "TDD", "Microservices", "CI/CD", "Virtualization", "Maintainability", "Performance", "Networks & Routing"]
         },
         {
           group: "Specialized Expertise",
-          skills: ["LLM API Integration", "Agentic Development", "Regulatory Infrastructure", "Network Architecture & Routing"]
+          skills: ["LLM API Integration", "AI Orchestrated Development", "Navigating ambiguity", "Simplifying complexity", "Curiosity driven domain research", "Regulatory Infrastructures"]
         }
       ]
     },
@@ -33,7 +33,7 @@ export const resumeData: Resume = {
         company: "University of Wisconsin - Madison, WI",
         title: "Graduate Research Assistant, Condor HTC",
         timeFrame: "Sep 2008 - May 2010",
-        summary: "Under the advisement of Prof. Miron Livny, engineered deterministic runtime environments by virtualizing Condor jobs within VMware, developing early (pre-docker) patterns for Infrastructure-as-a-Service (IaaS). Investigated two distinct virtual machine job-delivery patterns to achieve reliable execution across heterogeneous environments.",
+        summary: "Engineered deterministic runtime environments by virtualizing Condor jobs within VMware, developing early (pre-docker) patterns for Infrastructure-as-a-Service (IaaS). Investigated two distinct virtual machine job-delivery patterns to achieve reliable execution across heterogeneous environments.",
         experiences: [
           {
             title: "Self-Contained Execution:",
@@ -136,15 +136,6 @@ export const resumeData: Resume = {
     ],
     keyProjects: [
       {
-        title: "Personal HTCondor Cluster",
-        description: [
-          "Designed and implemented a 10-node Raspberry Pi 3B cluster running HTCondor.",
-          "Managed cluster and network architecture to simulate high-throughput computing workloads in a hardware-constrained ARM environment."
-        ],
-        timeFrame: "2016",
-        url: ""
-      },
-      {
         title: "MIPS Microprocessor Pipeline Simulator",
         description: [
           "5-Stage pipeline simulation of a MIPS microprocessor, with cache simulation, assembler, and terminal app developed with POSIX APIs, C++, Flex, and Bison in 2005.",
@@ -162,9 +153,7 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2020",
         url: ""
-      }
-    ],
-    projects: [
+      },
       {
         title: "LLM-API Workflow Assistant",
         description: [
@@ -173,7 +162,9 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2025",
         url: ""
-      },
+      }
+    ],
+    projects: [
       {
         title: "Web Based SSH Client",
         description: [
@@ -191,6 +182,15 @@ export const resumeData: Resume = {
         ],
         timeFrame: "2024",
         url: "https://github.com/mattvarghese/HttpResponder"
+      },
+      {
+        title: "Personal Hight-throughput computing Condor Cluster",
+        description: [
+          "Designed and implemented a 10-node Raspberry Pi 3B cluster running HTCondor.",
+          "Managed cluster to simulate high-throughput computing workloads in a hardware-constrained ARM environment."
+        ],
+        timeFrame: "2016",
+        url: ""
       }
     ],
     epicCertifications: [
